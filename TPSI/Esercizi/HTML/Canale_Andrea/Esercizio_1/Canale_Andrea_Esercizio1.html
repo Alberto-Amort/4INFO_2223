@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Andrea Canale" />
+    <meta name="description" content="Esercizio 1" />
+    <meta name="keywords" content="template, html, scuola, es1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio 1</title>
+    <style>
+        body {
+           background-color: #029aff;
+        }
+        h1 {
+            color:red;
+        }
+    </style>
+    <script>
+        function myFunction() {
+            document.getElementById("titolo").innerHTML = "Boh";
+            document.getElementById("image").src = "https://www.giustinoromano.it/wp-content/uploads/2019/12/linux-tux-icon-12.png";
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h1 id="titolo">Struttura base di una pagina web</h1>
+        <br/><br/>
+        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/800px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg" width="60%"/>
+        <div>
+            <button type="button" onclick="myFunction()">Prova a cliccare</button>
+        </div>
+    </center>
+    
+</body>
+</html>

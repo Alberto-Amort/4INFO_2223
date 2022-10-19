@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="template HTML">
+    <meta name="keywords" content="template, html_01">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Esercizio 1</title>
+
+    <style>
+        img 
+        {
+            width: 60%;
+            border-radius: 25px;
+        }
+
+        body 
+        {
+            background-color: powderblue;
+        }
+        
+        h1 
+        {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        button
+        {
+            background-color: grey;
+            color: white;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 id="titolo">Struttura base di pagina Web</h1>
+        <br>
+        <img src="https://source.unsplash.com/collection/94734566/1920x1080">
+        <div>
+            <button type="button">Prova a premere</button>
+        </div>
+    </center>
+
+    <script>
+        let btn = document.querySelector("button");
+        let title = document.getElementById("titolo");
+
+        btn.addEventListener("click", () =>
+        {
+            title.innerHTML = "STRUTTURA BBASE DI PAGINA WEB";
+        })
+    </script>
+</body>
+
+</html>

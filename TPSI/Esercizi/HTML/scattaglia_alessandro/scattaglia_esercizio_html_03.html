@@ -1,0 +1,103 @@
+    <!DOCTYPE html>
+    <html lang="it">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="author" content="Alessandro Scattaglia" />
+            <meta name="description" content="Es 3, pagina del local host" />
+            <meta name="keywords" content="local host, es3" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>es3, Local host</title>
+        </head>
+
+    <body>
+        <h1>host locale</h1>
+        <p> Nelle reti di computer, <a class="local">localhost</a> è un nome host che si riferisce al computer corrente utilizzato per accedervi. <a class="frase1">Viene utilizzato per accedere ai servizi di rete in esecuzione sull'host tramite l'interfaccia di rete di loopback.</a> L'uso dell'interfaccia di loopback ignora qualsiasi hardware dell'interfaccia di rete locale.</p>
+
+    
+
+    <h3>Ritorno</h3>
+    <p>
+        Il meccanismo di <a href="https://it.wikipedia.org/wiki/Interfaccia_di_loopback" target="_blank">loopback</a> locale può essere utilizzato per eseguire un servizio di rete su un host senza richiedere un'interfaccia di rete fisica o senza rendere il servizio accessibile dalle reti a cui il computer può essere connesso. Ad esempio, è possibile accedere a un sito Web installato localmente da un browser Web tramite l'URL http://localhost per visualizzare la sua home page.
+        Il nome localhost normalmente si risolve nell'indirizzo di loopback IPv4 127.0.0.1 e nell'indirizzo di loopback IPv6 ::1.
+    </p>
+    <h3>Risoluzione del nome</h3>
+    <p>
+        Gli standard di rete <a href="https://it.wikipedia.org/wiki/IPv4" target="_blank">Ipv4</a> riservano l'intero blocco di indirizzi 127.0.0.0/8 (più di 16 milioni di indirizzi) per scopi di loopback.[2] Ciò significa che qualsiasi pacchetto inviato a uno di quegli indirizzi viene eseguito in loop. L'indirizzo 127.0.0.1 è l'indirizzo standard per il traffico di loopback IPv4; il resto non è supportato da tutti i sistemi operativi. Tuttavia, possono essere utilizzati per configurare più applicazioni server sull'host, tutte in ascolto sullo stesso numero di porta. Lo standard IPv6 assegna un solo indirizzo per il loopback: ::1.
+        La risoluzione del nome localhost su uno o più indirizzi IP è normalmente configurata dalle seguenti righe nel file hosts del sistema operativo:
+        
+        127.0.0.1 host locale
+        ::1 host locale
+        
+        Il nome può essere risolto anche dai server <a class="DNS">DNS</a> (Domain Name System), ma le query per questo nome devono essere risolte localmente e non devono essere inoltrate a server dei nomi remoti.
+        
+        Oltre alla mappatura di localhost agli indirizzi di loopback (127.0.0.1 e ::1), localhost può anche essere mappato ad altri indirizzi IPv4 (loopback) ed è anche possibile assegnare altri o ulteriori nomi a qualsiasi indirizzo di loopback . Non è garantito che la mappatura di localhost a indirizzi diversi dall'intervallo di indirizzi di loopback designato nel file hosts o nel DNS abbia l'effetto desiderato, poiché le applicazioni potrebbero mappare il nome internamente.
+        
+        Nel Domain Name System, il nome localhost è riservato come nome di dominio di primo livello, originariamente messo da parte per evitare confusione con il nome host utilizzato per scopi di loopback.[3] <a class="frase2">Gli standard IETF vietano ai registrar di nomi di dominio di assegnare il nome localhost.</a>
+        </p>
+
+    <h3>Standard IETF</h3>
+    <p> Il nome localhost è riservato a scopi di loopback da RFC 6761 (Nomi di dominio a uso speciale),[4] che ha raggiunto il livello di maturità Proposed Standard nel febbraio 2013. Lo standard stabilisce una serie di considerazioni speciali che regolano l'uso del nome nel Domain Name System:
+    <ul> 
+        <li> Una query di indirizzo <a href="https://it.wikipedia.org/wiki/IPv4" target="_blank">Ipv4</a> o <a href="https://it.wikipedia.org/wiki/IPv6" target="_blank">Ipv6</a> per il nome localhost deve sempre essere risolta nel rispettivo indirizzo di loopback, specificato in uno standard separato.</li>
+        <li> Le applicazioni possono risolvere il nome in un indirizzo di loopback da sole o passarlo ai meccanismi di risoluzione dei nomi locali.</li>
+        <li> Quando un risolutore di nomi riceve una query di indirizzo (A o AAAA) per localhost, deve restituire gli indirizzi di loopback appropriati e risposte negative per qualsiasi altro tipo di record richiesto. Le query per localhost non devono essere inviate ai server dei nomi di memorizzazione nella cache. </li>
+        <li>Per evitare di sovraccaricare di traffico i server root del Domain Name System, i server dei nomi di memorizzazione nella cache non devono mai richiedere record del server dei nomi per localhost o inoltrare la risoluzione ai server dei nomi autorevoli. </li>
+        <li> Quando i server dei nomi autorevoli ricevono query per 'localhost' nonostante le disposizioni menzionate, risolverle in modo appropriato.</li>
+    </ul>
+    
+        
+        Gli indirizzi di loopback IPv4 sono riservati all'interno dello spazio degli indirizzi IPv4 dallo <a class="standard">standard IETF "Special Use IPv4 Addresses"</a> (RFC 5735).[5] La prenotazione può essere fatta risalire allo standard "Numeri assegnati" del novembre 1986 (RFC 990).
+        
+        Al contrario, lo standard IETF "IP Version 6 Addressing Architecture" (RFC 4291) riserva l'unico indirizzo di loopback IPv6 ::1 all'interno dello spazio degli indirizzi IPv6. Lo standard preclude l'assegnazione di tale indirizzo a qualsiasi interfaccia fisica, nonché il suo utilizzo come indirizzo di origine o destinazione in qualsiasi pacchetto inviato a host remoti. Qualsiasi pacchetto di questo tipo che viene trasmesso erroneamente non dovrebbe essere instradato e dovrebbe essere eliminato da tutti i router o host che lo ricevono.
+        </p>
+
+
+    <h3>Elaborazione dei pacchetti</h3>
+    <p>
+    L'elaborazione di qualsiasi pacchetto inviato a un indirizzo di loopback è implementata nel livello di collegamento dello <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">stack TCP/IP </a>. Tali pacchetti non vengono mai passati a nessun controller di interfaccia di rete (NIC) o driver di dispositivo hardware e non devono apparire al di fuori di un sistema informatico o essere instradati da alcun router. Ciò consente test del software e servizi locali in assenza di interfacce di rete hardware.
+
+    I pacchetti di loopback si distinguono da qualsiasi altro pacchetto che attraversa lo <a class="stack">stack TCP/IP</a> solo per l'indirizzo IP speciale a cui sono stati indirizzati. Pertanto, i servizi che alla fine li ricevono rispondono in base alla destinazione specificata. Ad esempio, un servizio HTTP potrebbe instradare i pacchetti indirizzati a 127.0.0.99:80 e 127.0.0.100:80 a server Web diversi oa un unico server che restituisce pagine Web diverse. Per semplificare tale verifica, il file hosts può essere configurato per fornire nomi appropriati per ciascun indirizzo.
+
+    I pacchetti ricevuti su un'interfaccia non di loopback con un indirizzo di origine o di destinazione di loopback devono essere eliminati. Tali pacchetti sono talvolta indicati come pacchetti marziani.[6] Come con qualsiasi altro pacchetto fasullo, possono essere dannosi e qualsiasi problema che potrebbero causare può essere evitato applicando il filtro bogon.
+    </p>
+    <h3>Casi speciali</h3>
+    <p>
+    Le versioni del database <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank">MySQL</a> distinguono tra l'uso del nome host localhost e l'uso degli indirizzi 127.0.0.1 e ::1.[7] Quando si utilizza localhost come destinazione nell'interfaccia di un connettore client di un'applicazione, l'interfaccia di programmazione dell'applicazione MySQL si connette al database utilizzando un socket di dominio Unix, mentre una connessione TCP tramite l'interfaccia di loopback richiede l'uso diretto dell'indirizzo esplicito.
+
+    Una notevole eccezione all'uso degli indirizzi 127.0.0.0/8 è il loro utilizzo nel rilevamento degli errori di traceroute <a class="MPLS">MPLS</a> (Multiprotocol Label Switching), in cui la loro proprietà di non essere instradabili fornisce un mezzo conveniente per evitare la consegna di pacchetti difettosi agli utenti finali.
+    </p>
+
+        </body>
+        <style>
+            body {background-color: white;}
+            h3{color : rgb(0, 0, 0)}
+            .local{
+                color:rgb(20, 254, 36)
+            }
+            .standard{
+                color:rgb(255, 0, 0)
+
+            }
+            .DNS{
+                color: rgb(38, 0, 254);
+                
+
+            }
+            .stack{
+                color: rgb(0, 195, 254);
+            }
+            .MPLS{
+                color: rgb(254, 0, 199);
+            }
+            .frase1{
+                background-color: rgb(34, 0, 255) ;
+                color : rgb(255, 255, 255)
+            }
+            .frase2{
+                background-color: rgb(34, 0, 255) ;
+                color : rgb(255, 255, 255)
+            }
+
+
+        </style>
+        

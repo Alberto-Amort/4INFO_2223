@@ -8,7 +8,7 @@
     <meta name="keywords" content="template, html_03">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Esercizio 5</title>
+    <title>Esercizio 6</title>
 
     <style>
         h1{
@@ -52,13 +52,13 @@
 
         <h1>Localhost</h1>
         <p>
-            <span><a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank" class="local"><b>Computer network</b></a>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.<br></span>
+            <span><a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank" class="local"><b>Computer network</b></a>, localhost is a hostname that <u>refers to the current</u> computer used to access it. It is used to access the network services that are running on the host via the loopback network <s>interface</s>. Using the loopback interface bypasses any local network interface hardware.<br></span>
         </p>
 
         <h2 class="sottotitoli">Loopback</h2>
         <p>
-            The local loopback mechanism may be used to run a network service on a host without requiring a physical network interface, 
-            or without making the service accessible from the networks the computer may be connected to. 
+            The local loopback mechanism may be used to run a network service on a host without <u>requiring</u> a physical network interface, 
+            or without making the service accessible from the <s>networks the computer</s> may be connected to. 
             For example, a locally installed <a href="https://en.wikipedia.org/wiki/Website" target="_blank">Website</a> may be accessed from a Web browser by the URL http://localhost to display its home page.
             The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.<br>
         </p>
@@ -69,8 +69,8 @@
 
         <h2 class="sottotitoli">Name resolution</h2>
         <p>
-            <a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
-            The resolution of the name localhost to one or more IP addresses is normally configured by the following lines in the operating system's hosts file:
+            <a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet <s>sent to any of those addresses</s> is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+            The resolution of the name localhost to one or more <cite>IP addresses is <u>normally</u> configured by the following lines in the operating system's hosts file:</cite>
             127.0.0.1    localhost
             ::1          localhost
         </p>
@@ -80,11 +80,31 @@
         </p>
 
         <p>
-            <span>In addition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (<strong>loopback</strong>) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.</span>
-        </p>
+            <span>In addition to the mapping of localhost to the loopback addresses <cite>(127.0.0.1 and ::1)</cite>, localhost may also be mapped to other IPv4 (<strong>loopback</strong>) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.</span>
+        </p><br>
+
+        <code>
+            sudo apt install vs code
+        </code><br>
+
+        <pre>
+            Sed tempor mi non lacus luctus, <br>
+            vel tincidunt est ultricies. <br>
+            Praesent porta lobortis velit, <br>
+            sit amet molestie justo tempus vitae. <br>
+            Aenean eget congue enim. <br>
+            Aliquam et odio posuere sem volutpat <br>
+            venenatis. <br>
+            Nunc tincidunt sapien vel mi porta, <br>
+            sit amet volutpat ex porttitor. <br>
+            Aliquam condimentum magna quis justo <br>
+            efficitur porttitor. <br>
+            Aenean tincidunt lorem ut turpis iaculis,<br>
+            in bibendum eros dapibus.
+        </pre>
 
         <p>
-            In the Domain Name System, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion with the hostname used for loopback purposes.[3] <en>IETF</en> standards prohibit domain name registrars from assigning the name localhost.<br>
+            <abbr title="Nome del dominio di un sistema"></abbr> In the Domain Name System, the name localhost is reserved as a top-level domain name, originally set aside <abbr title="Evitare la confusione">to avoid confusion</abbr> with the hostname used for loopback purposes.[3] <en>IETF</en> standards prohibit domain name registrars from assigning the name localhost.<br>
         </p>
 
         <h2 class="sottotitoli2">IETF standards</h2>
@@ -112,11 +132,11 @@
 
         <h2 class="sottotitoli2">Packet processing</h2>
         <p>
-            <span>The processing of any packet sent to a loopback address, is implemented in the link layer of the <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank" class="local">TCP/IP stack</a>. Such packets are never passed to any network interface controller (<i>NIC</i>) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.</span>
+            <span><blockquote>The processing of any packet sent to a loopback address,</blockquote> is implemented in the link layer of the <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank" class="local">TCP/IP stack</a>. Such packets are never passed to any network interface controller (<i>NIC</i>) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.</span>
         </p>
 
         <p>
-            Looped-back packets are distinguished from any other packets traversing the <strong>TCP/IP</strong> stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <en>HTTP</en> service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
+            <cite>Looped-back packets are distinguished from any other packets</abbr> traversing</cite> the <strong>TCP/IP</strong> stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <en>HTTP</en> service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
         </p>
 
         <p>

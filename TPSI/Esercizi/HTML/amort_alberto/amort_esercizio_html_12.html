@@ -1,0 +1,106 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alberto Amort" />
+    <meta name="description" content="MENU RISTORANTE" />
+    <meta name="keywords" content="compito, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Durante la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+    <style>
+      body {background-color: rgb(230, 229, 176);}
+      p{color:brown;} 
+
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "MENU RISTORANTE";
+           }
+      
+    </script>
+</head>
+
+<body>
+
+  <form>
+
+    <h3>Nome e Cognome</h3><br>
+
+    <label for="idnome">Nome: </label>
+    <input type="text" id="idnome" name="nome" placeholder="Nome">
+    <input type="button" id="idbutton" value="Enter"></br><br>
+
+    <label for="idcognome">Cognome: </label>
+    <input type="text" id="idcognome" name="cognome" placeholder="Cognome">
+    <button type="button" id="idpulsante">Enter</button></br></br>
+
+    <h3>Occupazione</h3><br>
+
+    <input type="radio" id="idstudente" name="occupazione" value="studente">
+    <label for="studente">  Studente</label><br>
+    <input type="radio" id="idoccupato" name="occupazione" value="occupato">
+    <label for="occupato">  Occupato</label><br>
+    <input type="radio" id="iddisoccupato" name="occupazione" value="disoccupato">
+    <label for="disoccupato">  Disoccupato</label><br><br>
+
+    <h3>Sport</h3><br>
+
+    <input type="checkbox" id="idtennis" name="tennis" value="tennis">
+    <label for="tennis">  Tennis</label><br>
+    <input type="checkbox" id="idcalcio" name="calcio" value="calcio">
+    <label for="calcio">  Calcio</label><br>
+    <input type="checkbox" id="idnuoto" name="nuoto" value="nuoto">
+    <label for="nuoto"> Nuoto</label><br>
+    <input type="checkbox" id="idbasket" name="basket" value="basket">
+    <label for="basket"> basket</label><br>
+    <input type="checkbox" id="idgolf" name="golf" value="golf">
+    <label for="golf"> golf</label><br><br>
+
+    <input type="date" id="iddata" name="birthday"><br><br>
+
+    <input type="number" id="idnumeri" name="numeri" min="150" max="200"><br>
+    <input type="number" id="idnumeri" name="numeri" min="7" max="30"><br>
+    <input type="number" id="idnumeri" name="numeri" min="1" max="10"><br><br>
+
+    <input type="color" id="idcolor" name="colore" value="#ff0000"><br><br>
+
+    <label for="peso">Peso: </label>
+    <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> <br> 
+
+    <label for="materia">Materia preferita:  </label>
+    <select name="matt" id="idmatt">
+        <option value="matematica">matematica</option>
+        <option value="inglese">inglese</option>
+        <option value="italiano">italiano</option>
+        <option value="scienze">scienze</option>
+        <option value="informatica">informatica</option>
+    </select><br> <br> 
+
+    <label for="valutazione">Come valuteresti le tue abilità scolastiche?</label>
+    <select name="val" id="idval">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select><br> <br> 
+
+    <label for="spiegazione">Perché:  </label>
+    <textarea id="testo" name="testo" rows="6" cols="60" placeholder="Scrivi qui"></textarea>    
+
+
+
+
+
+
+
+  </form>
+
+
+
+
+</body>    
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-10" />
+    <meta name="author" content="Davide Emanuel" />
+    <meta name="description" content="Localhost" />
+    <meta name="keywords" content="Localhost, host, local, reti" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>esercizi</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+      
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome">
+      
+        <label for="genere">Genere:</label>
+        <select name="genere" id="cars">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="password">Altezza:</label>
+        <input type="number" id="altezza" name="altezza" min="150" max="200"><br><br>
+        <input type="submit" value="Invia">
+        </fieldset>      
+        <label for="nazioni">Nazionalità: </label><br>
+        <input list="nations" name="nazioni" id="nazioni">
+        <datalist id="nations">
+        <option value="Albanese">
+        <option value="Argentina">
+        <option value="Belga">
+        <option value="Biellorussa">
+        <option value="Italiana">
+        <option value="Irlandese">
+        <option value="Israeliana">
+        </datalist>
+        <label for="colore preferito">Colore preferito: </label>
+        <input type="color" id="favcolor" name="favcolor" value="#FFFF00"><br><br>
+        <label for="peso">Peso: </label>
+        <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+        <label for="data di nascita">Data di nascita: </label><br>
+        <input type="date" id="iddata" name="birthday"><br><br>
+        <label for="attività lavorative">Attività lavorativa: </label><br>
+        <input type="radio" id="studente" name="occupazione" value="studente">
+        <label for="studente">  Studente</label><br>
+        <input type="radio" id="occupato" name="occupazione" value="occupato">
+        <label for="occupato">  Occupato</label><br>
+        <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+        <label for="disoccupato">  Disoccupato</label><br><br>
+        <label for="bio">note personali:</label>
+        <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tue note personali da aggiungere"></textarea>    
+        </form>
+</body>
+</html>

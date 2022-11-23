@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Alessandro Scattaglia" />
+        <meta name="description" content="Es 12" />
+        <meta name="keywords" content="prova" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>es12 </title>
+    </head>
+   
+    <body>
+       
+        <h1 style="text-align: center;"> ISCRIZIONE ALLA SCUOLA EDOARDO AGNELLI</h1>
+
+        <form>
+            <h3>inserisci il tuo nome e cognome:</h3>
+            <input style="text-align: center;" type="text" id="idnome" name="nome" placeholder="inserire il nome">
+            
+            <input style="text-align: center;"type="text" id="idcognome" name="cognnome" placeholder="inserire il cognome">
+            <h3>inserisci la tua data di nascita:</h3>
+<form>
+  <input type="date" id="iddata" name="birthday"><br>
+</form>
+<form>
+    <label for="peso">quanto sei felice da 0 a 100? </label><br>
+    <input type="range" min="0" max="100" value="0" class="slider" id="felicità"><br> 
+  </form>
+<form>
+    <br>
+    <label for="genere">di che nazionalità sei?  </label>
+      <select name="genere" id="cars">
+          <option value="maschio">italiano</option>
+          <option value="femmina">francese</option>
+          <option value="femmina">giapponese</option>
+          <option value="femmina">austriaco</option>
+          <option value="femmina">inglese</option>
+      </select>
+    </form>
+<h3>inserire l'altezza:</h3>
+<form>
+  <input type="number" id="altezza" name="altezza" min="150" max="200">
+</form>
+<h3>mettere il colore preferito:</h3>
+<form>
+   <input type="color" id="favcolor" name="favcolor" value="#ffffff">
+</form>
+<form>
+    <label for="bio">parla di te:</label><br>
+    <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>    
+  </form>
+
+<h3>che scuola vuoi scegliere?</h3>
+<form>
+  <input type="radio" id="liceo scientifico scienze applicate" name="occupazione" value="liceo scientifico scienze applicate">
+  <label for="liceo scientifico scienze applicate">  liceo scientifico scienze applicate</label><br>
+  <input type="radio" id="ITT" name="occupazione" value="ITT">
+  <label for="ITT">  ITT</label><br>
+  <input type="radio" id="liceo scientifico tradizionale" name="occupazione" value="liceo scientifico tradizionale">
+  <label for="liceo scientifico tradizionale">  liceo scientifico tradizionale</label><br>
+  <input type="radio" id="medie" name="occupazione" value="medie">
+  <label for="medie">  medie</label><br><br>
+</form>
+
+<h3>dimmi almeno 3 gusti di gelato che preferisci</h3>
+<form>
+  <input type="checkbox" id="cioccolato" name="cioccolato" value="cioccolato">
+  <label for="cioccolato">  cioccolato</label><br>
+  <input type="checkbox" id="vaniglia" name="vaniglia" value="vaniglia">
+  <label for="vaniglia">  vaniglia</label><br>
+  <input type="checkbox" id="fior di latte" name="fior di latte" value="fior di latte">
+  <label for="fior di latte"> fior di latte</label><br>
+  <input type="checkbox" id="nutella" name="nutella" value="nutella">
+  <label for="nutella"> nutella</label><br>
+  <input type="checkbox" id="fragola" name="fragola" value="fragola">
+  <label for="fragola"> fragola</label><br>
+  <input type="checkbox" id="mango" name="mango" value="mango">
+  <label for="mango"> mango</label><br>
+  <input type="checkbox" id="limone" name="limone" value="limone">
+  <label for="limone"> limone</label><br><br>
+</form>
+      
+               <br>
+                <label for="idpulsante">Premi il pulsante per inviare: </label>
+                <button type="button" id="idpulsante">Click here</button>
+              </form>
+          </form>
+
+          <div><button type="button" onclick="myFunction()">premi qui quando hai inserito tutto</button></div>
+    </body>
+    <script>
+        function myFunction() { 
+            document.getElementById("idpulsante").innerHTML = "BRAVO!!!";
+            
+        }
+    </script>

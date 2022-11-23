@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        :root{
+            --bgcolor: rgb(0, 200, 255) ;
+        }
+        body{
+            background-color: var(--bgcolor) ;
+        }
+        input{
+            font-size: 120%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="test">Text</label>
+        <input type="text" id="test" placeholder="test"><br>
+        <label for="sub">Submit</label>
+        <input type="submit" id="sub" value="button"><br>
+        <label for="col">Color</label>
+        <input type="color" id="col"><br>
+        <label for="pas">Password</label>
+        <input type="password" id="pas" placeholder="password"><br>
+        <label for="data">Password</label>
+        <input type="date" id="data"><br>
+        <label for="check">checkbox</label>
+        <input type="checkbox" id="check"><br>
+        <label for="ran">range</label>
+        <input type="range" id="ran"><br>
+        <label for="cer">Cerca</label>
+        <input type="search" id="cer"><br>
+    </form>
+</body>
+</html>

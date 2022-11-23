@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Nome: </label>
+
+        <input type="text" name="name" id="name">
+        <br>
+
+        <label for="age">Età: </label>
+
+        <input type="number" name="age" id="age" min="0" max="140">
+        <br>
+
+        <input type="radio" name="sport" id="calcio">
+        <label for="calcio">Calcio</label>
+        <br>
+        <input type="radio" name="sport" id="basket">
+        <label for="basket">Basket</label>
+        <br>
+        <input type="radio" name="sport" id="Tennis">
+        <label for="Tennis">Tennis</label>
+        <br>
+        <input type="checkbox" name="stallman">
+        <label for="stallman">Stallman</label>
+        <br>
+        <input type="checkbox" name="Torvalds">
+        <label for="Torvalds">Torvalds</label>
+        <br>
+        <input type="checkbox" name="Richie">
+        <label for="Richie">Richie</label>
+        <br>
+        <input type="checkbox" name="Faggin">
+        <label for="Faggin">Faggin</label>
+        <br>
+        <input type="checkbox" name="von">
+        <label for="von">Von</label>
+        <br>
+        <label for="torvalds_birthday">Data di nascita Linus</label>
+
+        <input type="date" name="torvalds_birthday">
+
+        <br>
+        <label for="torvalds_age">Età Linus</label>
+        <input type="number" name="torvalds_age">
+        <br>
+        <label for="Stallman_Age">Eta Stallman</label>
+        <input type="number" name="Stallman_Age">
+        <br>
+        <label for="Faggin_Age">Eta Faggin</label>
+        <input type="number" name="Faggin_Age">
+        <br>
+        <input type="color" name="colore">
+        <label for="color">Color</label>
+        <br>
+        <input type="range" id="range_pc" min="0" max="4000" value="200">
+        <label for="range_pc">Prezzo pc</label>
+        <br>
+        <input type="range" id="range_console" min="0" max="4000" value="200">
+        <label for="range_console">Prezzo console</label>
+        <br>
+        <input type="range" id="range_car" min="1000" max="500000" value="10000">
+        <label for="range_car">Prezzo macchina</label>
+        <br>
+        <label for="founder">Fondatore preferito</label>
+        <select name="founder" id="founder">
+            <option>Torvalds</option>
+            <option>Stallman</option>
+            <option>Richie</option>
+            <option>Faggin</option>
+            <option>Von neumann</option>
+        </select>
+        <br>
+        <label for="famoso">Nome famoso</label>
+        <select name="nome_famoso" id="famoso">
+            <option>Pippo</option>
+            <option>Ciro</option>
+            <option>Mario</option>
+            <option>Pino</option>
+            <option>Beppe</option>
+        </select>
+        <br>
+        <label for="bio">Biografia: </label>
+        <textarea id="bio" rows="6" cols="60"></textarea>
+    </form>
+</body>
+
+</html>

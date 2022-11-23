@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        form div{
+            padding: 15px;
+            margin: 10px;
+            border-radius: 20px;
+            width: 500px;
+            background-color: rgba(186, 186, 186, 0.74);
+        }
+        input, textarea{
+            padding: 2px;
+            background-color: aqua;
+            border: 2px solid rgba(186, 186, 186, 0.74);
+            border-radius: 5px;
+            transition-duration: 0.5s;
+            font-size: 120%;
+        }
+        input:hover, textarea:hover{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <h4>Nome e Cognome</h4>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="name">Nome: </label></td>
+                        <td><input type="text" id="name" placeholder="nome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="surname">Cognome: </label></td>
+                        <td><input type="text" id="surname" placeholder="cognome"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h4>Genere</h4>
+            <input type="radio" name="radio" id="maschio">
+            <label for="maschio">Maschio</label><br>
+            <input type="radio" name="radio" id="femmina">
+            <label for="femmina">Femmina</label><br>
+        </div>
+
+        <div>
+            <h4>Email e password</h4>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="email">Email: </label></td>
+                        <td><input type="text" id="email" placeholder="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pw">Password: </label></td>
+                        <td><input type="password" id="pw" placeholder="password"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h4>Data di nascita</h4>
+            <label for="data">Data:</label>
+            <input type="date" id="data">
+        </div>
+        <div>
+            <h4>Nazionalit&agrave;</h4>
+            <label for="naz">Nazionali&agrave;: </label>
+            <input type="text" placeholder="nazionalità" id="naz">
+        </div>
+        <div>
+            <h4>Attivit&agrave; lavorativa: </h4>
+            <label for="lav">attivit&agrave; lavorativa: </label>
+            <input type="text" placeholder="attività lavorativa" id="lav">
+        </div>
+        <div>
+            <h4>Hobby: </h4>
+            <label for="hob">Hobby: </label>
+            <input type="text" placeholder="hobby" id="hob">
+        </div>
+        <div>
+            <h4>Altezza: </h4>
+            <label for="hob">Altezza: </label>
+            <input type="number" min="100" max="220" placeholder="altezza" id="hob"> cm.
+        </div>
+        <div>
+            <h4>Peso: </h4>
+            <label for="peso">Peso: </label>
+            <input type="number" min="40" max="120" placeholder="peso" id="peso"> Kg.
+        </div>
+        <div>
+            <h4>Colore preferito: </h4>
+            <label for="peso">Colore: </label>
+            <input type="color" value="#993333">
+        </div>
+        <div>
+            <h4>Note personali:</h4>
+            <label for="note">Note:</label><br>
+            <textarea name="note" id="note" cols="40" rows="5"></textarea>
+        </div>
+    </form>
+</body>
+</html>

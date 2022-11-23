@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="template HTML">
+    <meta name="keywords" content="template, html_03">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Esercizio 11</title>
+
+    <style>
+        h1 {
+            text-decoration: underline;
+            color: crimson;
+            text-align: center;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        form{
+            margin-left: 42.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I from</h1>
+        <form>
+            <h2>I dati di uno studente</h2><br>
+            <label for="nome">Inserire il tuo nome: </label>
+            <input type="text" id="nome" name="Nome" placeholder="nome..."><br><br>
+            <label for="cognome">Inserire il tuo cognome: </label>
+            <input type="text" id="cognome" name="Cognome" placeholder="cognome..."><br><br>
+
+            <h2>Dire in che stato attuale?</h2><br>
+            <input type="radio" id="studente" name="I dati di uno studente" value="studente">
+            <label for="studente"> studente</label><br>
+            <input type="radio" id="occupato" name="I dati di uno studente" value="occupato">
+            <label for="occupato"> occupato</label><br>
+            <input type="radio" id="disoccupato" name="I dati di uno studente" value="disoccupato">
+            <label for="disoccupato"> disoccupato</label><br><br>
+
+            <h2>Dire che sport fai?</h2><br>
+            <input type="checkbox" id="tennis" name="tennis" value="tennis">
+            <label for="tennis"> Tennis</label><br>
+            <input type="checkbox" id="calcio" name="calcio" value="calcio">
+            <label for="calcio"> Calcio</label><br>
+            <input type="checkbox" id="nuoto" name="nuoto" value="nuoto">
+            <label for="nuoto"> Nuoto</label><br>
+            <input type="checkbox" id="basket" name="basket" value="basket">
+            <label for="basket"> Basket</label><br>
+            <input type="checkbox" id="pallavolo" name="pallavolo" value="pallavolo">
+            <label for="pallavolo"> Pallavolo</label><br><br>
+
+            <h2>Inserire la tua data di nascita</h2>
+            <input type="date" id="data" name="compleanno"><br><br>
+
+            <label for="btn">Premi il pulsante: </label>
+            <button type="button" id="btn">Cliccami!</button><br><br>
+        </form>
+
+        <script>
+            let btn = document.querySelector("button");
+
+            btn.addEventListener("click", () =>
+            {
+                alert("Hai finito di compilare il form");
+            })
+        </script>
+</body>
+</html>

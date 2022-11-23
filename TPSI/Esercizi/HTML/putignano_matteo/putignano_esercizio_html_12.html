@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-10" />
+    <meta name="author" content="Matteo Putignano" />
+    <meta name="description" content="Menù" />
+    <meta name="keywords" content="menu, ristorante, menù, cibo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localhost</title>
+</head>
+
+<body>
+    <h1>Utente</h1>
+    <form>
+        <label for="idnome">&#160&#160&#160&#160&#160e-mail :  </label>
+        <input type="text" id="idnome" name="nome" placeholder="e-mail"> <br>
+        <label for="idcognome">Password :  </label>
+        <input type="text" id="idcognome" name="cognnome" placeholder="Password"> <br><br>
+
+        <label for="ideter">Enter ->  </label>
+        <button type="button" id="identer">Enter</button> <br><br>
+    </form>
+    <h2><u>Vincitore girone B</u></h2>
+    <form>
+        <input type="radio" id="inghilterra" name="Vincitpre girone B" value="inghilterra">
+        <label for="inghilterra">  Inghilterra</label><br>
+        <input type="radio" id="stati uniti" name="Vincitpre girone B" value="stati uniti">
+        <label for="stati uniti">  Stati Uniti</label><br>
+        <input type="radio" id="galles" name="Vincitpre girone B" value="galles">
+        <label for="galles">  Galles</label><br>
+        <input type="radio" id="iran" name="Vincitpre girone B" value="iran">
+        <label for="iran">  Iran</label><br><br>
+    </form>
+
+    <h2><u>Qualificati ai quarti</u></h2>
+    <form>
+        <input type="checkbox" id="inghilterra" name="Qualificati ai quarti" value="inghilterra">
+        <label for="inghilterra">  Inghilterra</label><br>
+        <input type="checkbox" id="francia" name="Qualificati ai quarti" value="francia">
+        <label for="francia">  Francia</label><br>
+        <input type="checkbox" id="spagna" name="Qualificati ai quarti" value="spagna">
+        <label for="spagna">  Spagna</label><br>
+        <input type="checkbox" id="argentina" name="Qualificati ai quarti" value="argentina">
+        <label for="argentina">  Argentina</label><br>
+        <input type="checkbox" id="portogallo" name="Qualificati ai quarti" value="portogallo">
+        <label for="portogallo">  Portogallo</label><br><br>
+    </form>
+
+    <h3><u>Data di compilazione</u></h3>
+    <form>
+        <input type="date" id="iddata" name="compilazione"><br><br>
+    </form>
+    
+
+    <h3>Altezza</h3>
+    <form>
+         <input type="number" id="altezza" name="altezza" min="140" max="210"><br><br>
+    </form>
+    
+    <h3>quota 1</h3>
+    <form>
+         <input type="number" id="quota 1" name="quota 1" min="40" max="150"><br><br>
+    </form>
+
+    <h3>Età</h3>
+    <form>
+         <input type="number" id="età" name="età" min="18" max="100"><br><br>
+    </form>
+
+    <h3>importo</h3>
+    <form>
+         <input type="number" id="importo" name="importo" min="2" max="1000"><br><br>
+    </form>
+
+
+    <h3>Colore preferito</h3>
+    <form>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+    </form>
+
+    <h3>Quote</h3>
+
+    <form>
+        <label for="quota 1">quota 1: </label>
+        <input type="range" min="1" max="10" value="2" class="slider" id="quota 1"><br> 
+    </form>
+
+    <form>
+        <label for="quota 2">quota 2: </label>
+        <input type="range" min="1" max="10" value="2.35" class="slider" id="quota 2"><br> 
+    </form>
+
+      <form>
+        <label for="quota 3">quota 3: </label>
+        <input type="range" min="1" max="100" value="4.21" class="slider" id="quota 3"><br> 
+    </form>
+
+    <h3>Altre info</h3>
+    <form>
+        <label for="genere">Genere:  </label>
+        <select name="genere" id="gen">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+            <option value="transgender">Femmina</option>
+            <option value="non identificato">Femmina</option>
+            <option value="preferisco non specificarlo">Femmina</option>
+        </select>
+        <br>
+        <label for="Stato lavorativo">Stato lavorativo:  </label>
+        <select name="Stato lavorativo" id="Stato lavorativo">
+            <option value="maschio">Occupato</option>
+            <option value="femmina">Disoccupato</option>
+            <option value="transgender">Studente</option>
+            <option value="non identificato">Reddito di cittadinanza</option>
+            <option value="preferisco non specificarlo">Altro</option>
+        </select>
+    </form>
+    <br>
+    <h3>Biografia</h3>
+    <form>
+        <textarea id="bio" name="bio" rows="5" cols="60" placeholder="Inserisci la tua biografia"></textarea>    
+    </form>
+</body>

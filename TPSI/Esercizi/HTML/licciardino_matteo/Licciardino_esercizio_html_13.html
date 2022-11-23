@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="template HTML">
+    <meta name="keywords" content="template, html_03">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Esercizio 13</title>
+
+    <style>
+        legend{
+            text-decoration: underline;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form dei dati personali</h1>
+    <form>
+        <fieldset>
+            <legend>I dati personali: </legend>
+            <label for="nome">Inserire il tuo nome: </label>
+            <input type="text" id="nome" name="Nome" placeholder="nome..."><br><br>
+
+            <label for="cognome">Inserire il tuo cognome: </label>
+            <input type="text" id="cognome" name="Cognome" placeholder="cognome..."><br><br>
+
+            <label for="cars">Inserire il tuo Genere:  </label>
+                <select name="genere" id="cars">
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option>
+                </select><br><br>
+
+            <label for="mail">Inserire la tua email: </label>
+            <input type="email" id="mail" name="Mail" placeholder="mail..."><br><br>
+
+            <label for="password">Inserire la tua password: </label>
+            <input type="password" id="password" name="Password" placeholder="password..."><br><br>
+
+            <label for="data">Inserire la tua data di nascita: </label>
+            <input type="date" id="data" name="compleanno"><br><br>
+
+            <label for="nazioni">Inserire la tua nazionalità: </label>
+            <input list="nations" name="nazioni" id="nazioni">
+            <datalist id="nations">
+                <option value="Albanese">
+                <option value="Argentina">
+                <option value="Belga">
+                <option value="Biellorussa">
+                <option value="Italiana">
+                <option value="Irlandese">
+                <option value="Israeliana">
+            </datalist><br><br>
+
+            <label for="lavori">Inserire che lavoro fai: </label>
+            <input list="work" name="lavori" id="lavori">
+            <datalist id="work">
+                <option value="Muratore">
+                <option value="Architetto">
+                <option value="Cameriere">
+                <option value="Chef">
+                <option value="Albergatore">
+                <option value="Ingegnere">
+                <option value="Altro...">
+            </datalist><br><br>
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Ulteriori informazioni: </legend>
+
+            <label for="hobby">Inserire il tuo hobby: </label>
+            <input type="text" id="hobby" name="Hobby" placeholder="hobby..."><br><br>
+
+            <label for="altezza">Inserire la tua l'altezza: </label>
+            <input type="number" id="altezza" name="altezza" min="0" max="200"><br><br>
+
+            <label for="peso">Inserire il tuo peso: </label>
+            <input type="number" id="peso" name="Peso" min="0" max="200"><br><br>
+
+            <label for="favcolor">Inserire il tuo colore preferito: </label>
+            <input type="color" id="favcolor" name="favcolor" value="#ffffff"><br><br>
+            
+            <label for="note">Note personali:</label>
+            <textarea id="note" name="Note" rows="6" cols="60" placeholder="Inserisci le tue note personali..."></textarea><br><br>
+
+            <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

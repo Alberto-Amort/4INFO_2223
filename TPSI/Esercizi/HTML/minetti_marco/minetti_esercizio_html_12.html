@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Minetti Marco" />
+    <meta name="description" content="form" />
+    <meta name="keywords" content="form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5222">
+    <meta charset="UTF-16">
+    <title>I Form</title>
+    <style>
+        button {
+            outline: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font: bold 12px Arial, Helvetica, sans-serif;
+            color: rgb(0, 128, 255);
+            padding: 10px 20px;
+            border: solid 3px #0044ff;
+            background: #dc00fe;
+        }
+    </style>
+</head>
+
+<h1 stye="text-aligned: center;">I Form</h1>
+
+<form>
+    <label for="insert">Insert: </label>
+    <input type="text" id="insert" name="form" placeholder="Inserisci qui">
+    <label for="idcognome">IDname </label>
+    <input type="text" id="IDname" name="form" placeholder="Inserisci il tuo id">
+</form>
+
+<h3>Inserisci l'eta del pc</h3><br>
+<form>
+<input type="date" id="iddata" name="birthday"><br><br>
+</form>
+
+<form>
+    <label for="idpulsante">Premi il pulsante: </label>
+    <button type="button" id="idpulsante" style="border-radius: 8px;">Non farlo</button>
+</form>
+
+
+<h3>Sistema operativo:</h3><br>
+<form>
+<input type="radio" id="linux" name="sistema operativo" value="linux">
+<label for="linux">  Linux</label><br>
+<input type="radio" id="windows" name="sistema operativo" value="windows">
+<label for="windows">  windows</label><br>
+<input type="radio" id="dualboot" name="sistema operativo" value="dualboot">
+<label for="dualboot">  dualboot</label><br><br>
+</form>
+
+<br><br>
+
+<h3>Potenza tuo pc</h3><br>
+<form>
+<input type="number" id="potenza" name="potenza" min="0" max="1000"><br><br>
+</form>
+
+<h3>Colore del pc</h3><br>
+<form>
+<input type="color" id="favcolor" name="favcolor" value="#509887"><br><br>
+</form>
+
+<br><br>
+
+<form>
+<label for="peso">Peso del pc: </label>
+<input type="range" min="0" max="100" value="15" class="slider" id="peso"><br> 
+</form>
+
+<br><br>
+
+<form>
+<label for="genere">Genere:  </label>
+  <select name="genere" id="genere">
+      <option value="portatile">pc portatile windows</option>
+      <option value="portatile">pc portatile linux</option>
+      <option value="fisso">pc fisso linux</option>
+      <option value="fisso">pc fisso windows</option>
+      <option value="mac">mac windows</option>
+      <option value="mac">mac linux</option>
+      <option value="terminator">terminator</option>
+      <option value="altro">altro</option>
+
+  </select>
+</form>
+
+<form>
+    <label for="bio">Se hai messo altro spiega qui sotto:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci il tuo pc"></textarea>    
+  </form>
+
+<br><br>
+
+<form>
+<input type="checkbox" id="linux" name="sistema operativo" value="linux">
+<label for="linux">  Linux</label><br>
+<input type="checkbox" id="windows" name="sistema operativo" value="windows">
+<label for="windows">  windows</label><br>
+<input type="checkbox" id="dualboot" name="sistema operativo" value="dualboot">
+<label for="dualboot">  dualboot</label><br>
+<input type="checkbox" id="android" name="sistema operativo" value="android">
+<label for="android">  android</label><br>
+<input type="checkbox" id="IOS" name="sistema operativo" value="IOS">
+<label for="IOS"> IOS</label><br>
+</form> <br>
+<br>

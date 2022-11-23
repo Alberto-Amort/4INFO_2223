@@ -41,7 +41,7 @@
         <h5> NAME RESOLUTION OF THE LOCALHOST</h5>
 
         <span> Name resolution </span>
-        <i>network standards</i>  reserve the <ins>entire</ins> address <mark>block 127.0.0.0/8</mark> (more than 16 million addresses) for loopback purposes.[2] <s>That means</s> any packet sent to any of those addresses is looped back. <br/>The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by <small>all</small> operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns <del>only</del> a single address for loopback: ::1. <hr/>
+        <i>network standards</i>  reserve the <ins>entire</ins> address <mark>block 127.0.0.0/8</mark> (more than 16 million addresses) for loopback purposes.[2] <s>That means</s> any packet sent to any of those addresses is looped back. <br/>The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by <small>all</small> operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard: &lt;&lt; assigns <del>only</del> a single address for loopback: ::1 &gt;&gt;. <hr/>
         <pre>The resolution of the name localhost to one or more <strong>IP addresses</strong> is normally configured by the following lines in the <u>operating system's hosts file</u>:
             <mark>127.0.0.1 </mark>  localhost
             ::1          localhost
@@ -63,10 +63,10 @@
         <a href = "https://support.microsoft.com/en-us/topic/microsoft-tcp-ip-host-name-resolution-order-dae00cc9-7e9c-c0cc-8360-477b99cb978a" target = "_blank"> NAME RESOLUTION</a>
         <h5> IETF STANDARDS </h5>
 
-        <b>IETF</b> standards <em>prohibit</em> domain name registrars from assigning the name localhost.
+        <b>IETF</b> standards: &lt;&lt; <em>prohibit</em> domain name registrars from assigning the name localhost &gt;&gt;.
 
-        IETF standards
-        The name localhost is reserved for loopback purposes by <span> RFC 6761 </span> (Special-Use Domain Names),[4] which achieved the <u>Proposed Standard maturity level</u> in February 2013. </br>The standard sets forth a number of <sup>special</sup> considerations governing the use of the name in the Domain Name System.
+        &quot;IETF standards&quot;
+        The name localhost is reserved for loopback purposes by <span> RFC 6761 </span> (Special-Use Domain Names),[4] which achieved the <u>Proposed Standard maturity level</u> in February 2013. </br> The standard sets forth a number of <sup>special</sup> considerations governing the use of the name in the Domain Name System.
 
         <div>
         </div>
@@ -85,9 +85,9 @@
         To avoid burdening the <span> Domain Name System </span> root servers with traffic, caching name servers should <em>never</em> request name server records for localhost, or forward resolution to authoritative name servers.
         DNS registrars are precluded from delegating domain names in the top-level domain localhost.
         When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them <ins>appropriately</ins>.
-        The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] <strong>The reservation </strong> can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
+        The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] <strong>The reservation </strong> can be traced back to the November of &apos;86 "Assigned Numbers" standard (RFC 990).
 
-        In contrast, the IETF <abbr title = "IP Version 6 Addressing Architecture" >IPv6</abbr> standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. <br/>The standard precludes the assignment of that address to any physical interface, as well as its use <small>as</small> the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
+        In contrast, the IETF <abbr title = "IP Version 6 Addressing Architecture" >IPv6</abbr> standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. <br/>The standard precludes the assignment of that address to any &quot;physical interface&quot;, as well as its use <small>as</small> the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
         <cite>"IPv4 and IPv6 are both addresses that are used to identify machines connected to a network"</cite>.
 
         <div>
@@ -115,7 +115,10 @@
         Link su:
         <a href = "https://en.wikipedia.org/wiki/Packet_processing" target = "_blank">PACKET PROCESSING</a>
     
-        <div></div>
+        
+    </p>
+
+    <div></div>
         paragrafo 1 <meter min = "0" max = "10" value = "7.0">7 su 10</meter><br/>
         paragrafo 2 <meter min = "0" max = "10" value = "5.0">5 su 10</meter><br/>
         paragrafo 3 <meter min = "0" max = "10" value = "8.0">8 su 10</meter><br/>
@@ -130,8 +133,54 @@
         paragrafo 4 <progress min = "0" max = "10" value = "10.7">10.7 di 10</progress><br/>
         paragrafo 5 <progress min = "0" max = "10" value = "9.2">9.2 di 10</progress><br/>
 
+        <div></div>
+        <h5>ARGOMENTI TRATTATI:</h5>
 
-    </p>
+        <ol>
+          <li>Argomento 1: LOCALHOST AND LOOPBACK</li>
+          <li>Argomento 2: NAME RESOLUTION OF THE LOCALHOST</li>
+          <li>Argomento 3: IETF STANDARDS</li>
+          <li>Argomento 4: IPv4  OR  IPv6</li>
+          <li>Argomento 5: PACKET PROCESSING</li>
+        </ol>
+        
+        <div></div>
+        <ul>
+          <li>LOCALHOST AND LOOPBACK</li>
+          <li>NAME RESOLUTION OF THE LOCALHOST</li>
+          <li>IETF STANDARDS</li>
+          <li>IPv4  OR  IPv6</li>
+          <li>PACKET PROCESSING</li>
+        </ul>
+
+
+    <table border = "1">
+        <caption>IMPORTANT WORDS</caption>
+        <thead style = "background: lightgreen; text-align:center;">
+            <tr>
+                <td>ARGOMENTS</td> <td>UNDERLINED WORDS</td> <td>DELETED WORDS</td>
+            </tr>
+        </thead>
+        <tbody style = "color:darkorange; text-align:center;">
+            <tr>
+                <td style = "background: lightseagreen;">1</td> <td>2</td> <td>1</td>
+            </tr>
+            <tr>
+                <td style = "background: lightseagreen;">2</td> <td>1</td> <td>2</td>
+            </tr>
+            <tr>
+                <td style = "background: lightseagreen;">3</td> <td>1</td> <td>0</td>
+            </tr>
+            <tr>
+                <td style = "background: lightseagreen;">4</td> <td>1</td> <td>2</td>
+            </tr>
+            <tr>
+                <td style = "background: lightseagreen;">5</td> <td>3</td> <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+
 
   </body>
 

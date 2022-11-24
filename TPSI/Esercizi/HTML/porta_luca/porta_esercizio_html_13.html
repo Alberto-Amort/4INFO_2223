@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Field</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Dati personali</legend>
+                <label for="name">Nome: </label>
+                <input type="text" name="nome" id="name" placeholder="NOME"><br/>
+                <label for="surname">Cognome: </label>
+                <input type="text" name="cognome" id="surname" placeholder="COGNOME"><br/>
+                <label for="gender">Genere: </label>
+                <select>
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option>
+                </select><br/>
+                <label for="mail">Email: </label>
+                <input type="email" id="mail" name="email">
+                <label for="psw">Password: </label>
+                <input type="password" id="psw" name="password"><br/>
+                <label for="date">Data di nascita: </label>
+                <input type="date" id="date" name="nascita"><br/>
+                <label for="nations">Nazionalità: </label>
+                <input list="nazioni" name="nazioni" id="nations">
+                <datalist id="nations">
+                    <option value="Italiana">
+                    <option value="Spagnola">
+                    <option value="Francese">
+                    <option value="Inglese">
+                    <option value="Tedesca">
+                    <option value="Olandese">
+                    <option value="Portoghese">
+                </datalist><br/>
+                <label for="work">Che lavoro fai: </label>
+                <input type="text" name="lavoro" id="work" placeholder="LAVORO"><br/>
+                <label for="hobby">Cosa ti piace fare: </label>
+                <input type="text" name="hobby" id="hobby" placeholder="HOBBY"><br/>
+                <label for="high">Altezza: </label>
+                <input type="number" min="50" max="300" name="altezza" id="high"><br/>
+                <label for="weigth">Quanto pesi: </label>
+                <input type="range" name="peso" id="weigth" min="0" max="999" value="70"><br/>
+                <label for="color">Colore preferito: </label>
+                <input type="color" name="colore" id="color" value="#ff9900">
+                <h3>Di qualcosa in più</h3><br/>
+                <label for="bio"></label>
+                <textarea id="bio" name="biografia" rows="10" cols="100" placeholder="Di più"></textarea>
+            </fieldset>
+        </form>
+    </body>
+</html>

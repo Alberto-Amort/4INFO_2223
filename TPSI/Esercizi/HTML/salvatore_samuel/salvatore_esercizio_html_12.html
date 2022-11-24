@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form MGS</title>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        <u>
+            Form iscrizione MGS
+        </u>
+    </h1>
+    <p>
+        Compila questo form per far dell'MGS <small>(movimento giovani smanettoni)</small>
+    </p>
+    <form>
+        <label for = "idnome">Nome: </label>
+        <input type = "text" id = "idnome" name = "nome" placeholder="Nome"><br>
+        <label for = "idcognome">Cognome: </label>
+        <input type = "text" id = "idcognome" name = "cognome" placeholder="Cognome"><br>
+
+        <label for = "iddate">Data di nascita: </label>
+        <input type = "date" id = "iddate" name = "nascita"><br>
+
+        <label for="idaltezza">Inserisci altezza:</label>
+        <input type="number" id="altezza" name="idaltezza" min="135" max="210"><br>
+
+        <label for="idpreparazione">Indice di preparazione: <br><small>poco --> tanto</small><br> </label>
+        <input type="range" min="50" max="100" value="60" class="slider" id="idpreparazione"><br><br>
+
+        <label for="cars">Genere:  </label>
+        <select name="genere" id="cars">
+          <option value="maschio">Maschio</option>
+          <option value="femmina">Femmina</option>
+          <option value="alieno">Alieno</option>
+        </select><br><br>
+
+        <label for="idfavcolor"> Inserisci di che colore vorresti lo studio di MGS</label>
+        <input type="color" id="idfavcolor" name="favcolor" value="#ff0000"><br><br>
+
+        <label for = "idutilità">Inserisci in cosa eccelli: </label><br>
+        <input type="radio" id="idteoria" name="utilità" value="teoria">
+        <label for="teoria"> Teoria</label><br>
+        <input type="radio" id="idpratica" name="utilità" value="pratica">
+        <label for="teoria"> Pratica</label><br>
+        <input type="radio" id="identrambe" name="utilità" value="tutte e 2">
+        <label for="teoria"> Tutte e 2</label><br>
+        <input type="radio" id="idnessuna" name="utilità" value="nessuna delle 2">
+        <label for="teoria"> Nessuna delle 2</label><br><br>
+
+        <label for="idseclta"> Inserisci motivazione della tua scelta: </label><br><br>
+        <textarea id="idscelta" name="bio" rows="6" cols="60" placeholder="motivazione"></textarea> <br><br>
+
+        <label for="idlinux"> Inserisci sistema operativo preferito: </label><br>
+        <input type="checkbox" id="idlinux" name="SO" value="linux">
+        <label for="idlinux">  Linux</label><br>
+        <input type="checkbox" id="idlinux" name="SO" value="linux">
+        <label for="idlinux">  Linux</label><br>
+        <input type="checkbox" id="idlinux" name="SO" value="linux">
+        <label for="idlinux"> Linux</label><br>
+        <input type="checkbox" id="idlinux" name="SO" value="linux">
+        <label for="idlinux"> Linux</label><br>
+        <input type="checkbox" id="idlinux" name="SO" value="linux">
+        <label for="idlinux"> Linux</label><br>
+        <label for="idlinux"> <small> come vedi c'è molta scelta ;)</small></label><br><br>
+        <label for="idbutton">Premi il pulsante per accettare di servire fedelmente il popolo informatico e inviare l'iscrizione: </label>
+        <input type="button" id="idbutton" value="NON MI TIRO INDIETRO!">
+    </form>
+</body>
+</html>

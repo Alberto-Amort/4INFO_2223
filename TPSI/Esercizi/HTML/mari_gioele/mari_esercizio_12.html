@@ -1,0 +1,206 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Gioele Mari" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Seconda pagina HTML</title><!-- titolo della pagina -->
+    <style>
+      body {background-color: rgb(255, 136, 0);}
+      h1 {color: rgb(255, 0, 0);}
+      a{color: green;}
+      #p1234{color:red; width: 70%;}
+      div{background-color: blue;color: white;}
+
+    </style>
+  
+</head>
+<body>
+    <img src="https://kinsta.com/it/wp-content/uploads/sites/2/2019/11/cos-e-localhost-1024x512.png" alt="ciaoo" style="width: 300px;">
+    <a href="https://it.wikipedia.org/wiki/Localhost" target="_blank">Localhost</a>
+ <p>In computer networking, <u>localhost is a hostname that refers to the current computer</u> used to access it. 
+    It is used <s>to access the network services that are running</s> on the host via the <b>loopback</b> network interface. 
+    Using the <code> printf("ciaoo"); </code> loopback interface bypasses any local network interface hardware.</p>
+    <hr>
+    <br>
+    <br>
+<img src="/home/gioele/Scrivania/HTML/download.png" alt="ciaoo">
+    
+<a href="https://it.wikipedia.org/wiki/Interfaccia_di_loopback" target="_blank">Loopback</a>
+    <p>
+        The local loopback mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the <b>URL</b> http://localhost to display its home page.
+        The name localhost normally resolves to the  <em>IPv4 loopback address 127.0.0.1 RFC</em> , and to the IPv6 loopback address ::1.
+        </p>
+       <hr> 
+        <a href="https://en.wikipedia.org/wiki/Name_resolution" target="_blank">Name resolution</a>
+        <p> <b>IPv4 network standards</b> reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+        The resolution of the name localhost to one or more <strong>IP addresses is normally configured</strong> by the following lines in the operating system's hosts file:
+        127.0.0.1    localhost
+        ::1          localhost</p>
+        <p>The name may also be resolved by <mark>Domain Name System (DNS)</mark> servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.
+
+            In addition to the mapping of <i>Loopback Addresses (127.0.0.1 and ::1) to the , localhost</i> may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
+            
+            In the Domain Name System, the name <del>localhost is reserved as a top-level domain name</del> <ins>localhost is reserved as a top-level domain name</ins> , originally set aside to avoid confusion with the hostname used for loopback purposes.[3] IETF standards prohibit domain name registrars from assigning the name localhost.
+            
+            IETF standards
+            The name localhost is <sup>reserved for loopback purposes by RFC 6761 (Special-Use Domain Names)</sup> <sub>,[4] which achieved the Proposed Standard</sub> maturity level in February 2013. The standard sets forth a  <abbr>number of special considerations governing</abbr>  the use of the name in the Domain Name System:
+            
+            An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.
+            Applications may resolve the name to a loopback address themselves, <q> or pass it to the local name resolver mechanisms. </q> 
+            <cite>" When a name resolver receives an address (A or AAAA) "</cite> query for localhost, <pre>it should return the appropriate loopback addresses, and negative responses</pre>for any other requested record types. Queries for localhost should not be sent to caching name servers.
+            To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
+            DNS registrars are  <blockquote cite="https://www.google.com/search?q=ciao&oq=ciao&aqs=chrome..69i57j46i433i512j0i512j46i175i199i512l2j0i433i512j0i131i433i512j0i131i433j0i3j46i433i512.3651j1j15&sourceid=chrome&ie=UTF-8&safe=active&ssui=on">precluded from delegating domain names in the top-level</blockquote> domain localhost.
+            When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.
+            The IPv4 loopback addresses are reserved within the IPv4 address space by the <mark>IETF "Special Use IPv4 Addresses" standard (RFC 5735)</mark>.[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
+            
+            In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
+            </p>
+           <hr>
+           Voto <meter min="0" max="10" value="7.0">8 su 10</meter><br />
+           Voto <meter min="0" max="10" value="8.0">8 su 10</meter><br />
+           Voto <meter min="0" max="10" value="6.5">6.5 su 10</meter><br />
+           Voto <meter min="0" max="10" value="9.5">9.5 su 10</meter><br />
+           Voto <meter min="0" max="10" value="4.5">4.5 su 10</meter><br />
+           Voto <progress min="0" max="10" value="8">8 di 10</progress><br />
+           Voto <progress min="0" max="10" value="6.5">6.5 di 10</progress><br />
+           Voto <progress min="0" max="10" value="9.5">9.5 di 10</progress><br />
+           Voto <progress min="0" max="10" value="4.5">4.5 di 10</progress><br />
+           &lt; ciao &copy;&copy;&copy;&copy;&copy;
+           
+       
+           <ol>
+               <li>localhost</li>
+               <li>Loopback</li>
+               <li>Name resolution</li>
+               <li>Special cases</li>
+           </ol>
+           <ul>
+            <li>Loopback</li>
+            <li>localhost</li>
+            <li>Special cases</li>
+            <li>Name resolution</li>
+        </ul>
+        <table border="10">
+            <caption>Indirizzi IP</caption>
+            <thead style="background:gray;text-align: center;">
+                <tr>
+                    <td>192.168.1.10</td> <td>192.168.1.20</td> <td>192.168.1.30</td>
+                </tr>
+            </thead>
+            <tbody style="color:blue;text-align: center;">
+                <tr>
+                    <td>192.168.1.10</td> <td>192.168.1.20</td> <td>192.168.1.30</td>
+                </tr>
+                <tr style="background:Gainsboro;">
+                    <td>192.168.1.10</td> <td>192.168.1.20</td> <td>192.168.1.30</td>
+                </tr>
+                <tr>
+                    <td>192.168.1.10</td> <td>192.168.1.20</td> <td>192.168.1.30</td>
+                </tr>
+                <tr style="background:Gainsboro;">
+                    <td>192.168.1.10</td> <td>192.168.1.20</td> <td>192.168.1.30</td>
+                </tr>
+            </tbody>
+        </table>      
+
+        <br>
+        <br>    
+            <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">
+                
+                </a>
+            <a href="https://en.wikipedia.org/wiki/Packet_processing" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNL927WxFwt_F9k00dPiOX26aWY1w-vhSQ3tUqB4majOFdW8rxnnYcvtO8V9OtGNP4HA&usqp=CAU" width="250" alt="primo web server"/>
+            </a>
+            <p>The processing of any packet sent to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.</p>
+            <div>
+            <a id="p1234" href="https://en.wikipedia.org/wiki/Loopback"target="_blank">Loop-back</a>
+            <p>packets are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
+
+                Packets received on a non-loopback interface with a loopback source or destination address must be dropped. Such packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.</p>
+            </div>
+            <br>
+        <div>
+                <h2>Special cases</h2>
+        <p>
+            The releases of the MySQL database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
+            
+            One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
+            </p>
+        </div>
+         <form>
+            <h3>Inserisci nome e cognome</h3>
+            <input type="text" id="idnome" name="nome" placeholder="Nome">
+            <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+                    <br>
+                    <br>
+            <label for="idbutton">Premi il pulsante: </label>
+            <input type="button" id="idbutton" value="Cliccami!!">
+            <h3>Scegli</h3>
+            <input type="radio" id="studente" name="occupazione" value="studente">
+            <label for="studente">  Felice</label><br>
+            <input type="radio" id="occupato" name="occupazione" value="occupato">
+            <label for="occupato">  Medio</label><br>
+            <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+            <label for="disoccupato">  Triste</label><br><br>
+            <h3>Scegli uno Sport</h3>
+            <input type="checkbox" id="tennis" name="tennis" value="tennis">
+            <label for="tennis">  Tennis</label><br>
+            <input type="checkbox" id="calcio" name="calcio" value="calcio">
+            <label for="calcio">  Calcio</label><br>
+            <input type="checkbox" id="nuoto" name="nuoto" value="nuoto">
+            <label for="nuoto"> Nuoto</label><br>
+            <input type="checkbox" id="alpinismo" name="Apinismo" value="Apinismo">
+            <label for="nuoto"> Alpinismo</label><br>
+            <input type="checkbox" id="Aikido" name="Aikido" value="">
+            <label for="nuoto"> Aikido</label><br>
+            <h3>Data di nascita</h3>
+            <input type="date" id="iddata" name="birthday"><br><br>
+            <h3>Quanti anni hai </h3>
+            <input type="number" id="altezza" name="altezza" min="0" max="100"><br><br>
+            <input type="number" id="altezza" name="altezza" min="0" max="100"><br><br>
+            <input type="number" id="altezza" name="altezza" min="0" max="100"><br><br>
+            <input type="number" id="altezza" name="altezza" min="0" max="100"><br><br>
+            <h3>Inserisci un colore</h3>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+            <label for="peso">Quanto ha preso studente0: </label>
+            <input type="range" min="2" max="10" value="0" class="slider" id="voto"><br>
+            <label for="peso">Quanto ha preso studente1: </label>
+            <input type="range" min="2" max="10" value="0" class="slider" id="voto"><br>
+            <label for="peso">Quanto ha preso studente2: </label>
+            <input type="range" min="2" max="10" value="0" class="slider" id="voto"><br>
+
+            <label for="genere">Voto:  </label>
+            <select name="genere" id="">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            </select>
+            <br>
+            <br>
+            <label for="genere">Voto2:  </label>
+            <select name="genere" id="">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            </select>
+             <br>
+             <br>
+            <label for="bio">Biografia:</label>
+            <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>
+
+         </form>
+         
+</body>
+
+</html>

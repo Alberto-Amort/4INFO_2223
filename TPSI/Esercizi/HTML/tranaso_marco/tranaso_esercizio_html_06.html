@@ -1,0 +1,80 @@
+<html>
+
+        <body>
+            <h1> host locale</h1>
+            <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">
+                <img src="https://st.depositphotos.com/1595224/4256/i/600/depositphotos_42569167-stock-photo-macro-of-lcd.jpg" width="250" alt=""/>
+                </a>
+            <p>
+            <U><small>Nelle</small></U> <a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank">reti di computer</a>, <a class="local">localhost</a> <q>è un nome host che si riferisce al computer corrente utilizzato</q> per accedervi. Viene utilizzato per accedere ai servizi di rete in esecuzione sull'host tramite l'interfaccia di rete di loopback. L'uso dell'interfaccia di loopback ignora qualsiasi hardware dell'interfaccia di rete locale.
+            </p>
+            <h2>Ritorno</h3>
+            <p>
+            Il <strong>meccanismo </strong> di <a href="https://en.wikipedia.org/wiki/Loopback" target="_blank"><small>loopback </small></a> <strong>locale </strong><cite>può essere utilizzato per eseguire</cite></citepu> <a class="local5"></a> senza richiedere un'interfaccia di <b>rete fisica </b>o senza rendere il servizio accessibile dalle reti a cui il <b>computer </b>può essere connesso. Ad esempio, è possibile accedere a un sito <a class="local1">Web</a> installato localmente da un browser Web tramite l'URL http://localhost per visualizzare la sua home page.
+            Il nome localhost normalmente si risolve nell'indirizzo di loopback IPv4 127.0.0.1 e nell'indirizzo di loopback <mark>IPv6 </mark> ::1.
+            </p>
+           <h3>Risoluzione del nome</h3>
+           <p>
+            Gli <i>standard </i>di rete <a class="local2">IPv4</a> riservano l'intero blocco di indirizzi <small>127.0.0.0/8 </small> (più di 16 milioni di indirizzi) per scopi di loopback.[2] Ciò significa che qualsiasi pacchetto inviato a uno di quegli indirizzi viene eseguito in loop. L'indirizzo 127.0.0.1 è l'indirizzo standard per il traffico di loopback IPv4; il resto non è supportato da tutti i sistemi operativi. Tuttavia, possono essere utilizzati per configurare più applicazioni server sull'host, tutte in ascolto sullo stesso numero di porta. Lo standard IPv6 assegna un solo indirizzo per il loopback: ::1.
+            La risoluzione del nome <a href="https://en.wikipedia.org/wiki/.localhost" target="_blank">localhost</a> su uno o più indirizzi <i>IP </i> <q>>è normalmente configurata dalle seguenti righe nel file hosts del sistema operativo</q:
+            127.0.0.1 host locale
+            ::1 <small>host locale </small>
+            
+            Il nome può essere risolto anche dai server <b>DNS </b>(Domain Name System), ma le <b>query </b> per questo nome devono essere <q>risolte localmente e non devono essere inoltrate a server dei nomi remoti.</q>
+            
+            Oltre alla mappatura di localhost agli indirizzi di <strong>loopback </strong>(127.0.0.1 e ::1), localhost può anche essere mappato ad altri indirizzi <mark>IPv4 </mark> (loopback) ed è anche possibile assegnare altri o ulteriori nomi a qualsiasi indirizzo di loopback . Non è garantito che la mappatura di localhost a indirizzi diversi dall'intervallo di indirizzi di loopback designato nel file hosts o nel DNS abbia l'effetto desiderato, poiché le applicazioni potrebbero mappare il nome internamente.
+            
+            Nel <ins>DOmain </ins>Name System, il nome <b>localhost </b> è riservato come nome di dominio di <small>primo </small> livello, originariamente messo da parte per evitare confusione con il nome host utilizzato per scopi di loopback.[3] <a class="local6">Gli standard IETF vietano ai registrar di nomi di dominio di assegnare il nome localhost.</a>.
+           </p>
+            <h3>standard IETF</h3>
+             </a><img src="localhoat.png" width="250" alt="primo webserver">
+            
+            <br>
+           
+        
+            
+            Il <del>nome </del> <sub>localhost </sub> è riservato a scopi di <a class="local3">loopback</a> da <strong>RFC 6761 </strong> (Nomi di dominio a uso speciale),[4] che ha raggiunto il livello di maturità <a href="https://en.wikipedia.org/wiki/Internet_Standard" target="_blank">Proposed Standard</a> nel febbraio 2013. Lo standard stabilisce una serie di considerazioni speciali che regolano l'uso del nome nel Domain Name System:
+        
+            Una <ins>query </ins> di indirizzo <strong>IPv4 </strong> o <ins>IPv6</ins> per il nome localhost deve sempre essere risolta nel rispettivo indirizzo di loopback, specificato in uno standard separato.
+            Le applicazioni possono risolvere il nome in un indirizzo di loopback da sole o passarlo ai meccanismi di risoluzione dei nomi <ins>locali </ins>.
+            Quando un risolutore di nomi riceve una query di indirizzo (A o AAAA) <small>per </small> localhost, deve restituire gli indirizzi di loopback appropriati e risposte negative per qualsiasi altro tipo di record richiesto. Le query per localhost non devono essere inviate ai server dei nomi di memorizzazione nella cache.
+            Per evitare di sovraccaricare di traffico i server root del Domain Name System, i server dei nomi di <ins>memorizzazione </ins>nella cache non devono mai richiedere record del server dei nomi per localhost o inoltrare la risoluzione ai server dei nomi autorevoli.
+            I registrar DNS non possono <del>delegare </del> nomi di dominio nel localhost di dominio di primo livello.
+            Quando i server dei nomi autorevoli ricevono query per 'localhost' nonostante le disposizioni menzionate, risolverle in modo appropriato.
+            Gli <sup>indirizzi </sup> di loopback IPv4 sono riservati all'<small>interno </small> dello spazio degli indirizzi IPv4 dallo standard <mark>IETF </mark> "Special Use IPv4 Addresses" (RFC 5735).[5] La prenotazione può essere fatta risalire allo standard "Numeri assegnati" del novembre 1986 (RFC 990).
+            
+            Al contrario, lo standard <i>IETF </i> "IP Version 6 <del>Addressing </del>Architecture" (RFC 4291) riserva l'unico <del>indirizzo </del> di loopback <i>IPv6</i> ::1 all'interno dello spazio degli indirizzi IPv6. Lo standard preclude l'assegnazione di tale indirizzo a qualsiasi interfaccia fisica, nonché il suo utilizzo come indirizzo di origine o destinazione in qualsiasi pacchetto inviato a host remoti. Qualsiasi pacchetto di questo tipo che viene trasmesso erroneamente non dovrebbe essere instradato e dovrebbe essere eliminato da tutti i router o host che lo ricevono.
+            
+            <h3>Elaborazione dei pacchetti</h3>
+            <a href="https://en.wikipedia.org/wiki/Packet_processing" target="_blank">
+            </a><img src="pacchetti.jpg" width="250" alt="primo webserver">
+            <br>
+            <p> 
+            <abbr>L'elaborazione di qualsiasi pacchetto inviato</abbr> a un indirizzo di loopback è <abbr>implementata nel livello di collegamento dello</abbr> <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">stack TCP/IP</a>. etti non vengono mai passati a nessun controller di interfaccia di rete (NIC) o driver di dispositivo hardware e non devono apparire al di fuori di un sistema informatico o essere instradati da alcun router. Ciò consente test del software e servizi locali in assenza di interfacce di rete hardware.
+            
+            I pacchetti di loopback si distinguono da qualsiasi altro pacchetto che attraversa lo stack <mark>TCP/IP </mark>solo per <a class="local4">l'indirizzo IP</a> speciale a cui sono stati indirizzati. Pertanto, i servizi che alla fine li ricevono rispondono in base alla destinazione specificata. Ad esempio, un servizio HTTP potrebbe instradare i pacchetti indirizzati a 127.0.0.99:80 e 127.0.0.100:80 a server Web diversi oa un unico server che restituisce pagine Web diverse. Per semplificare tale verifica, il file hosts può essere configurato per fornire nomi appropriati per ciascun indirizzo.
+            
+            I pacchetti ricevuti su un'interfaccia non di loopback con un indirizzo di origine o di destinazione di loopback devono essere eliminati. <a class="local5">Tali pacchetti sono talvolta indicati come pacchetti marziani.[6] Come con qualsiasi altro pacchetto fasullo, possono essere dannosi e qualsiasi problema che potrebbero causare può essere evitato applicando il filtro bogon</a>.
+            
+            <h3>Casi speciali</h3>
+            <p>
+            Le versioni del database <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><i>MySQL </i></a> <abbr>distinguono tra l'uso del nome host localhost</abbr> e l'uso degli indirizzi 127.0.0.1 e ::1.[7] Quando si utilizza localhost come destinazione nell'interfaccia di un connettore client di un'applicazione, l'interfaccia di programmazione dell'applicazione MySQL si connette al database utilizzando un socket di dominio Unix, mentre una connessione TCP tramite l'interfaccia di loopback richiede l'uso diretto dell'indirizzo esplicito.
+            
+            <cite>Una notevole eccezione all'uso degli indirizzi <mark>127.0.0.0/8  è il loro utilizzo nel rilevamento degli errori di traceroute</cite> <a class="local4">MLS</a> (Multiprotocol Label Switching), in cui la loro proprietà di non essere instradabili fornisce un mezzo conveniente per evitare la consegna di pacchetti difettosi agli utenti finali.
+            </p>
+            
+            
+        </body>
+        
+    <style>
+        .local {color: green;}
+        .local1 {color: blue;}
+        .local2 {color: red;}
+        .local13 {color: green;}
+        .local4 {color: blue;}
+        .local5 {background-color: blue;}
+        .local5{color: white}
+        .local6 {background-color: blue;}
+        .local6{color: white}
+      </style>
+    

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-10" />
+    <meta name="author" content="Matteo Putignano" />
+    <meta name="description" content="Menù" />
+    <meta name="keywords" content="menu, ristorante, menù, cibo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localhost</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><h2><u><b>Dati Personali</b></u></h2></legend>
+            <label for="idnome">Nome: </label>
+            <input type="text" id="idnome" name="nome" placeholder="nome"> <br><br>
+
+            <label for="idcognome">Cognome: </label>
+            <input type="text" id="idcognome" name="cognome" placeholder="cognome"> <br><br>
+
+            <label for="genere">Genere: </label>
+            <select name="genere" id="gen">
+                <option value="maschio">Maschio</option>
+                <option value="femmina">Femmina</option>
+                <option value="altro">Altro</option>
+            </select><br><br>
+
+            <label for="idemail">Email: </label>
+            <input type="email" id="idemail" name="email"><br><br>
+
+            <label for="idpassword">Password: </label>
+            <input type="password" id="idpassword" name="password"><br><br>
+
+            <label for="iddata">Data di nascita: </label>
+            <input type="date" id="iddata" name="dt nascita"><br><br>
+
+            <label for="idnazioni">Nazionalità: </label>
+            <input list="nations" name="nazioni" id="idnazioni">
+            <datalist id="nations">
+            <option value="Albanese">
+            <option value="Americana">
+            <option value="Argentina">
+            <option value="Belga">
+            <option value="Biellorussa">
+            <option value="Italiana">
+            <option value="Inglese">
+            <option value="Irlandese">
+            <option value="Israeliana">
+            <option value="Russa">
+            </datalist><br><br>
+
+            <label for="idlavoro">Attività lavorativa: </label>
+            <input type="text" id="idlavoro" name="lavoro" placeholder="lavoro"> <br><br>
+
+            <label for="idhobby">Hobby: </label>
+            <input type="text" id="idhobby" name="hobby" placeholder="hobby"> <br><br>
+
+            <label for="idaltezza">Altezza: </label>
+            <input type="number" id="idaltezza" name="altezza" min="140" max="210"><br><br>
+
+            <label for="idpeso">Peso: </label>
+            <input type="number" id="idpeso" name="peso" min="35" max="150"><br><br>
+
+            <label for="idcolore">Colorepreferito: </label>
+            <input type="color" id="idcolore" name="colore" value="#ff0000"><br><br>
+
+            <label for="idnote">Note personali:</label><br>
+            <textarea id="idnote" name="note" rows="5" cols="60" placeholder="Inserisci le tue note personali"></textarea>    
+        </fieldset>
+    </form>
+</body>

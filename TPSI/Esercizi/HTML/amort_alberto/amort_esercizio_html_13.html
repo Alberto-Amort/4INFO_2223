@@ -5,7 +5,7 @@
     <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
     <meta charset="UTF-8" />
     <meta name="author" content="Alberto Amort" />
-    <meta name="description" content="FORM />
+    <meta name="description" content="FORM" />
     <meta name="keywords" content="esercizio, html, lezioni, scuola" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="100"><!-- Durante la fase di sviluppo permette il refresh  automatico della pagina  -->
@@ -28,10 +28,10 @@
     <fieldset>
     <legend>Dati Personali</legend>
     <label for="nome">Nome:</label>
-    <input type="text" id="idnome" name="nome"><br><br>
+    <input type="text" id="idnome" name="nome" placeholder="Nome"><br><br>
   
     <label for="cognome">Cognome:</label>
-    <input type="text" id="idcognome" name="cognome"><br><br>
+    <input type="text" id="idcognome" name="cognome" placeholder="Cognome"><br><br>
   
     <label for="genere">Genere:</label>
     <select name="genere" id="idsesso">
@@ -40,28 +40,29 @@
     </select><br><br>
   
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+    <input type="email" id="idemail" name="email" placeholder="Email"><br><br>
 
     <label for="pwd">Password:</label>
-    <input type="password" id="pwd" name="pwd"> <br><br>
+    <input type="password" id="pwd" name="pwd" placeholder="Password"> <br><br>
 
     <label for="Data">Data di nascita:</label>
     <input type="date"  id="iddata" name="nascita"><br><br>
 
     <label for="nazioni">Nazionalità: </label><br>
-    <input list="nazioni" name="nazioni" id="idnazioni">
-    <datalist id="nations">
-      <option value="Albanese">
-      <option value="Argentina">
-      <option value="Belga">
-      <option value="Biellorussia">
-      <option value="Italiana">
-      <option value="Iralndese">
-      <option value="Israeliana"> 
-      <option value="Inglese">
-      <option value="Francese">
-      <option value="Tedesca">
-    </datalist><br><br>
+    <select name="nazioni" id="idnazione">
+      <option value="Albanese">Albanese</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Belga">Belga</option>
+      <option value="Biellorussia">Biellorussia</option>
+      <option value="Italiana">Italiana</option>
+      <option value="Irlandese">Irlandese</option>
+      <option value="Israeliana">Israeliana</option>
+      <option value="Inglese">Inglese</option>
+      <option value="Francese">Francese</option>
+      <option value="Tedesca">Tedesca</option>
+    </select>
+        
+    <br><br>
 
     <label for="lavoro">Attività lavorativa: </label><br>
     <input type="lavoro" id="idlavoro" name="Attività lavorativa:"><br><br>
@@ -69,10 +70,17 @@
     <label for="lavoro">Hobby: </label><br>
     <input type="hobby" id="idhobby" name="Hobby"><br><br>
 
+    <label for="Altezza">Altezza: </label><br>
+    <input type="number" id="idaltezza" name="altezza" min="150" max="200"><br><br>
 
     <label for="Peso">Peso: </label><br>
-    <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br><br>
+    <input type="range" min="50" max="100" value="60" class="slider" id="idpeso"><br><br>
   
+    <label for="Colore">Colore preferito: </label><br>
+    <input type="text" id="idcolore" name="Colore"><br><br>
+
+    <label for="Nota"></label>
+  <textarea id="idnota" name="note" rows="6" cols="60" placeholder="Nota personale"></textarea><br><br>   
 
     <input type="submit" value="Invia">
 

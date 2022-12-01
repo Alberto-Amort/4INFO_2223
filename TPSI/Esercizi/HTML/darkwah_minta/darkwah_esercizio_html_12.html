@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="it">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="Minta" content="Minta Darkwah" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="2">
+
+    <title>ISCRIZIONE ALLA SCUOLA</title>
+
+  </head>
+  <body>
+    <form>
+        <h1>BENVENUTO!</h1>
+        <p>Iscriviti alla nostra scuola</p>
+            
+    </form>
+  
+    <form>
+        <label for="idbutton">iscriviti: </label>
+        <input type="button" id="idbutton" value="ACCEDI">
+    </form><br><br>
+
+    <form>
+      <h4>Inserire il proprio nome e cognome</h4>
+    </form>
+
+    <form>
+      <input type="text" id="idnome" name="nome" placeholder="Nome">
+      <input type="text" id="idcognome" name="cognome" placeholder="Cognome">
+    </form>
+
+    <form>
+        <h3>ANNO DA FREQUENTARE:</h3><br>
+        <input type="radio" id="elementari" name="anno da frequentare" value="elementari">
+        <label for="elementari">  elementari</label><br>
+        <input type="radio" id="medie" name="medie" value="medie">
+        <label for="medie">  medie</label><br>
+        <input type="radio" id="superiori" name="superiori" value="superiori">
+        <label for="superiori">  superiori</label><br><br>
+    </form>
+
+
+    <h3>ATTIVITA' EXTRASCOLASTICHE:</h3>
+    <h4>(Quelle che si vogliono svolgere)</h4>
+    <form>
+        <input type="checkbox" id="studio" name="studio" value="studio">
+        <label for="studio">  studio</label><br>
+        <input type="checkbox" id="corso di matematica" name="corso di matematica" value="corso di matematica">
+        <label for="corso di matematica">  corso di matematica</label><br>
+        <input type="checkbox" id="corso di legname" name="corso di legname" value="corso di legname">
+        <label for="corso di legname"> corso di legname</label><br>
+        <input type="checkbox" id="sport" name="sport" value="sport">
+        <label for="sport"> sport</label><br>
+        <input type="checkbox" id="corso di musica" name="corso di musica" value="corso di musica">
+        <label for="corso di musica"> corso di musica</label><br>
+    </form>
+    <h3>Data di Nascita</h3>
+    <h4>Inserire la data di nascita dello studente</h4>
+    <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+    </form>
+
+
+    <h3>Altezza</h3>
+    <h4>Inserire l'altezza dello studente</h4>
+    <form>
+        <input type="number" id="altezza" name="altezza" min="140" max="210"><br><br>
+    </form>
+    <h3>Peso</h3>
+    <h4>Inserire il peso dello studente</h4>
+    <form>
+        <input type="number" id="peso" name="peso" min="30" max="110"><br><br>
+    </form>
+    <h3>Codice classe</h3>
+    <h4>Inserire il codice classe</h4>
+    <form>
+        <input type="number" id="codicec" name="codicec" min="1" max="30"><br><br>
+    </form>
+    <h3>Codice studente</h3>
+    <h4>Inserire il codice studente</h4>
+    <form>
+        <input type="number" id="codices" name="codices" min="1" max="10000"><br><br>
+    </form>
+
+
+    <h3>Colore cartellino scolastico</h3>
+    <h4>Scegliere il colore del cartellino scolastico che si vuole:</h4>
+    <form>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+    </form><br><br><br>
+
+
+    <form>
+        <label for="difficoltà">Vota la difficoltà riscontrata con le materie dell'anno precedente: </label><br><br>
+        <input type="range" min="0" max="10" value="60" class="slider" id="difficoltà"><br> 
+    </form><br><br><br>
+    <form>
+        <label for="facilità">Vota la facilità riscontrata con le materie dell'anno precedente: </label><br><br>
+        <input type="range" min="0" max="10" value="60" class="slider" id="facilità"><br> 
+    </form><br><br><br>
+    <form>
+        <label for="lavoro">Vota la soddisfazione del lavoro svolto nell'anno precedente: </label><br><br>
+        <input type="range" min="0" max="10" value="60" class="slider" id="lavoro"><br> 
+    </form><br><br><br>
+
+
+    <form>
+        <label for="stud">Inserire come hai trovato le spiegazioni date dai professori dell'anno precedente:</label><br><br>
+          <select name="stud" id="cars">
+              <option value="PERFETTA">PERFETTA</option>
+              <option value="BENINO">BENINO</option>
+              <option value="PIU' A MENO">PIU' A MENO</option>
+              <option value="SCARSO">SCARSO</option>
+              <option value="PESSIMO">PESSIMO</option>
+          </select>
+    </form><br><br><br>
+    <form>
+        <label for="stud">Inserire come hai l'integrazione nella classe dell'anno precedente:</label><br><br>
+          <select name="stud" id="cars">
+              <option value="PERFETTA">PERFETTA</option>
+              <option value="BENINO">BENINO</option>
+              <option value="PIU' A MENO">PIU' A MENO</option>
+              <option value="SCARSA">SCARSA</option>
+              <option value="PESSIMA">PESSIMA</option>
+          </select>
+    </form><br><br><br>
+    <form>
+        <label style="color:blue;" for="bio">METTI UN COMMENTO AGGIUNTIVO SULL'ANNO PRECEDENTE:</label><br><br>
+        <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci il commento aggiuntivo"></textarea>    
+    </form>
+
+
+    </body>
+
+  <style>
+    h1 {color: red;}
+  </style>
+</html>

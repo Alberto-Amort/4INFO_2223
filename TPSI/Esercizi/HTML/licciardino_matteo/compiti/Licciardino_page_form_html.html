@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="template HTML">
+    <meta name="keywords" content="template, html_01">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form di una società sportiva</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+            color: gray;
+        }
+
+        fieldset{
+            border: none;
+            text-align: center;
+        }
+
+        strong{
+            font-size: larger;
+        }
+
+        label{
+            color: gray;
+        }
+
+        small{
+            color: gray;
+        }
+
+        #mail{
+            width: 12.5%;
+        }
+
+        hr{
+            margin-top: 2%;
+            margin-left: 22.5%;
+            margin-right: 22.5%;
+            border-top: 2px solid; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Modulo di registrazione alla squadra di calcio</h1>
+    <h2>Registrati alla squadra di calcio qui sotto</h2>
+    <hr>
+    <form>
+        <fieldset>
+            <legend><strong>Nome del giocatore</strong></legend>
+            <label for="nome">Nome </label>
+            <input type="text" id="nome" name="Nome">
+            <br><br>
+
+            <label for="cognome">Cognome </label>
+            <input type="text" id="cognome" name="Cognome">
+            <br><br>
+
+            <label for="mail" style="color: black;"><strong>E-mail del giocatore</strong></label><br>
+            <input type="email" id="mail" name="Mail" placeholder="es: mioname@esempio.com"><br>
+            <small>(mionome@esempio.com)</small>
+            <br><br>
+
+            <label for="squadre" style="color: black;"><strong>Squadra del giocatore</strong></label>
+            <br>
+            <input list="team" name="squadre" id="squadre" placeholder="Seleziona">
+            <datalist id="team">
+                <option value="Asilo">
+                <option value="Scuole medie">
+                <option value="Scuola superiore">
+                <option value="Università">
+            </datalist>
+
+            <p><strong>Attacco o difesa</strong></p>
+            <input type="radio" id="attacco" name="attacco o difesa" value="attacco">
+            <label for="attacco" style="color: black;"> attacco</label><br>
+            <input type="radio" id="difesa" name="attacco o difesa" value="difesa">
+            <label for="difesa" style="color: black;"> difesa</label><br>
+            <input type="radio" id="non_lo_so" name="attacco o difesa" value="non lo so">
+            <label for="non_lo_so" style="color: black;"> non lo so</label><br>
+            <br>
+
+            <label for="height" style="color: black;"><strong>Altezza</strong></label><br>
+            <input type="number" id="height" name="Altezza"><br>
+            <small>(altezza in m)</small>
+            <br><br>
+
+            <label for="weight" style="color: black;"><strong>Peso</strong></label><br>
+            <input type="number" id="weight" name="peso"><br>
+            <small>(peso in Kg)</small>
+            <br><br>
+
+            <label for="speed" style="color: black;"><strong>Velocità</strong></label><br>
+            <input type="number" id="speed" name="velocità"><br>
+            <small>(Velocità in km/h)</small>
+            <br><br>
+
+            <label for="note" style="color: black;"><strong>Commenti</strong></label><br>
+            <textarea id="note" name="Note" rows="6" cols="60"></textarea>
+            <br><br>
+
+            <input type="submit" value="Invia" style="background-color: green; color: white; width: 8%; height: 30px; border-radius: 10px">
+            <input type="reset" value="Reset" style="background-color: red; color: black; width: 8%; height: 30px; border-radius: 10px">
+        </fieldset>
+    </form>
+</body>
+</html>

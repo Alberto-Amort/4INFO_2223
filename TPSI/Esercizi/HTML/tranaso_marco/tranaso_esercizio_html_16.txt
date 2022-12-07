@@ -1,0 +1,41 @@
+Error: The align attribute on the div element is obsolete. Use CSS instead.
+
+From line 23, column 5; to line 23, column 24
+
+body>↩    <div align="center">↩     
+
+Error: The size attribute on the hr element is obsolete. Use CSS instead.
+
+From line 26, column 1; to line 26, column 13
+
+nelli">↩ ↩<hr size="2">↩    <
+
+Error: The width attribute on the td element is obsolete. Use CSS instead.
+
+From line 42, column 45; to line 42, column 60
+
+o</b></td><td width="200">&nbsp;
+
+Error: The width attribute on the td element is obsolete. Use CSS instead.
+
+From line 49, column 40; to line 49, column 55
+
+o</b></td><td width="220">&nbsp;
+
+Error: The width attribute on the td element is obsolete. Use CSS instead.
+
+From line 55, column 15; to line 56, column 27
+
+      <tr>↩            <td width="40">&nbsp;
+
+Error: The width attribute on the td element is obsolete. Use CSS instead.
+
+From line 56, column 60; to line 56, column 75
+
+ORINO</td><td width="170">&nbsp;
+
+Error: The width attribute on the td element is obsolete. Use CSS instead.
+
+From line 63, column 49; to line 63, column 64
+
+, 312</td><td width="310"></td>↩

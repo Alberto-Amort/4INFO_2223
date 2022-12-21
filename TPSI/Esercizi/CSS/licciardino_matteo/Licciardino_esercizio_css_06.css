@@ -2,50 +2,18 @@ h1{
     color: blue;
 }
 
-#titolo1{
+#titolo1, #titolo3, #titolo5{
     color: red;
 }
 
-#titolo3{
-    color: red;
-}
-
-#titolo5{
-    color: red;
-}
-
-#titolo2{
+#titolo2, #titolo4, #titolo6{
     color: green;
 }
 
-#titolo4{
-    color: green;
-}
-
-#titolo6{
-    color: green;
-}
-
-#brano1{
+#brano1, #brano3, #brano5{
     color: gray;
 }
 
-#brano3{
-    color: gray;
-}
-
-#brano5{
-    color: gray;
-}
-
-#brano2{
-    color: orange;
-}
-
-#brano4{
-    color: orange;
-}
-
-#brano6{
+#brano2, #brano4, #brano6{
     color: orange;
 }

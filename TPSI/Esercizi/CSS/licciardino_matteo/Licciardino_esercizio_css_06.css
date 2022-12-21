@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+
+#titolo1, #titolo3, #titolo5{
+    color: red;
+}
+
+#titolo2, #titolo4, #titolo6{
+    color: green;
+}
+
+#brano1, #brano3, #brano5{
+    color: gray;
+}
+
+#brano2, #brano4, #brano6{
+    color: orange;
+}

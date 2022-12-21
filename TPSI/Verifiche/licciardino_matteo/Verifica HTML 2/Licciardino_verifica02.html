@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="template HTML">
+    <meta name="keywords" content="template, html_verifica02">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Istituto Agnelli</title>
+</head>
+<body>
+    <center>
+        <img src="Licciardino_verifica02.png" alt="Logo agnelli" width="250">
+        <h1><strong>Istituto Internazionale E. Agnelli</strong></h1>
+        <h2><strong>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2023-2024</strong></h2>
+        <form>
+            <hr>
+                <label for="studente">Il sottoscritto</label>
+                <input type="text" id="studente" name="student" placeholder="Inserire il proprio Cognome e Nome" size="28">
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="Gmail">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="Gmail" name="gmail" placeholder="nome.cognome@istitutoagnelli.it" size="28">
+                
+                <br><br>
+                
+                <label for="luogo">Nato a </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="luogo" name="nato" size="26">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <label for="Data">Il</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="date" id="Data" name="nascita">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br><br>
+
+                <label for="nazioni">Cittadinanza </label>
+                <input list="nations" name="nazioni" id="nazioni" size="26">
+                <datalist id="nations">
+                <option value="Italiana">
+                <option value="Americana">
+                <option value="Francese">
+                <option value="Tedesca">
+                <option value="Cinese">
+                <option value="Altro">
+                </datalist>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="CodFisc">Codice Fiscale</label>
+                <input type="text" id="CodFisc" name="Codice_Fiscale" placeholder="RSSMRA70A01L219K" size="25">
+
+                <br><br>
+
+                <label for="residente">Residente a </label>
+                <input type="text" id="residente" name="casa" size="26">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="città">Provincia </label>
+                <input list="City" name="nomi_di_città" id="città" value="AL">
+                <datalist id="City">
+                <option value="AL">
+                <option value="AT">
+                <option value="BI">
+                <option value="CN">
+                <option value="NO">
+                <option value="TO">
+                <option value="VC">
+                <option value="MI">
+                <option value="ROMA">
+                </datalist>
+
+                <fieldset align="left">
+                    <legend>Genere</legend>
+                        <input type="radio" id="maschio" name="Genere" value="Maschio"> 
+                        <label for="maschio"> Maschio</label><br>
+                        <input type="radio" id="femmina" name="Genere" value="Femmina">
+                        <label for="femmina"> Femmina</label><br>
+                        <input type="radio" id="altro" name="Genere" value="Altro">
+                        <label for="altro"> Altro</label><br>
+                        <input type="radio" id="non_specificato" name="Genere" value="Non specificato">
+                        <label for="non_specificato"> Non specificato</label>
+                </fieldset>
+
+                <fieldset align="left">
+                    <legend>Titolo di studio</legend>
+                        <input type="checkbox" id="elementare" name="Studio" value="Licenza Elementare"> 
+                        <label for="elementare"> Licenza Elementare</label><br>
+                        <input type="checkbox" id="media" name="Studio" value="Licenza Media">
+                        <label for="media"> Licenza Media</label><br>
+                        <input type="checkbox" id="superiore" name="Studio" value="Diploma">
+                        <label for="superiore"> Diploma</label><br>
+                        <input type="checkbox" id="università" name="Studio" value="Laurea">
+                        <label for="università"> Laurea</label>
+                </fieldset>
+
+                <p>in ottemperanza al decreto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico</p><br>
+
+                <input type="reset" value="Cancella">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Iscriviti">
+            <hr>
+        </form>
+        <p>
+            <em>
+            La presente domanda è soggetta ad un'analisi dettagliata da parte del consiglio dei docenti.<br>
+            Per tale motivo questa domanda, ad insindacabile giudizio dell'istituto, potrebbe essere rifiutata.
+            </em>
+        </p>
+    </center>
+</body>
+</html>

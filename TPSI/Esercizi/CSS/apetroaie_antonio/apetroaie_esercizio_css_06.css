@@ -1,0 +1,51 @@
+h1 {
+  color: blue;
+}
+
+#d-pari2 {
+  color: green;
+}
+
+#d-pari4 {
+  color: green;
+}
+
+#d-pari6 {
+  color: green;
+}
+
+#d-dispari1 {
+  color: red;
+}
+
+#d-dispari3 {
+  color: red;
+}
+
+#d-dispari5 {
+  color: red;
+}
+
+#p-dispari1 {
+  color: grey;
+}
+
+#p-dispari3 {
+  color: grey;
+}
+
+#p-dispari5 {
+  color: grey;
+}
+
+#p-pari2 {
+  color: orange;
+}
+
+#p-pari4 {
+  color: orange;
+}
+
+#p-pari6 {
+  color: orange;
+}

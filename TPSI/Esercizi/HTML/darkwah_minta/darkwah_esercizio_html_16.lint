@@ -1,0 +1,12 @@
+FOUND ERRORS
+Resulting report:
+
+  .C:\Users\Asus\OneDrive\Desktop\TPSI%20(HTML)\ES%2029%2011%2022\darkwah_compito02.html:119:9
+  ×  119:9  Error   No “p” element in scope but a “p” end tag seen.                                                                          
+  ×  130:9  Error   No “p” element in scope but a “p” end tag seen.                                                                          
+  ×  136:5  Error   Stray start tag “style”.                                                                                                 
+  ×  136:5  Error   Element “style” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)  
+
+  4 errors
+
+ 

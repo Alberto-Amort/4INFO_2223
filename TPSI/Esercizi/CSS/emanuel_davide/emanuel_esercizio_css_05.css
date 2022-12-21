@@ -1,0 +1,5 @@
+h2 {color: green;}
+h1 {color:red;}
+p { /* seleziona tutti i tag <p> */
+    color: blue; 
+}

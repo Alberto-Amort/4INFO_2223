@@ -1,0 +1,44 @@
+h1,h2,h3{
+    color:red;
+    text-decoration: underline;
+    text-decoration-color:gray;
+}
+p{
+color:blue;
+text-align:left;
+}
+.greeen{
+    color:green;
+}
+.reed{
+    color:red;
+    text-align:right;
+}
+.hr2{
+    border-style: solid;
+    border-width: 10px;
+}
+.hr4{
+    border-style: solid;
+    border-width: 10px;
+}
+.hr6{
+    color:black;
+    border-style: solid;
+    border-width: 10px;
+}   
+.hr1{
+    color:red;
+    border-style: solid;
+    border-width: 3px;
+}
+.hr3{
+    color:red;
+    border-style: solid;
+    border-width: 3px;
+}
+.hr5{
+    color:red;  
+    border-style: solid;
+    border-width: 3px;
+}

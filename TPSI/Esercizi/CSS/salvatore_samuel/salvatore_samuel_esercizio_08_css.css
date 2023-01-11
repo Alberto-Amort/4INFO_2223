@@ -1,7 +1,7 @@
 h1, h3 {
     color: red; 
     text-decoration: underline;
-    color: grey;
+    text-decoration-color: grey;
 } 
 
 p {

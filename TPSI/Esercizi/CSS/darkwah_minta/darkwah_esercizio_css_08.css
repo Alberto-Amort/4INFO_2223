@@ -1,9 +1,0 @@
-h1, h2, h3 {color: red;}
-h1, h2, h3 {text-decoration: underline;}
-h1, h2, h3 {text-decoration-color: grey;}
-p {color: blue; text-align: left;}
-#n3 {color: green;}
-#n7 {color: red;}
-#n7 {text-align:right;}
-.dispari {color:red; height: 3px;}
-.pari {color:black; height: 10px;}

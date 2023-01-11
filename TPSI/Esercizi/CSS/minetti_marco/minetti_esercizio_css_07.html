@@ -8,13 +8,9 @@
     <meta name="keywords" content="localhost, loopback, name resolution, ietfpacket processing" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="5">
-    <link rel="stylesheet" href="style/minetti_esercizio_css_04.css" type="text/css" />
+    <link rel="stylesheet" href="style/minetti_esercizio_css_07.css" type="text/css" />
     <title>Localhost</title>
     <style>
-        a {
-            color: blue
-        }
-
         .myDiv {
             color: red;
             background-color: lightblue;
@@ -25,21 +21,21 @@
 
 <body>
 
-    <h1>Localhost</h1>
-    In <a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank">computer networking</a>, localhost is a
+    <h1 class="blue">Localhost</h1>
+    In <a class="arancioni" href="https://en.wikipedia.org/wiki/Computer_network" target="_blank">computer networking</a>, localhost is a
     hostname that refers to the current computer used to access it. It is used to access the network services that are
     running on the host via the loopback network interface. Using the loopback interface bypasses any local network
     interface hardware.
 
-    <h3>Loopback</h3>
+    <h3 class="verde">Loopback</h3>
     <span style="color:green">The local loopback</span> mechanism may be used to run a network service on a host without
     requiring a physical network interface, or without making the service accessible from the networks the computer may
     be connected to. For example, a locally installed website may be accessed from a Web browser by the URL
     http://localhost to display its home page.
     The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
 
-    <h3>Name resolution</h3>
-    <a href="https://it.wikipedia.org/wiki/IPv4" target="_blank">IPv4 network standards</a> reserve the entire address
+    <h3 class="rosso">Name resolution</h3>
+    <a class="grigio" href="https://it.wikipedia.org/wiki/IPv4" target="_blank">IPv4 network standards</a> reserve the entire address
     block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of
     those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest
     are not supported by all operating systems. However, they can be used to set up multiple server applications on the
@@ -62,7 +58,7 @@
     confusion with the hostname used for loopback purposes.[3] IETF standards prohibit domain name registrars from
     assigning the name localhost.
 
-    <h3>IETF standards</h3>
+    <h3 class="verde">IETF standards</h3>
     The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the
     Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations
     governing the use of the name in the Domain Name System:
@@ -89,7 +85,7 @@
     packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts
     that receive it.
 
-    <h3>Packet processing</h3>
+    <h3 class="rosso">Packet processing</h3>
     The <span style="color:red">processing</span> of any <a
         href="https://www.cloudflare.com/it-it/learning/network-layer/what-is-a-packet/" target="_blank">packet</a> sent
     to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any
@@ -107,8 +103,8 @@
     packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and
     any problems they might cause can be avoided by applying bogon filtering.
 
-    <h3>Special cases</h3>
-    The releases of the <a href="https://www.mysql.com/it/" target="_blank">MySQL</a> database differentiate between the
+    <h3 class="verde">Special cases</h3>
+    The releases of the <a class="arancioni" href="https://www.mysql.com/it/" target="_blank">MySQL</a> database differentiate between the
     use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the
     destination in a client connector interface of an application, the MySQL application programming interface connects
     to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct
@@ -118,6 +114,6 @@
     traceroute error detection, in which their property of not being routable provides a convenient means to avoid
     delivery of faulty packets to end users. <br>
     <br>
-    Font <a href="https://en.wikipedia.org/wiki/localhost" target="_blank">https://en.wikipedia.org/wiki/localhost</a>
+    Font <a class="grigio" href="https://en.wikipedia.org/wiki/localhost" target="_blank">https://en.wikipedia.org/wiki/localhost</a>
 
 </body>

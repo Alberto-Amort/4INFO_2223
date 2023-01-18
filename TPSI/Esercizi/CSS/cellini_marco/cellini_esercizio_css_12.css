@@ -16,6 +16,10 @@ div span {
     background-color: yellow;
 }
 
+a {
+    background-color: white;
+}
+
 a:link {
     color: blue;
 }

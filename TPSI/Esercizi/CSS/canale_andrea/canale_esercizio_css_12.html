@@ -10,7 +10,7 @@
       <meta name="keywords" content="reti, localhost, IPv4, loopback" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       
-      <link rel="stylesheet" href="cellini_esercizio_css_12.css" type="text/css">
+      <link rel="stylesheet" href="canale_esercizio_css_12.css" type="text/css">
 
       <!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
       <title>Esercizio 12</title>
@@ -19,7 +19,9 @@
    <body>
       <!-- Corpo principale della pagina HTML-->
       <h1>Reti di <span>Calcolatori</span></h1>
-      <h2>localhost</h2>
+      <a href="https://it.wikipedia.org/wiki/Localhost">
+         <h2>localhost</h2>
+      </a>
       <div>
          <div>
             <p>In <span>computer networking</span>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface.
@@ -37,7 +39,7 @@
       <div>
          <div>
             <div>
-               <p><span>IPv4 network</span> standards <a href="https://www.google.com/pippo" target="_blank">reserve</a> the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+               <p><span>IPv4 network</span> standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
                   The resolution of the name localhost to one or more <em>IP addresses</em> is normally configured by the following lines in the operating system's hosts file:
                   127.0.0.1    localhost
                   ::1          localhost
@@ -55,7 +57,7 @@
          When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
          To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
          <mark>DNS</mark> registrars are precluded from delegating domain names in the top-level domain localhost.
-         When authoritative name servers receive queries for <a href="https://www.google.com" target="_blank">'localhost'</a> in spite of the provisions mentioned resolve them appropriately.
+         When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.
          The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
       </p>
       <p>In contrast, the <b>IETF</b> "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it. </p>

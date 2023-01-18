@@ -16,32 +16,29 @@ div span {
     background-color: yellow;
 }
 
-a {
-    background-color: white;
-}
-
 a:link {
     color: blue;
 }
 
 a:visited {
     color: red;
-    background-color: yellow;
+    background: rgb(190, 190, 45);
 }
 
 a:hover {
     color: green;
 }
 
-h1:first-child {
-    text-decoration: underline blue;
-    color: blue;
+h1:first-of-type {
+    text-decoration: underline;
+    color:blue;
 }
 
 h2:first-of-type {
-    color:green;
+    color: green;
 }
 
-div:first-of-type > p:first-of-type {
-    text-align: right;
+p:first-of-type {
+    color: red;
+    text-align: left;
 }

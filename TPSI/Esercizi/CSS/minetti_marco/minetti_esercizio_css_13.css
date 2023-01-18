@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    height: 720px;
+}
+
+thead {
+    height: 200px;
+}
+
+.palet1 {
+    background-color: #A8E8F9;
+}
+
+.palet2 {
+    background-color: rgb(0, 83, 122);
+}
+
+.palet3 {
+    background-color: indigo;
+}
+
+.palet4 {
+    background-color: hsl(40, 99%, 48%) 
+}
+
+.palet5 {
+    background-color: rgba(255, 186, 66, 0.5)
+}
+
+.palet6 {
+    background-color: hsla(44, 100%, 68%, 0.75) 
+}

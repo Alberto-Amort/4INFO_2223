@@ -4,19 +4,21 @@
       <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
       <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
       
-      <meta name="author" content="Matteo Putignano">
+      <meta name="author" content="Antonio Mancuso">
       <meta name="description" content="Template HTML">
       <meta name="keywords" content="reti, localhost, IPv4, loopback">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style/putignano_esercizio_css_11.css" type="text/css" />
-      <meta http-equiv="refresh" content="1">
+      <link rel="stylesheet" href="tranaso_esercizio_css_12.css" type="text/css" />
+      <meta http-equiv= content="1">
       <!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
-      <title>Esercizio 11</title>
+      <title>Esercizio 12</title>
       <!-- titolo della pagina -->
    </head>
    <body>
       <!-- Corpo principale della pagina HTML-->
-      <h1>Reti di <span>Calcolatori</span></h1>
+      
+      <h1><span>Reti di Calcolatori</span></h1>
+      <a href="https://agnelli.it/" target="_blank">Istituto Internazionale E.Agnelli</a>
       <h2>localhost</h2>
       <div>
          <div>
@@ -33,15 +35,13 @@
       </div>
       <h2>Name <span>resolution</span></h2>
       <div>
-         <div>
-            <div>
+         
                <p><span>IPv4 network</span> standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
                   The resolution of the name localhost to one or more <em>IP addresses</em> is normally configured by the following lines in the operating system's hosts file:
                   127.0.0.1    localhost
                   ::1          localhost
                </p>
-            </div>
-         </div>
+         
       </div>
       <p>The name may also be resolved by <span>Domain Name System (DNS)</span> servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers. </p>
       <p>In addition to the mapping of <span>localhost to the loopback addresses</span> (<mark>127.0.0.1</mark> and ::1), localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally. </p>

@@ -1,0 +1,21 @@
+a{
+    background: white;
+}
+a :link{color: blue;}
+
+a:visited{color: red;background: yellow;}
+a:hover{color: green;}
+
+h1:first-child { 
+    color: blue;
+    text-decoration: underline blue;
+  }
+
+h2:first-of-type { 
+    color: green;
+  }
+p:first-of-type {
+    color: red;
+    text-align: left;
+  }
+  

@@ -1,0 +1,63 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse:collapse;
+    margin-left: 42%;
+}
+    
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#nome{
+    background-color: crimson;
+}
+
+#nome2{
+    background-color: darkcyan;
+}
+
+#nome3{
+    background-color: #484A47;
+}
+
+#nome4{
+    background-color: #5C6D70;
+}
+
+#nome5{
+    background-color: rgb(163, 119, 116);
+}
+
+#nome6{
+    background-color: rgb(232, 136, 115);
+}
+
+#nome7{
+    background-color: rgba(232, 136, 115, 0.5);
+}
+
+#nome8{
+    background-color: rgba(163, 119, 116, 0.8);
+}
+
+#nome9{
+    background-color: hsl(13, 52%, 75%);
+}
+
+#nome10{
+    background-color: hsl(47, 81%, 56%);
+}
+
+#nome11{
+    background-color: hsl(13, 52%, 75%, 0.5);
+}
+
+#nome12{
+    background-color: hsl(47, 81%, 56%, 0.8);
+}

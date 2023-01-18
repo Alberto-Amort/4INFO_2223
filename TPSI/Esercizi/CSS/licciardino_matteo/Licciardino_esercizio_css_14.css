@@ -1,0 +1,83 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.padre {
+    background-color: red;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+}
+
+#figlio1 { /*1° quadrato viola con il 1/4*/
+    background-color: purple;
+    border: 1px solid;
+    width: calc(400px * 0.25);
+    height: 150px;
+}
+
+#figlio2 { /*1° quadrato verde con il 1/8*/
+    background-color: green;
+    opacity: 0.65;
+    border: 1px solid;
+    width: calc(400px * 0.125);
+    height: 221px;
+}
+
+#figlio3{ /*2° quadrato viola con il 2/4*/
+    background-color: purple;
+    border: 1px solid;
+    width: calc(400px * 0.5);
+    height: 150px;
+    margin-left: auto;
+    margin-top: -152px;
+}
+
+#figlio4{ /*2° quadrato verde con il 3/6*/
+    background-color: green;
+    opacity: 0.65;
+    border: 1px solid;
+    width: calc(400px * 0.5);
+    height: 221px;
+    margin-left: auto;
+}
+
+#figlio5{ /*3° quadrato viola con il 3/4*/
+    background-color: purple;
+    border: 1px solid;
+    width: calc(400px * 0.75);
+    height: 150px;
+}
+
+#figlio6{ /*3° quadrato verde con il 5/8*/
+    background-color: green;
+    opacity: 0.65;
+    border: 1px solid;
+    width: calc(400px * 0.625);
+    height: 221px;
+}
+
+#figlio7{ /*4° quadrato viola con il 4/4*/
+    background-color: purple;
+    border: 1px solid;
+    width: calc(400px * 1);
+    height: 150px;
+    margin-left: auto;
+    margin-top: -152px;
+}
+
+#figlio8{ /*4° quadrato verde con il 2/9*/
+    background-color: green;
+    opacity: 0.65;
+    border: 1px solid;
+    width: calc(400px * 0.22);
+    height: 221px;
+    margin-left: auto;
+}
+
+ol{
+    list-style: none;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+
+h1, h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color:grey;
+}
+
+p{
+    color: blue;
+    text-align: left;
+}
+
+h2{
+    color: green;
+}
+
+.settimo{
+    text-align: right;
+    color: red;
+}
+
+
+
+.pari{
+    border: 10px solid black;
+}
+
+.dispari{
+    border: 10px solid red;
+}

@@ -22,23 +22,23 @@ a:link {
 
 a:visited {
     color: red;
-    background-color: yellow;
+    background: rgb(190, 190, 45);
 }
 
 a:hover {
     color: green;
 }
 
-h1:first-child {
+h1:first-of-type {
     text-decoration: underline;
     color:blue;
 }
 
-h2:first-child {
+h2:first-of-type {
     color: green;
 }
 
-p:first-child {
+p:first-of-type {
     color: red;
-    text-align: right;
+    text-align: left;
 }

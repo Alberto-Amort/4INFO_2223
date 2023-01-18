@@ -38,6 +38,6 @@ h2:first-of-type {
     color:green;
 }
 
-p:first-child {
+div:first-of-type > p:first-of-type {
     text-align: right;
 }

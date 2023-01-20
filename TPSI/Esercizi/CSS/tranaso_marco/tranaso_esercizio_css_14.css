@@ -1,0 +1,50 @@
+#child1{
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+#child2 {
+    background-color: purple;
+    width: 25%;
+    height: 150px;
+}
+#child3{
+    width: 50%;
+    background-color: purple;
+    height: 150px;
+}
+#child4 {
+    width: 75%;
+    background-color: purple;
+    height: 150px;
+}
+
+#child5 {
+    width: 100%;
+    background-color: purple;
+    height: 150px;
+}
+#child6 {
+    opacity: 65%;
+    width: 12.5%;
+    background-color: green;
+    height: 221px;
+}
+#child7 {
+    opacity: 65%;
+    width: 50%;
+    background-color: green;
+    height: 221px;
+}
+#child8 {
+    opacity: 65%;
+    width: 62.5%;
+    background-color: green;
+    height: 221px;
+}
+#child9 {
+    opacity: 65%;
+    width: 22.5%;
+    background-color: green;
+    height: 221px;
+}

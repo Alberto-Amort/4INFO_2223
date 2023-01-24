@@ -1,0 +1,23 @@
+td{
+    width: 100px;
+  height: 100px;
+  background-color: rgb(255, 251, 251);}
+
+  .td1{background-color: purple;}
+  .td2{background-color: green;}
+  .td3{background-color: #F007B2;}
+  .td4{background-color: #0459D9;}
+  .td5{background-color: rgb(252, 11, 11);}
+  .td6{background-color: rgb(249, 249, 20);}
+
+  .td7{background-color:rgba(240,204,140, 0.10); }
+  .td8{background-color:rgba(240,204,140, 0.10); }
+
+  .td9{ background-color: hsl(170, 91%, 61%); }
+  .td10{ background-color: hsl(113, 100%, 55%); }
+
+  .td11{background-color: hsla(100,45%,32%,0.3);}
+  .td12{background-color: rgba(82, 246, 0, 0.3);}
+  
+
+    

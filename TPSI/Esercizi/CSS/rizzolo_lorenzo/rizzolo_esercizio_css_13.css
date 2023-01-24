@@ -1,0 +1,19 @@
+.c01{
+    background-color: red;
+    color:white ;
+}
+.c02{
+    background-color: #F4A261;
+}
+.c03{
+    background-color: rgb(127, 127, 236);
+}
+.c04{
+    background-color: rgba(127, 127, 236, 0.5);
+}
+.c05{
+    background-color: hsl(3, 35%, 60%);
+}
+.c06{
+    background-color: hsl(3, 35%, 60%, 50%);
+}

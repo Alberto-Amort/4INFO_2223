@@ -1,0 +1,29 @@
+h1:first-of-type {
+    color: blue;
+    text-decoration: underline;
+}
+
+h2:first-of-type {
+    color: green;
+}
+
+div:first-of-type > p:first-of-type {
+    color: orange;
+    text-align: left;
+}
+
+a{
+    background-color: black;
+}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+    background: yellow;
+}
+
+a:hover {
+    color: green;
+}

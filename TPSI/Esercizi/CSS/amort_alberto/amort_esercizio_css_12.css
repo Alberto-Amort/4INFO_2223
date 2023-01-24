@@ -3,4 +3,4 @@ a:visited{color:red; background-color: yellow;}
 a:hover{color:green;}
 h1:first-child{color:blue; ; text-decoration: underline;}
 h2:first-of-type{color:green}
-p:first-of-type{color: red; text-align: right;}
+p:first-of-type{color: red; text-align: left;}

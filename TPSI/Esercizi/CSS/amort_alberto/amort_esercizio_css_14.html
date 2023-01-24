@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alberto Amort">
+    <meta name="description" content="XSS">
+    <meta name="keywords" content="esercitazione, html, lezioni, scuola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="100"><!-- Durante la fase di sviluppo permette il refresh  automatico della pagina  -->
+
+
+
+    <link rel="stylesheet" href="amort_esercizio_css_14.css" type="text/css" >
+    <title>External CSS</title>
+    <style>
+      body {background-color: white;} 
+
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Test pagina in CSS";
+      }
+    </script>
+</head>
+<body>
+    <div id="red"></div>
+    <br>
+    <div class="purple" id="v1"></div>
+    <br>
+    <div class="purple" id="v2"></div>
+    <br>
+    <div class="purple" id="v3"></div>
+    <br>
+    <div class="purple" id="v4"></div>
+    <br>
+
+    <div class="green" id="g1"></div>
+    <br>
+    <div class="green" id="g2"></div>
+    <br>
+    <div class="green" id="g3"></div>
+    <br>
+    <div class="green" id="g4"></div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+table{border: 1px solid;}
+td{width: 100px; height: 100px; }
+
+.q1{ background-color: black; }/*Quadrato nero con il nome del colore*/
+.q2{background-color: white;}/*Quadrato bianco con il nome del colore*/
+.q3{background-color: #170E02;}/*Quadrato nero in HEX*/
+.q4{background-color: #fff;}/*Quadrato bianco in HEX*/
+.q5{background-color: rgb(23, 14, 2);}/*Quadrato nero in RGB*/
+.q6{background-color: rgb(255, 255, 255);}/*Quadrato bianco in RGB*/
+.q7{background-color: rgb(23, 14, 2, 0.8);}/*Quadrato nero in RGBA*/
+.q8{background-color: rgb(255, 255, 255, 0.8);}/*Quadrato bianco in RGBA*/
+.q9{background-color: hsl(34, 84%, 5%);}/*Quadrato nero in HSL*/
+.q10{background-color: hsl(255, 100%, 100%);}/*Quadrato bianco in HSL*/
+.q11{background-color: hsl(34, 84%, 5%, 0.8);}/*Quadrato nero in HSLA*/
+.q12{background-color: hsl(255, 100%, 100%, 0.8);}/*Quadrato bianco in HSLA*/

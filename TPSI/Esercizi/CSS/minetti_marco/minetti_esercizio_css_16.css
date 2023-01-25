@@ -1,10 +1,11 @@
 table {
     text-align: center;
-    width: 100%;
     border: 1px solid black;
 }
 
-.bor {
+div {
+    text-align: center;
+    width: 242px;
     border: 5px solid red;
 }
 

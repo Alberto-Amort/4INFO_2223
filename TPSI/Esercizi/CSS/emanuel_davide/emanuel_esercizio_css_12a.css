@@ -5,17 +5,17 @@ td {
 }
 
 tr:nth-child(odd) td:nth-child(even) {
-    background-color: #823807;
+    background-color:#0000ff ;
 }
 
 tr:nth-child(even) td:nth-child(odd) {
-    background-color: #823807;
+    background-color:#0000ff ;
 }
 
 tr:nth-child(odd) td:nth-child(odd) {
-    background-color: #ffd04f;
+    background-color:#800080 ;
 }
 
 tr:nth-child(even) td:nth-child(even) {
-    background-color: #ffd04f;
+    background-color:#800080;
 }

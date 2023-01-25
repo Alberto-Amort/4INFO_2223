@@ -1,8 +1,11 @@
+div{height:100%; width:100px;}
 
 
+.i1{background-image:url("immagini/localhost.png"); height:50px; width:50px;}
 
-.i1{background-image:url("/4INFO_2223/TPSI/Esercizi/CSS/amort_alberto/immagini/ietf-logo.gif"); height:50px; width:50px}
+.i2{background-image:url("https://www.google.it/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"); height:50%; width:50%;}
 
-.i2{background-image:url("https://www.google.it/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"); height:50%; width:50%}
+.i3{background-image:url("immagini/localhost.png"); height:50%; width:50%; background-repeat: repeat;}
 
-.i2{background-image:url("/4INFO_2223/TPSI/Esercizi/CSS/amort_alberto/immagini/ietf-logo.gif"); height:50%; width:50%}
+.i4{background-image:url("immagini/localhost.png"); height:50%; width:50%; background-repeat: repeat-x;}
+.i5{background-image:url("immagini/ilocalhost.png"); height:50%; width:50%; background-repeat: repeat-y;}

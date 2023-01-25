@@ -1,0 +1,61 @@
+.parent {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+
+.pagina {
+    width: 1500px;
+}
+
+#n1 {
+    width: 25%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#n2 {
+    width: 50%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#n3 {
+    width: 75%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#n4 {
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#o1 {
+    width: 12.5%;
+    height: 221px;
+    background-color: green;
+    opacity: 0.65;
+}
+
+#o2 {
+    width: 50%;
+    height: 221px;
+    background-color: green;
+    opacity: 0.65;
+}
+
+#o3 {
+    width: 62.5%;
+    height: 221px;
+    background-color: green;
+    opacity: 0.65;
+}
+
+#o4 {
+    width: 22.2%;
+    height: 221px;
+    background-color: green;
+    opacity: 0.65;
+}

@@ -1,13 +1,13 @@
-h1 > span{
-    color: blue;
+p > mark{color:green;}
+p > b{
+    color:yellow;
+    background-color: black;
 }
-
-h2 > span {
-    color: red;
-}
-p > span{
-    color: purple;
+div > div > p > em{
+    color:red;
+    background-color: yellow;
 }
 div > p > span{
-    color: green;
+    background-color: yellow;
+    color:black;
 }

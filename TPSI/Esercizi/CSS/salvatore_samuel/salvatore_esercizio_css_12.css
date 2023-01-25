@@ -12,16 +12,15 @@ div:first-of-type > p:first-of-type {
     text-align: left;
 }
 
-a{
-    background-color: black;
-}
+
 a:link {
     color: blue;
+    background: yellow;
 }
 
 a:visited {
     color: red;
-    background: yellow;
+    
 }
 
 a:hover {

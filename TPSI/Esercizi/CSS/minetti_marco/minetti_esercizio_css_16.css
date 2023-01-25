@@ -1,0 +1,16 @@
+table {
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.bor {
+    border: 5px solid red;
+}
+
+.boss {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 8px;
+}
+

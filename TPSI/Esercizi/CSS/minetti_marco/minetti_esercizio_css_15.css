@@ -1,0 +1,50 @@
+.s {
+    width: 1510px;
+    height: 500px;
+}
+
+.bg1 {
+    background-image: url("https://bdf70374ae.cbaul-cdnwnd.com/feef9f718707985678f0943f9cdd1c72/200000343-0453205d69-public/200px-Romeo_Logo.svg%5B1%5D.png?s3=1");
+    width: 100%;
+    height: 100%;   
+    border: 1px solid black;    
+}
+
+.bg2 {
+    background-image: url("img1.jpg");
+    width: 1510px;
+    height: 500px;
+    border: 1px solid black;  
+}
+
+.bg3 {
+    background-image: url("img2.jpg");
+    background-repeat: repeat;
+    width: 1510px;
+    height: 500px;
+    border: 1px solid black;  
+}
+
+.bg4 {
+    background-image: url("img3.jfif");
+    background-repeat: no-repeat;
+    width: 1510px;
+    height: 500px;
+    border: 1px solid black;  
+}
+
+.bg5 {
+    background-image: url("img4.jfif");
+    background-repeat: repeat-x;
+    width: 1510px;
+    height: 500px;
+    border: 1px solid black;  
+}
+
+.bg6 {
+    background-image: url("img5.jfif");
+    background-repeat: repeat-y;
+    width: 1510px;
+    height: 500px;
+    border: 1px solid black;  
+}

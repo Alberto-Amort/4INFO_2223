@@ -1,0 +1,103 @@
+#bg1
+{
+    background-image: url("immagini/sfondo1.jpg");
+    color: white;
+    width: 30vw;
+    height: 10vh;
+}
+
+#bg2
+{
+    background-image: url("immagini/sfondo2.jpg");
+    color: white;
+    width: 30vw;
+    height: 20vh;
+}
+
+#bg3
+{
+    background-image: url("https://img.freepik.com/free-vector/abstract-neon-lights-background-design_52683-44643.jpg");
+    color: white;
+    width: 450px;
+    height: 300px;
+}
+
+#bg4
+{
+    background-image: url("https://play-lh.googleusercontent.com/GG9uvVO1fVZZsgHLSqK2zHv9dlbaVu_TiaosrI-QKN4R701mRAiBwjeQEcUiN2pxFrk=w526-h296-rw");
+    color: white;
+    width: 450px;
+    height: 300px;
+}
+
+#bg5
+{
+    background-repeat: repeat;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 600px;
+    height: 625px;
+    border: 1px solid black;
+}
+
+#bg6
+{
+    background-repeat: repeat;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#bg7
+{
+    background-repeat: no-repeat;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 600px;
+    height: 625px;
+    border: 1px solid black;
+}
+
+#bg8
+{
+    background-repeat: no-repeat;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#bg9
+{
+    background-repeat: repeat-x;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 600px;
+    height: 625px;
+    border: 1px solid black;
+}
+
+#bg10
+{
+    background-repeat: repeat-x;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#bg11
+{
+    background-repeat: repeat-y;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 600px;
+    height: 625px;
+    border: 1px solid black;
+}
+
+#bg12
+{
+    background-repeat: repeat-y;
+    background-image: url("immagini/sfondo3.jpg");
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}

@@ -1,0 +1,17 @@
+table{
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) > td:nth-child(even){
+    background-color: violet;
+}
+tr:nth-child(odd) > td:nth-child(odd){
+    background-color: yellow;
+}
+tr:nth-child(even) > td:nth-child(odd){
+    background-color: yellow;
+}
+tr:nth-child(even) > td:nth-child(even){
+    background-color: violet;
+}

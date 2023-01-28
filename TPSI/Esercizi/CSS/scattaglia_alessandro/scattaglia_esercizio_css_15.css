@@ -1,0 +1,41 @@
+.bg0 {
+    background-image: url("css1.jpeg");
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-repeat: repeat;
+}
+
+.bg1 {
+    background-image: url("https://www.wandery.it/img/sample-image.jpg");
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+
+    background-repeat: repeat;
+}
+
+.bg2 {
+    background-image: url("https://images.unsplash.com/photo-1673500381298-c707f89d95c0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDY0MTEyMA&ixlib=rb-4.0.3&q=80&w=500");
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background-image: url("https://images.unsplash.com/photo-1672875829108-ddf8c3baee45?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDY0MTE5OA&ixlib=rb-4.0.3&q=80&w=500");
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-repeat: repeat-x;
+}
+
+.bg4 {
+    background-image: url("https://images.unsplash.com/photo-1674398336527-d5623515878a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDY0MTM0OA&ixlib=rb-4.0.3&q=80&w=500");
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-repeat: repeat-y;
+}

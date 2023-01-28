@@ -1,0 +1,11 @@
+td{
+    text-align: center;
+    border: 1px black solid;
+}
+
+div{
+    width: 224px;
+    text-align: center;
+    border: 5px red solid;
+    padding: 8px;
+}

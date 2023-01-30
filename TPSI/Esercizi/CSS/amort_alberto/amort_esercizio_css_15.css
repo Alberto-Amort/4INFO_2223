@@ -1,0 +1,16 @@
+
+.i1{background-image:url("immagini/localhost.png"); height:600px; width:1000px;}
+
+.i2{background-image:url("https://cdn.ttgtmedia.com/rms/computerweekly/berners-lee-with-next.jpg"); height:50vh; width:100vh;}
+
+.i3, .i4, .i5 {
+    background-image: url("immagini/ietf-logo.gif");
+    width: 1000px;
+    height: 500px;
+    border: 1px solid;
+  }
+
+.i3{ background-repeat: repeat;}
+
+.i4{ background-repeat: repeat-x;}
+.i5{background-repeat: repeat-y;}

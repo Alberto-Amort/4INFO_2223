@@ -1,0 +1,32 @@
+
+table{
+
+    float: inline-start;
+    border: medium solid;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+
+td > img{
+    width: 250px;
+    height: 350px;
+    border: 5px solid;
+
+}
+
+td > div > h2{
+    padding: 8px;
+}
+
+.testo{
+    text-align: center;
+    width: 250px;
+    border: 5px solid red;
+}

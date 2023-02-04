@@ -1,0 +1,38 @@
+#fo1 
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlffvWVEzj2upUhDqQ6aA6m4bwTIJrxBgul6iqRsdYxPaEcJP4");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+}
+
+#fo2 
+{
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTKdTEQ0nxXuuqfFXjkb5-MQAZ1Zm7keZbwm23-AJbqhxnLzpo-");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+}
+
+#fo3 
+{
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7GtDPIJnQZ24Qv1ZkxrkBXcb1NiaeYdoE4NX_WuZH1YZga2Re");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+}
+
+#fo4
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMi1xT0ywnht0KHtIWDSqS9niHjbEwwaffVkn-qxSxFkpePBEj");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+}
+
+p {text-align: center;}
+.tit {border-bottom: 5px solid red; padding: 8px;}

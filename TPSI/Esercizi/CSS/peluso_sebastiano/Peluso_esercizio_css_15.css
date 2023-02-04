@@ -1,0 +1,53 @@
+
+.sfondo1{
+    background-image: url("zebra.jpg");
+    width: 250px;
+    height: 190px;
+    border: 1px solid black;
+    background-size: contain;
+}
+
+.sfondo2{
+    background-image: url("https://www.superprof.it/blog/wp-content/uploads/2021/05/lezione-informatica.jpg");
+    width: 50vh;
+    height: 20vh;
+    border: 1px solid black;
+    background-size: contain;
+}
+
+.sfondo3{
+    background-image: url("https://minimegaprint.com/blog/wp-content/uploads/2017/11/migliori-loghi-di-sempre-1170x647.png");
+    width: 450px;
+    height: 190px;
+    border: 1px solid black;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.sfondo4{
+    background-image: url("https://www.sagrafica.it/wp-content/uploads/2020/09/mcdonalds.jpg");
+    width: 450px;
+    height: 190px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sfondo5{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/800px-Ikea_logo.svg.png");
+    width: 850px;
+    height: 390px;
+    border: 1px solid black;
+    background-repeat: repeat-x;
+    
+}
+
+.sfondo6{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/dd/Linux_logo.jpg");
+    width: 650px;
+    height: 590px;
+    border: 1px solid black;
+    background-repeat: repeat-y;
+    
+    
+}

@@ -1,0 +1,27 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+.l1 {
+    background-image: url(https://www.flaskaitalia.it/large/glass/plastic-bottles/plastenke.jpg);
+    background-repeat: no-repeat;
+}
+
+.l2 {
+    background-image: url(https://static.fanpage.it/wp-content/uploads/sites/34/2022/11/CiccioGamer89.jpg)
+}
+
+.l3 {
+    background-image: url(https://dimages2.corriereobjects.it/files/main_image_mobile/files/fp/uploads/2022/11/19/6378b5f6af154.r_d.640-360-6833.png);
+    background-repeat: repeat;
+}
+
+.l4 {
+    background-image: url(https://www.sempionenews.it/wp-content/uploads/2018/03/cicciogamer89-e1523431662617.jpg);
+    background-repeat: repeat-x;
+}
+
+.l5 {
+    background-image: url(https://cdn.tuttosport.com/img/990/495/2022/11/19/130732752-99903f1c-0ec5-413a-a02c-4a95df2cc680.jpg);
+    background-repeat: repeat-y;
+}

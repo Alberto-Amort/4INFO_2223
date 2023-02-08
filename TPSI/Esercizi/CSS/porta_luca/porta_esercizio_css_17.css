@@ -7,17 +7,17 @@ div {
  
  #div1 {
    width: 70%;
-   padding: 25px;
-   border: 8px solid navy;
+   padding: 200px;
+   border: 100px solid navy;
    margin-bottom: 2rem;
  }
  
  #div2 {
    width: 70%;
-   padding-left: 12px;
-   padding-right: 12px;
-   border-left: 12px solid navy;
-   border-right: 12px solid navy;
+   padding-left: 75px;
+   padding-right: 75px;
+   border-left: 75px solid navy;
+   border-right: 75px solid navy;
    margin-bottom: 2rem;
  }
  

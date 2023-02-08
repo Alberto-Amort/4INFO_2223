@@ -1,0 +1,17 @@
+table {
+    text-align: center;
+    border: 1px solid black;
+}
+
+div {
+    text-align: center;
+    width: 242px;
+    border: 5px solid red;
+}
+
+.boss {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 8px;
+}
+

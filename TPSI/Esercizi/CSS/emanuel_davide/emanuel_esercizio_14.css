@@ -1,0 +1,53 @@
+.first_quad {
+    background-color: red;
+    height: 200px;
+    width: 400px;
+}
+
+.second_quad {
+    background-color: violet;
+    height: 150px;
+    width: 25%;
+}
+
+.third_quad {
+    background-color: violet;
+    height: 150px;
+    width: 50%;
+}
+
+.fourth_quad {
+    background-color: violet;
+    height: 150px;
+    width: 75%;
+}
+
+.last_quad {
+    background-color: violet;
+    height: 150px;
+    width: 100%;
+}
+
+.first_quad2 {
+    background-color: green;
+    height: 221px;
+    width: 12.5%;
+}
+
+.second_quad2 {
+    background-color: green;
+    height: 221px;
+    width: 50%;
+}
+
+.third_quad2 {
+    background-color: green;
+    height: 221px;
+    width: 62.5%;
+}
+
+.fourth_quad2 {
+    background-color: green;
+    height: 221px;
+    width: 22.2%;
+}

@@ -1,0 +1,11 @@
+#qros {background-color: red; width: 400px; height: 200px;}
+.vio1 {background-color: purple; height: 150px; border: 1px solid;}
+#vio2 {background-color: purple; height: 150px; width: 75%; border: 1px solid;}
+#vio3 {background-color: purple; height: 150px; width: 50%; border: 1px solid;}
+#vio4 {background-color: purple; height: 150px; width: 25%; border: 1px solid;}
+
+
+.ver1 {background-color: rgba(27, 135, 58, 0.65); height: 221px; width: 12.5%; border: 1px solid;}
+#ver2 {background-color: rgba(27, 135, 58, 0.65); height: 221px; width: 50%; border: 1px solid;}
+#ver3 {background-color: rgba(27, 135, 58, 0.65); height: 221px; width: 62.5%; border: 1px solid;}
+#ver4 {background-color: rgba(27, 135, 58, 0.65); height: 221px; width: 22.2%; border: 1px solid;}

@@ -1,0 +1,35 @@
+
+
+table{
+    
+    border-color: black;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+
+#id1{
+    background-color: greenyellow;
+}
+
+#id2{
+    background-color: #003566;
+}
+
+#id3{
+    background-color: rgb(187, 96, 11);
+}
+
+#id4{
+    background-color: rgba(19, 130, 125, 0.6);
+}
+
+#id5{
+    background-color: hsl(9, 87%, 51%);
+}
+
+#id6{
+    background-color: hsla(134, 75%, 48%, 0.5);
+}
+
+

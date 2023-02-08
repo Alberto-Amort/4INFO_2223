@@ -1,0 +1,57 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.relativo{
+    background-image: url("info.jpg");
+    width: 250px;
+    height: 190px;
+    border: 1px solid black;
+    background-size: contain;
+}
+
+.assoluto{
+    background-image: url("https://www.salernonotizie.it/wp-content/uploads/2020/09/fulmini-salerno-meteo-maltempo.jpg");
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-size: cover;
+}
+
+.ripetere{
+    background-image: url("https://play-lh.googleusercontent.com/j5kcLTuXtqg_IpYVIxNZG3bBi6uIPF8peUWvyDKDzHgEjTCMj1AtqfmUY1wwPrVHJm0=w240-h480-rw");
+    background-repeat: repeat;
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-size: auto;
+}
+
+.non-ripetere{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw0n7EaMg4nPhEUMiUhF0B3E_9ucIChjqzyw&usqp=CAU");
+    background-repeat: no-repeat;
+    width: 25vh;
+    height: 25vh;
+    border: 1px solid black;
+    background-size: cover;
+}
+
+.ripetere-x{
+    background-image: url("https://play-lh.googleusercontent.com/j5kcLTuXtqg_IpYVIxNZG3bBi6uIPF8peUWvyDKDzHgEjTCMj1AtqfmUY1wwPrVHJm0=w240-h480-rw");
+    background-repeat: repeat-x;
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-size: auto;
+}
+
+.ripetere-y{
+    background-image: url("https://play-lh.googleusercontent.com/j5kcLTuXtqg_IpYVIxNZG3bBi6uIPF8peUWvyDKDzHgEjTCMj1AtqfmUY1wwPrVHJm0=w240-h480-rw");
+    background-repeat: repeat-y;
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-size: auto;
+}

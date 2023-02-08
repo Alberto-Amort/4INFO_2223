@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+div{
+    margin: 5px;
+    height: 500px;
+}
+
+.div1{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}
+
+.div2{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}
+
+.div3{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}
+
+.div4{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}
+
+.div5{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}
+
+.div6{
+    background-image: url('https://thumbs.dreamstime.com/b/sulle-ali-di-libert%C3%A0-uccelli-che-volano-e-catene-rotte-concetto-della-tassa-146675254.jpg');
+    background-size: cover;
+}

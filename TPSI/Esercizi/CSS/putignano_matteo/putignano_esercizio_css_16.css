@@ -1,3 +1,7 @@
+table{
+    margin: auto;
+}
+
 td{
     text-align: center;
     border: 1px black solid;

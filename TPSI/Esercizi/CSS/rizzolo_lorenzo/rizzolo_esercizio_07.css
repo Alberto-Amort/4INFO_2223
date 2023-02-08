@@ -1,0 +1,19 @@
+h2{
+    color: pink;
+}
+p{
+    color: blue;
+}
+
+#id1, #id3, #id5{
+    color: red;
+}
+
+#id2, #id4, #id6{
+    color: green;
+}
+
+#pid1, #pid3, #pid5 {
+    color: gray;
+}
+

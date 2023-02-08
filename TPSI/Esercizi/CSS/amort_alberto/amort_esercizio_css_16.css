@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    margin-left: 18%;
+}
+
+td{
+    text-align: center; 
+}/*--Allineamento centrale del testo e dell'immagine*/
+
+img{
+    width: 250px;
+    height: 200px;
+}/*Dimensione delle immagini*/
+
+.foto-gallery{
+    width: 250px;
+    padding: 8px;
+    border: 5px solid;
+    border-color: red;
+    margin: 0;
+}/*Dimensione, padding e border della didascalia a bordo inferiore*/

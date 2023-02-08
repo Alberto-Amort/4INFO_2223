@@ -1,0 +1,13 @@
+h1 {
+    border-bottom: solid 5px blue;
+    border-left: solid 7px black;
+}
+
+h2 {
+    border-top: dashed 2px rgb(19, 250, 19);
+}
+p{
+    border-bottom:dashed 3px gray ;
+    border-left: green;
+    border-right: green;
+}

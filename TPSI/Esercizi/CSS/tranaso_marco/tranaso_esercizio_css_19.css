@@ -1,0 +1,15 @@
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: capitalize;
+}
+p{
+    text-align: justify;
+}
+.citazione{
+    text-shadow: 2px 2px;
+}
+.terzo_par{
+    text-align: right;
+}

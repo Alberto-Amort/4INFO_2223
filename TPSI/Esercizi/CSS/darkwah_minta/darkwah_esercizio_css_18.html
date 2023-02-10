@@ -68,12 +68,13 @@
 
         <a href = "https://support.microsoft.com/en-us/topic/microsoft-tcp-ip-host-name-resolution-order-dae00cc9-7e9c-c0cc-8360-477b99cb978a" target = "_blank"> NAME RESOLUTION</a>
         <h2> IETF STANDARDS </h2>
-
-        <b>IETF</b> standards <em>prohibit</em> domain name registrars from assigning the name localhost.
+        <p>
+        IETF standards prohibit domain name registrars from assigning the name localhost.
 
         IETF standards
-        The name localhost is reserved for loopback purposes by <span> RFC 6761 </span> (Special-Use Domain Names),[4] which achieved the <u>Proposed Standard maturity level</u> in February 2013. The standard sets forth a number of <sup>special</sup> considerations governing the use of the name in the Domain Name System.
+        The name localhost is reserved for loopback purposes by  RFC 6761  (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System.
 
+        </p>
         <div>
         </div>
         <blockquote cite = "https://www.techtarget.com/whatis/definition/IETF-Internet-Engineering-Task-Force#:~:text=What%20is%20the%20Internet%20Engineering,Internet%20Architecture%20Board%20(IAB)."><abbr title = "Internet Engineering Task Force">IETF</abbr> is the body that defines standard operating internet protocols such as TCP/IP</blockquote>
@@ -85,7 +86,7 @@
 
         <p>
 
-        <div>An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard. </div>
+        An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard. 
         <q>IPv4 is an IP version widely used to identify devices on a network using an addressing system</q>.<q>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfill the need for more Internet addresses</q>.
         <strong>Applications</strong> <s>may</s> resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
         When a name resolver receives an address (A or AAAA) query for localhost, it should return the <del>appropriate</del> loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
@@ -106,7 +107,7 @@
 
         <p>
         Packet processing
-        The processing of <del>any</del> packet sent to a loopback address, is implemented in the link layer of the <span> TCP/IP stack </span>. <q>In digital communications networks, packet processing refers to the wide variety of algorithms that are applied to a packet of data or information as it moves through the various network elements of a communications network</q>. Such packets are never passed to any network interface controller <mark>(NIC)</mark> or hardware device driver and must not appear outside of a computing system, or be routed by any router. <small>This</small> permits software testing and local services in the absence of any hardware network interfaces.
+        The processing of anypacket sent to a loopback address, is implemented in the link layer of the  TCP/IP stack . <q>In digital communications networks, packet processing refers to the wide variety of algorithms that are applied to a packet of data or information as it moves through the various network elements of a communications network</q>. Such packets are never passed to any network interface controller <mark>(NIC)</mark> or hardware device driver and must not appear outside of a computing system, or be routed by any router. <small>This</small> permits software testing and local services in the absence of any hardware network interfaces.
 
         <b>Looped-back </b>packets are distinguished from any <ins>other</ins> packets traversing the TCP/IP stack only by the <u>special IP</u> address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <mark>HTTP</mark> service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different <i>Web servers</i>, or to a single server that returns different web pages. To simplify <del>such</del> testing, the hosts file may be configured to provide appropriate names for each address.
 
@@ -124,7 +125,7 @@
         Link su:
         <a href = "https://en.wikipedia.org/wiki/Packet_processing" target = "_blank">PACKET PROCESSING</a>
     
-    </p>
+    
 
   </body>
 

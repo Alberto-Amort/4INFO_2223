@@ -1,0 +1,206 @@
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.informazioni{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 900px;
+    background-color: white;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1.1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.div2{
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.div2 h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 520;
+    line-height: 1.4em;
+}
+.div2 h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.div2 .imgProfile{
+    
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.div2 .imgProfile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informazioni .sinistra{
+    position: relative;
+    background-color: darkblue;
+    padding: 40px;
+
+}
+
+.informazioni .destra{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+
+.contatti ul{
+    position: relative;
+}
+
+.licenze ul{
+    position: relative;
+}
+
+
+
+
+.contatti ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.licenze ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+
+.contatti ul li span{
+    color: white;
+    font-weight: 300;
+
+}
+
+.licenze ul li span{
+    color: white;
+    font-weight: 300;
+
+}
+
+.contatti ul li .icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.licenze ul li .icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contatti{
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+    
+
+}
+
+.title{
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.lingue li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.lingue h5{
+    color: #03a9f4;
+    font-size: 1.1em;
+    font-weight: 700;
+    
+}
+
+.licenze li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.licenze h5{
+    color: #03a9f4;
+    font-size: 1.1em;
+    font-weight: 700;
+    
+}
+
+.aboutme{
+    margin-bottom: 50px;
+}
+
+.aboutme:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutme ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: auto;
+}
+
+.aboutme ul li .icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+
+

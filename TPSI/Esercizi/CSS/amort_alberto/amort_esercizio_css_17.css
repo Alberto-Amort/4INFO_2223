@@ -1,0 +1,42 @@
+
+td{
+    text-align: center; 
+}/*--Allineamento centrale del testo e dell'immagine*/
+
+
+
+#div1{
+    border: solid red;
+    width: 28.5px;
+    padding-left: 28.5px;
+    padding-right:28.5px; 
+    border-left: 28.5px; 
+    border-right: 28.5px;
+    margin-right:28.5px;  
+    margin-left: 28.5px; 
+    margin: 0;
+}/*width totale della prima didascalia*/
+
+#div2{
+    border: solid red;
+    width: 42.85px;
+    padding-left: 42.85px;
+    padding-right:42.85px; 
+    border-left: 42.85px; 
+    border-right: 42.85px;
+    margin-right: 42.85px;  
+    margin-left: 42.85px; 
+    margin: 0;
+}/*width totale della seconda didascalia*/
+
+#div3{
+    border: solid red;
+    width: 58.285px;
+    padding-left: 58.285px;
+    padding-right:58.285px; 
+    border-left: 58.285px; 
+    border-right: 58.285px;
+    margin-right: 58.285px;  
+    margin-left: 58.285px; 
+    margin: 0;
+}/*width totale della terza didascalia*/

@@ -1,0 +1,20 @@
+
+h1{ font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase; text-align: center;}
+h2{text-decoration: underline;}
+h3{text-decoration: underline;}
+table{ font-family: Arial, Helvetica, sans-serif;
+border: 2px solid; 
+width: 80%;
+border-collapse: collapse;}
+td:nth-child(3n){
+    background-color: hsla(249, 73%, 40%, 0.2);
+}
+#spazio{width:30px; border: 2px solid; }
+#info{background-color:rgb(0, 149, 255); color: #fff;}
+.data{text-align: center;}
+img{
+    width: 500px;
+    height: 500px;
+    
+}

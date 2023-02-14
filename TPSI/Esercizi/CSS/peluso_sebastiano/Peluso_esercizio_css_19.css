@@ -1,0 +1,28 @@
+
+h1{
+
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: red;
+}
+
+p{
+    text-align: justify;
+}
+
+.terzo_paragrafo{
+    text-align: right;
+}
+
+.importante{
+    text-shadow: 2px 2px 5px greenyellow;
+}
+
+.importante1{
+    text-shadow: 6px 2px rgb(0, 81, 255);
+}

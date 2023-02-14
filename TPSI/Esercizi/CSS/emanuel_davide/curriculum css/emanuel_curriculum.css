@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-family:sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    font-family: Arial,sans-serif;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+.box {
+    background-color:gainsboro;
+    
+}
+
+#datipersonali{
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+#infolavoro{
+    
+    width: 500px;
+    height: 500px;
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.contanier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+}
+
+img{
+    margin-left: 400px;
+    height: 100px;
+   
+}
+
+
+

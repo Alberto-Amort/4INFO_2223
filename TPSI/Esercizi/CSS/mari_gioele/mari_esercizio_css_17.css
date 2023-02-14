@@ -1,0 +1,6 @@
+h1{color: blue;text-transform: uppercase;}
+h2{color: red;text-transform: capitalize;text-decoration: underline;text-decoration-color: red;}
+#terzo{text-align: right;}
+b{text-shadow: 5px 5px 5px;}
+em{text-shadow: red 2px 2px;}
+mark{background-color: white;text-shadow: lime 3px 2px;}

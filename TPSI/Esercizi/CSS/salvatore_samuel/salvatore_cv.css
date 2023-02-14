@@ -1,0 +1,57 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    background-image: radial-gradient(white, rgb(176, 174, 174));
+}
+
+#left {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border: 5px solid burlywood;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 37.5%;
+}
+
+#right {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 37.5%;
+}
+
+.profilo {
+    width: 70%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.icon {
+    width: 15%;
+    border-radius: 30%;
+}
+
+.x {
+    float: left;
+    width: 25%;
+}
+
+.descrizione {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contatti {
+    text-align: center;
+}
+
+.contatti > p {
+    margin: 0px;
+    margin-bottom: 2%;
+}
+
+h2 {
+    text-align: center;
+}

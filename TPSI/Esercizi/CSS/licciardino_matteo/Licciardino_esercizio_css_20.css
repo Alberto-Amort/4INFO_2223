@@ -1,0 +1,27 @@
+#font-1{
+    font-family: 'Open Sans', sans-serif;
+}
+#font-2{
+    font-family: 'Roboto', sans-serif;
+}
+#font-3{
+    font-family: 'Zeyada', cursive;
+}
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.cerchio{
+    list-style: circle;
+}
+.romano{
+    list-style: upper-roman;
+}
+.icona{
+    content: "done_outline";
+    font-family: 'Material Icons';
+    vertical-align: -10%;
+    padding-right: 10px;
+}

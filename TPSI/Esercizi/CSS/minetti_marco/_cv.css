@@ -1,5 +1,5 @@
 body {
-    background-color: #99582A;
+    background-color: #f1faee;
 }
 
 hr {
@@ -22,8 +22,9 @@ h2 {
 
 .imgnone { 
     border-radius: 90px;
-    width: 300px;
+    width: 250px;
     float: left;
+    margin-top: 50px;
     margin-left: 100px;
 }
 
@@ -46,11 +47,29 @@ h2 {
     padding: 30px;   
 }
 
-table {
-    border-style: double;
-    border-width: 2px;
-    border-color: #432818;
-    border-radius: 8px;
+table.n {
+    border-style: outset outset none outset;
+    border-width: 10px;
+    border-color: #99582A;
+    border-radius: 0px;
+    text-align: justify;
+    width: 70%;
+    background-color: #FFE6A7;
+    padding-right: 50px;
+    
+}
+
+hr.r {
+    width: 100%;
+    color: white;
+
+}
+
+table.m {
+    border-style: none outset outset outset;
+    border-width: 10px;
+    border-color: #99582A;
+    border-radius: 0px;
     text-align: justify;
     width: 70%;
     background-color: #FFE6A7;

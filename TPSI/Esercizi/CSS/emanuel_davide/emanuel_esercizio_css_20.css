@@ -1,0 +1,15 @@
+h1{
+    font-family: dosis;
+}
+h2{
+    font-family:anton ;
+}
+h3{
+    font-family:dancing script;
+}
+ul.cercho {
+    list-style-type: circle;
+  }
+ol.roman {
+    list-style-type: upper-roman;
+  }

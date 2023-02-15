@@ -1,0 +1,67 @@
+.blue{
+    color: blue;
+}
+
+.rosso{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+.grigio{
+    color: gray;
+}
+
+.arancioni{
+    color: orange;
+}
+
+h3.a {
+    font-family: 'Zeyada', cursive;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+h3.b {
+    font-family: 'Sassy Frass', cursive;
+    font-size: 35px;
+    color: darkgoldenrod;
+}
+
+h3.c {
+    font-family: 'Julee', cursive;
+    font-size: 20px;
+    color: indigo;
+}
+
+.material-symbols-outlined {
+    vertical-align: -30%;
+    color:turquoise;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+ul.cerchio {
+    list-style-type: circle;
+}
+  
+ol.roman {
+    list-style-type: upper-roman;
+}
+
+ul.no {
+    list-style-type: none;
+}
+    
+li.spunta:before {
+    content: 'done_all';
+    font-family: 'Material Icons';
+    color: blueviolet ;
+    vertical-align: -10%;
+    padding-right: 10px;
+}

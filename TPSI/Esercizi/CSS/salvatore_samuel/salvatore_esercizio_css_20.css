@@ -1,0 +1,41 @@
+.verde {
+    font-family: 'Julee', cursive;
+    font-size: 1.5em;
+    color: green;
+} 
+
+.rosso {
+    font-family: 'Tourney', cursive;
+    color: red;
+    font-size: 1.5em;
+}
+
+.grigio {
+    font-family: 'Creepster', cursive;
+    color: gray;
+    font-size: 1.5em;
+}
+
+#comp {
+    font-size: 1.5em;
+    vertical-align: -30%;
+}
+
+ul {
+    font-size: 1.5em;
+    padding-left: 5%;
+    line-height: 1.5em;
+}
+
+.cerchio {
+    list-style-type: circle;
+}
+
+.particolare {
+    list-style-type: none;
+}
+
+ul .material-symbols-outlined {
+    font-size: 1.5em;
+    color: blueviolet;
+}

@@ -1,0 +1,19 @@
+p {
+    font-family: 'Julee', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    color: brown;
+    text-align: center;
+    vertical-align: -40%;
+}
+
+#a {
+    font-size: 2em;
+}
+
+#b {
+    font-size: 2em;
+}

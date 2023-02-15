@@ -29,8 +29,11 @@ div{
     width: 30%;
 }
 #col_lar{
-    background-color: grey;
+    background-color: lightgray;
     height: 500px;
     position: relative;
     width: 70%;
+}
+span{
+    vertical-align: -5px;
 }

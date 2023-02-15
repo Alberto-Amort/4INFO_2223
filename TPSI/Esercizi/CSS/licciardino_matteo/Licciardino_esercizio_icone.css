@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Zeyada', cursive;
+}
+p {
+    text-align: center;
+}
+#email {
+    color: red;
+    font-size: 6em;
+}
+#send{
+    color: darkblue;
+    font-size: 6em;
+}

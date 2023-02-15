@@ -1,0 +1,43 @@
+#t1{
+    font-family: Oswald, sans-serif;
+}
+
+#t2{
+    font-family: Raleway, sans-serif;
+}
+
+#t3{
+    font-family: Ubuntu, sans-serif;
+}
+
+span{
+    vertical-align: -7px;
+}
+
+ul.l1_cer {
+    list-style-type: circle;
+}
+
+ol.l2_rom {
+    list-style-type: upper-roman;
+}
+
+ul.l3_icone {
+    list-style-type: none;
+}
+
+li.pos:before {
+    content: 'check';
+    font-family: 'Material Icons';
+    color: green;
+    vertical-align: -10%;
+    padding-right: 10px;
+}
+
+li.neg:before {
+    content: 'close';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }

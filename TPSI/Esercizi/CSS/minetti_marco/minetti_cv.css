@@ -20,6 +20,14 @@ h2 {
     color: #6F1D1B;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 200,
+  'opsz' 48
+}
+
 .imgnone { 
     border-radius: 90px;
     width: 250px;
@@ -28,6 +36,9 @@ h2 {
     margin-left: 100px;
 }
 
+span {
+    float: left;
+}
 .nome {
     font-weight: bolder;
     color: #6F1D1B;

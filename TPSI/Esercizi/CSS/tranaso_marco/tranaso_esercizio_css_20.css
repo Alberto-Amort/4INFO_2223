@@ -1,0 +1,34 @@
+#hr1{
+    font-family: 'Hanalei', cursive;
+}
+#hr2{
+    font-family: 'Hanalei', cursive; 
+}
+#hr3{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Tiro Telugu', serif;
+}
+.blue{
+    color: red;
+}
+.rosso{
+    color: blue;
+}
+ul.cerchio {
+    list-style-type: circle;
+  }
+  ol.roman {
+    list-style-type: upper-roman;
+  }
+  
+  .ul1 {
+    list-style-type: none;
+  }
+    
+  .li1:before {
+    content: 'monetization_on';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }

@@ -1,0 +1,22 @@
+.menu li {
+    
+    display: inline;
+    padding: 10px;
+    background-color: black;
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+
+.menu li:hover {
+    
+    background-color: rgb(10, 226, 10);
+    color: black;
+}
+
+.l1 {
+    
+    color: white;
+}

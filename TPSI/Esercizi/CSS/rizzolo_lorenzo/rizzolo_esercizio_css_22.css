@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+span{
+    display: inline;
+    padding: 10px;
+}
+span:hover {
+    cursor: pointer;
+    background-color: rgb(54, 54, 54);
+}

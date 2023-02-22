@@ -21,3 +21,5 @@ table{width: 100%;}
     color: black;
     padding: 5px;
 }
+ul{text-align: center;}
+li{list-style-type: none;}

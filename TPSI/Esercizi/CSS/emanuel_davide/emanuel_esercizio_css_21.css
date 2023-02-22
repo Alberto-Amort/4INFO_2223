@@ -1,7 +1,8 @@
 .lista{
-    display: inline;
+    
+   float: left;
     padding: 5px;
-    border: 1px solid;
+    
     width: 100px;
     height: 30px;
     background-color: black;

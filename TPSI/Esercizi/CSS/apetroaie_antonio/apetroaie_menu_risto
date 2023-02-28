@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Menù Ristorante</title>
+    <link rel="stylesheet" href="apetroaie_menu_risto.css" type="text/css" />
+</head>
+<body bgcolor="khaki"> 
+    <div style="display: flex; justify-content: center;">
+        <h1 style="text-align:center">MEN&Uacute;s RISTORANTE</h1>
+    </div>
+
+    <div>
+        <div class="category">ANTIPASTI</div>
+        <div class="menu-item">
+            <div class="menu-item-description">Bruschetta bianca</div>
+            <div class="price">&euro;&nbsp;1,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Bruschetta al pomodoro</div>
+            <div class="price">&euro;&nbsp;1,50</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Bruschetta al tartufo</div>
+            <div class="price">&euro;&nbsp;2,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Prosciutto</div>
+            <div class="price">&euro;&nbsp;5,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Italiana</div>
+            <div class="price">&euro;&nbsp;7,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Prosciutto e Mozzarella di bufala</div>
+            <div class="price">&euro;&nbsp;7,50</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">&ldquo;Le Cannucceta&rdquo;</div>
+            <div class="price">&euro;&nbsp;8,50</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Vegetariano</div>
+            <div class="price">&euro;&nbsp;7,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Tagliere di Formaggi</div>
+            <div class="price">&euro;&nbsp;7,50</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Max Tagliere di Formaggi e salumi <sub>(per due persone)</sub></div>
+            <div class="price">&euro;&nbsp;18,00</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-description">Prosciutto e melone</div>
+            <div class="price">&euro;&nbsp;7,50</div>
+        </div>
+    </div>
+
+</body>
+</html>

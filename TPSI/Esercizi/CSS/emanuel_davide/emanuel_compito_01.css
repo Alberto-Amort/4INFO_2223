@@ -1,0 +1,25 @@
+.firsttd{
+    color: #CC00CC;
+    width:70%;  
+    font-weight: bold;
+}
+.tdprezzi{
+    width:30%;  
+    text-align: right; 
+    padding-right: 10px;
+}
+.secondtd{
+    width:70%; 
+    color: #990000; 
+    font-weight: bold;
+}
+.thirdtd{
+    width:70%; 
+    color: #2E8B57; 
+    font-weight: bold;
+}
+.lasttd{
+    width:70%; 
+    color: #191970; 
+    font-weight: bold;
+}

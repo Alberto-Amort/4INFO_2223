@@ -1,0 +1,26 @@
+nav {
+    background-image: linear-gradient(to bottom right, yellow, purple);
+    height: 50px;
+    width: 79.35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    float: left;
+    font-size: 1.5em;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    vertical-align: -30%;
+}
+
+div:hover{
+    background-color: black;
+    transition: all 0.4s ease 0s;
+}

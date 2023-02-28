@@ -1,0 +1,20 @@
+div {
+    text-align: center;
+    float: left;
+    width: 100px;
+    height:30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+div:hover {
+    background-color: gray;
+}
+
+.centerhv {
+    width: 80px;
+    height: 40px;
+    line-height: 10px;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.barra li {
+    float: left;
+    color: white;
+    background-color: black;
+    display: inline;
+    padding: 7px;
+}
+
+li:hover {
+    background-color: gray;
+    color: yellow;
+}

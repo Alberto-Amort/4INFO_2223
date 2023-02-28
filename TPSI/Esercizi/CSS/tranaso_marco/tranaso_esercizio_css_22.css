@@ -1,0 +1,15 @@
+.menu span {
+    display: inline;
+    background-color: black;
+    padding: 13px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.menu span:hover{
+    background-color: gray;
+  }
+  #span1{
+    color: white;
+  }

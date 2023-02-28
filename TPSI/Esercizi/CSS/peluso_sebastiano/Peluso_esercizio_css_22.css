@@ -1,0 +1,27 @@
+
+
+.galeggia{
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color: greenyellow;
+    list-style-type: none;
+    line-height: 50px;
+
+}
+
+.galeggia:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.about{
+    background-color: grey;
+}
+
+.about:hover{
+    background-color: red;
+    cursor: pointer;
+}

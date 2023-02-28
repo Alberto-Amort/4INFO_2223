@@ -1,0 +1,28 @@
+h1 {
+    color: #57150e;
+    text-align: center;
+}
+
+h2 {
+    color: #621c1f;
+}
+h3 {
+    color: #6f3a24;
+}
+
+body {
+    background-color: #e6d190;
+    margin-left: 12%;
+    margin-right: 12%;
+   
+}
+div{
+    color: #621c1f; 
+}   
+.destra{
+    float: right;
+    margin-top: -60px;
+}
+body{
+    font-family: Geneva,Tahoma,Verdana,sans-serif; 
+}

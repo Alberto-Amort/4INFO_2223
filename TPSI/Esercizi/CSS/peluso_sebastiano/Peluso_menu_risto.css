@@ -1,0 +1,68 @@
+
+h1{
+    color: rgb(150, 19, 19);
+}
+
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.menu{
+    background-color: rgb(243, 214, 129);
+    margin-left: auto;
+    margin-right: auto;
+    width: 777px;
+    height: 1800px;
+    border-radius: 12px;
+}
+
+#titoli{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+#testopiccolo{
+    font-style: normal;
+    font-weight: lighter;
+    
+}
+
+#testopiccolo2{
+    font-style: oblique;
+    font-weight: 300;
+    font-size: small;
+}
+
+.antipasto{
+    float: left;
+    color: rgb(150, 19, 19);
+    width: 500px;
+    margin-left: 40px;
+    font-weight: bold;
+    text-align: left;
+    font-size: large;
+    line-height: 0.8;
+}
+
+.prezzo{
+    color: rgb(150, 19, 19);
+    width: 80px;
+    margin-right: 40px;
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    font-size: large;
+    line-height: 0.8;
+}
+
+.euro{
+    color: rgb(150, 19, 19);
+    width: 80px;
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    font-size: large;
+    line-height: 0.8;
+}

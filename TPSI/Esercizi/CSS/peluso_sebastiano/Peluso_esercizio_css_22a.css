@@ -1,0 +1,44 @@
+
+.contenitore{
+    width: 704px;
+    height: 700px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.riquadro{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 4px solid black;
+    
+    
+
+}
+
+
+
+div:nth-child(odd) > div:nth-child(even)
+{
+    background-color: #1a759f;
+}
+
+div:nth-child(odd) > div:nth-child(odd)
+{
+    background-color: #52b69a;
+}
+
+div:nth-child(even) > div:nth-child(odd)
+{
+    background-color: #1a759f;
+}
+
+div:nth-child(even) > div:nth-child(even)
+{
+    background-color: #52b69a;
+}
+
+

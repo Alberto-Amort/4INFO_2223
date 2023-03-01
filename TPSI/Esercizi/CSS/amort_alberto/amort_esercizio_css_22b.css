@@ -1,0 +1,11 @@
+.purple{
+    background-color: purple;
+    color: white;
+}
+
+span{
+    display: inline;
+    margin: 0px;
+    padding: 5px;
+
+}

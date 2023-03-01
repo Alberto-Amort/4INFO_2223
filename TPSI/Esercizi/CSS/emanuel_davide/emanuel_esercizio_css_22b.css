@@ -1,0 +1,9 @@
+div{
+    text-align: left;width: 190px;height: 210px;float: left;border-radius: 5px;
+}
+.lati{
+    color: white;background-color: darkorchid;border-left: 10px solid darkorchid;
+}
+.centro{
+    border-left: 10px solid white;border-right: 10px solid white;
+}

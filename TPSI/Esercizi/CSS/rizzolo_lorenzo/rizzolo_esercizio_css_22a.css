@@ -1,0 +1,19 @@
+.scacchiera{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 800px;
+}
+.colonna{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 5px;
+}
+.riga:nth-child(odd) .colonna:nth-child(even), .riga:nth-child(even) .colonna:nth-child(odd){
+    background-color: bisque;
+}
+
+.riga:nth-child(odd) .colonna:nth-child(odd), .riga:nth-child(even) .colonna:nth-child(even){
+    background-color: brown;
+}

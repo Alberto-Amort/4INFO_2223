@@ -1,0 +1,36 @@
+body {
+    justify-content: center;
+    align-items: center;
+    float: none;
+    display: flex;
+}
+
+.uno {
+
+    margin-top: 10px;
+    text-align: left;
+    background-color: #7a0097;
+    color: white;
+    float: left;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+
+}
+
+text {
+    margin-left: 10px;
+}
+
+.centro {
+    margin-left: 10px;
+    font-size: x-large;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    border-radius: 10px;
+    float: left;
+
+
+
+}

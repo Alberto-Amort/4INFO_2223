@@ -1,0 +1,21 @@
+.box{
+    background-color: rgb(126, 17, 126);
+    color: white;
+    height:180px;
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    padding-left: 10px;
+    font-size: 150%;
+}
+
+.two{
+    float: right;
+    background-color: aquamarine;
+    /* margin: 20px; */
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: black;
+}

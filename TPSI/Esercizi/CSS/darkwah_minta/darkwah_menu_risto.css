@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: #6c1d1d;
+}
+
+body {
+    background-color: rgb(226, 207, 141);
+}
+
+/*metto i testi a destra e i testi a sinistra*/
+
+.destra {
+    display: inline;
+    float: right;
+    text-align: justify;
+    width: 100px;
+    line-height: 20px;
+    
+    
+
+}
+.destra2
+{
+    display: inline;
+    float: right;
+    margin-right: 55px;
+    
+    
+}
+
+div {
+    line-height: 22px;
+    color: #6c1d1d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+small
+{
+    font-style: italic;
+    font-size: 8px;
+}
+
+h3 {
+   
+    display: inline;
+    text-decoration: underline;
+
+}
+
+h4
+{
+    display: inline;
+    font-family: none;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 10%;
+}

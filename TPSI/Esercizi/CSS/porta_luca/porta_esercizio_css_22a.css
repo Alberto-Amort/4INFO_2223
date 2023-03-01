@@ -1,0 +1,5 @@
+body{text-align: center;}
+div{width: 120px;height: 120px;}
+.linea_1{float:left;background-color: black;}
+.linea_2{float:left;background-color: lightgray;}
+.col{float: none;}

@@ -1,0 +1,15 @@
+.blue{color:blue;}
+.uno{color:red;font-family: 'Modak', cursive;}
+.due{color: yellow;font-family: 'Hanalei', cursive;}
+.tre{color: lime;font-family: 'Margarine', cursive;}
+.material-icons{vertical-align: -20%;color: orangered;}
+ul.cerchio{list-style-type: circle;}
+ol.romano{list-style-type: upper-roman;}
+li.emoji::before{
+    list-style-type: none;
+    content: 'sentiment_very_dissatisfied';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+}

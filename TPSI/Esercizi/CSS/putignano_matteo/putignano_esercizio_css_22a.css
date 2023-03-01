@@ -1,0 +1,15 @@
+.scacchiera{
+    margin: auto;
+    width: 830px;
+}
+.colonna{
+    height: 100px;
+    width: 100px; 
+    float: left;
+}
+.riga:nth-child(even) .colonna:nth-child(odd),.riga:nth-child(odd) .colonna:nth-child(even){
+    background-color: brown;
+}
+.riga:nth-child(odd) .colonna:nth-child(odd),.riga:nth-child(even) .colonna:nth-child(even){
+    background-color: khaki;
+}

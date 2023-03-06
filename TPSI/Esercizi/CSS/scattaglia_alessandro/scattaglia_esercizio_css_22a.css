@@ -1,0 +1,58 @@
+body{
+    background-color: orange;
+   
+    
+}.bianco{
+    
+    text-align: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  
+  
+}
+.nero{
+    
+    text-align: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  
+}
+.riga{    
+    float:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(odd)> div:nth-child(even)
+{
+    background-color:#9e5426;
+ 
+
+}
+div:nth-child(even)> div:nth-child(odd)
+{
+    background-color:#9e5426;
+
+}
+
+div:nth-child(odd)> div:nth-child(odd)
+{
+    background-color:#e9b664;
+
+}
+div:nth-child(even)> div:nth-child(even)
+{
+    background-color:#e9b664;
+
+}
+div>small{
+    text-align: center;
+    line-height: 6;
+    
+}
+
+
+

@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.riga {
+    margin-left: 28em;
+    border: 1px solid black;
+    display: inline-flex;
+}
+    
+.nero, .bianco {
+    height: 80px;
+    width: 80px;
+    line-height: 5em;
+    text-align: center;
+}
+
+div:nth-child(odd)>div:nth-child(even){
+    background-color: black;
+    color: white;
+}
+
+div:nth-child(even)> div:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+div:nth-child(odd)> div:nth-child(odd){
+    background-color: white;
+}
+
+div:nth-child(even)> div:nth-child(even){
+    background-color: white;
+}

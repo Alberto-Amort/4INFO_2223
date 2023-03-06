@@ -1,0 +1,23 @@
+.box{
+    margin: auto;
+    width: 600px;
+}
+
+.ext, .int{
+    font-size: 170%;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    float: left ;
+    padding: 10px;
+}
+
+.ext{
+    color: white;
+    background-color: rgb(92, 0, 92);
+    border-radius: 10px;
+}
+
+.int{
+    color: black;
+}

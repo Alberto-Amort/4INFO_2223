@@ -1,0 +1,29 @@
+#nero{
+    width: 70px;
+   height: 70px;
+   border: 3px solid black;
+}
+#bianco{
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+}
+#riga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div:nth-child(odd)>div:nth-child(even) {
+    background-image:url("white_wood.jpg");
+}
+
+div:nth-child(even)>div:nth-child(odd) {
+    background-image:url("white_wood.jpg");
+}
+
+div:nth-child(odd)>div:nth-child(odd) {
+    background-image:url("dark_woodd.jpg");
+}
+div:nth-child(even)>div:nth-child(even) {
+    background-image:url("dark_woodd.jpg");
+}

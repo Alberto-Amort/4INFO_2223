@@ -1,0 +1,14 @@
+.tutto{
+    margin: auto;
+    width: 400px;
+    font-size: 1.1rem;
+}
+.viola, .testo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.viola{
+    background-color: blueviolet;
+}

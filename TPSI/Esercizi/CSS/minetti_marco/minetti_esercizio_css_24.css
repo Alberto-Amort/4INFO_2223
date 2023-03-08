@@ -1,0 +1,13 @@
+.img{
+    margin: auto;
+    height: 525px;
+    width: 694px;
+    background-image: url("immagini/sfondo4.jpg");
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.testo{
+    color: yellow;
+    position: static;
+    font-size: 1.5rem;
+}

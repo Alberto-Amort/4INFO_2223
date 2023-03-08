@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div{
+    background-color: purple;
+    text-align: start;
+    padding: 1em;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 6em;
+    height: 6em;
+    float: left;
+    margin-left: 37em;
+}
+
+#square{
+    margin-top: 6em;
+    margin-left: 37em;
+}

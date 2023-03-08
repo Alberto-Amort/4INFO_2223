@@ -1,0 +1,16 @@
+
+
+  
+  #testo {
+    
+    width: 200px;
+    position: relative;
+    color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+  .immagine{
+    position: absolute;
+    top: 0px;
+    
+  }

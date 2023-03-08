@@ -1,0 +1,33 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#layout2{
+    text-align: center;
+    margin-left: 35em;
+    display: inline-flex;
+    background-color: purple;
+    width: 25em;
+    height: 10em;
+}
+
+p{
+    text-align: left;
+    font-size: larger;
+    color: white;
+    padding-left: 0.5em;
+}
+
+.square{
+    background-color: cadetblue;
+    text-align: start;
+    padding: 1em;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 6em;
+    height: 6em;
+    float: left;
+}

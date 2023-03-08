@@ -1,0 +1,21 @@
+.aglio {
+    background-color: blueviolet;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+}
+
+p {
+    float: left;
+}
+
+.cipolla {
+    float: right;
+    background-color: aqua;
+    border-radius: 12px;
+    width: 30%;
+    height: 80%;
+    border-width: 10%;
+    margin: 15px;
+
+}

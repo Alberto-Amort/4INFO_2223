@@ -1,0 +1,48 @@
+div
+{
+    display: inline;
+    float: left;
+}
+
+#tutto
+{
+    width: 620px;
+    height: 280px;
+    background-color: purple;
+}
+
+
+#float
+{
+    width: 33%;
+    height: 190px;
+    background-color: rgb(193, 226, 237);
+    float: right;
+    margin-top: 32px;
+    margin-right: 35px;
+    border-radius: 10px;
+
+
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p
+{
+    width: 340px;
+    height: 60px;
+    display: inline;
+    float: left;
+    
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

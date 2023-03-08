@@ -1,0 +1,25 @@
+#conteiner {
+    width: 30%;
+    margin: auto;
+}
+
+#left, #right {
+    background-color: purple;
+    width: 28.3%;
+    height: 115px;
+    float: left;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1.2em;
+
+}
+
+#center {
+    font-size: 1.2em;
+    float: left;
+    width: 28.3%;
+    padding-left: 5%;    
+    padding-top: 3%;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: khaki;
+    color: brown;
+    margin: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+    font-weight: bold;
+}
+
+.prezzo {
+    float: right;
+    text-align: right;
+}

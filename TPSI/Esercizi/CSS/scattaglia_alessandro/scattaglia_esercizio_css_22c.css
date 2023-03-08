@@ -1,0 +1,39 @@
+body {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    display: flex;
+}
+
+.rettangolo {
+    background-color: #7a0097;
+    height: 200px;
+    width: 500px;
+
+
+}
+
+.scritta {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+
+}
+
+.quadrato {
+    color: white;
+    margin-top: -40px;
+    margin-right: 35px;
+    justify-content: center;
+    display: flex;
+    height: 140px;
+    width: 140px;
+    float: right;
+    background-color:aquamarine;
+    border-radius: 6px;
+}
+div>p{
+    margin-right: 50px;
+}

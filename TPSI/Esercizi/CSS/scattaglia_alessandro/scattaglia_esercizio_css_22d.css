@@ -1,0 +1,36 @@
+body {
+    margin-top: 200px;
+    margin-left: -500px;
+    justify-content: center;
+    display: flex;
+}
+
+.float {
+    color: white;
+    margin-top: 20px;
+    margin-right: 35px;
+    justify-content: center;
+    display: flex;
+    height: 140px;
+    width: 140px;
+    background-color: #7a0097;
+    border-radius: 6px;
+
+}
+
+p {
+    margin-top: 20px;
+    margin-left: -70px;
+    position: absolute;
+
+}
+.scritta{
+    margin-top:-140px;
+    margin-left: 150px;
+    float:left;
+}
+.sotto{
+    float:none;
+    padding: 5px;
+    margin-bottom: 30px;
+}

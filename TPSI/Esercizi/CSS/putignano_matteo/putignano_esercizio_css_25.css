@@ -1,0 +1,14 @@
+.img{
+    margin: auto;
+    height: 495px;
+    width: 694px;
+    background-image: url("immagini/sfondo4.jpg");
+    padding-top: 50px;
+}
+.testo{
+    background-color: rgba(136, 145, 139, 0.4);
+    text-align: center;
+    color: white;
+    position: static;
+    font-size: 1.5rem;
+}

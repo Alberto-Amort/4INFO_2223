@@ -1,0 +1,26 @@
+.box{
+    color: black;
+    height:180px;
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    padding-left: 10px;
+    font-size: 150%;
+}
+
+.two{
+    float: left;
+    background-color: rgb(126, 17, 126);
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: white;
+    margin-right: 10px;
+}
+
+.frase-sotto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}

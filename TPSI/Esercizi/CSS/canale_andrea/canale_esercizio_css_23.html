@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --image_size: 150px;
+        }
+
+        .divvone {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: var(--image_size) var(--image_size) var(--image_size) var(--image_size) var(--image_size);
+            gap: calc(5px + 1em);
+            border: 20px solid lightblue;
+            width: calc(var(--image_size) * 6.05);
+        }
+
+        img {
+            width: var(--image_size);
+            margin: 0.5em;
+        }
+
+        .image {
+            border: 1px solid grey;
+            margin: 2em;
+            width: calc(var(--image_size) + 0.8em);
+        }
+
+        .testo {
+            border-top: 1px solid grey;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divvone">
+        <div class="container">
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1717px-Tux.svg.png" />
+                <div class="testo">
+                    <p>Tux 1</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1717px-Tux.svg.png" />
+                <div class="testo">
+                    <p>Tux 2</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1717px-Tux.svg.png" />
+                <div class="testo">
+                    <p>Tux 3</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1717px-Tux.svg.png" />
+                <div class="testo">
+                    <p>Tux 4</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1717px-Tux.svg.png" />
+                <div class="testo">
+                    <p>Tux 5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

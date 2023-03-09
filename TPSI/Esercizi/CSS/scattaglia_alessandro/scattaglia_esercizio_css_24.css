@@ -1,0 +1,13 @@
+.img1{
+    width: 1000px;
+    height: 600px;
+
+
+}
+.text{
+    position:relative;
+    margin-top: -500px;
+    margin-left: 120px;
+    color:yellow;
+    font-size: xx-large;
+}

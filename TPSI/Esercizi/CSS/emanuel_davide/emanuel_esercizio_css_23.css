@@ -1,0 +1,33 @@
+.divmain{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: var(--image_size) var(--image_size) var(--image_size) var(--image_size) var(--image_size);
+    gap: calc(5px + 1em);
+    border: 20px solid lightblue;
+    width: calc(var(--image_size) * 6.05);
+}
+
+img {
+    width: var(--image_size);
+    margin: 0.5em;
+}
+
+.image {
+    border: 1px solid grey;
+    margin: 2em;
+    width: calc(var(--image_size) + 0.8em);
+}
+
+.testo {
+    border-top: 1px solid grey;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+:root {
+    --image_size: 150px;
+}

@@ -1,0 +1,33 @@
+.div1{
+    border: 1px solid black;
+    width: 100px;
+    height: 170px;
+    float: left;
+    margin: 5px;        
+}
+img{
+    width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+.div2{
+    width: 100px;
+    height: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+margin-top: -40px;
+   
+}
+h4{
+    text-align: center;
+}
+.tot{
+    border: 20px solid #7b7cd3;
+    width: 560px;
+    height: 180px;
+    margin: auto;
+    margin-top: 250px;
+}

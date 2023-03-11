@@ -1,0 +1,36 @@
+
+.div1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 550px;
+    height: 210px;
+}
+
+.riquadro{
+    margin-top: 15px;
+    float: left;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(141, 8, 171);
+    border-radius: 8%;
+    color: white;
+}
+
+.testo{
+    width: 370px;
+    height: 180px;
+    background-color: transparent;
+    color: black;
+}
+
+.textbasso{
+    text-align: left;
+    line-height: 60px;
+}
+
+p{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

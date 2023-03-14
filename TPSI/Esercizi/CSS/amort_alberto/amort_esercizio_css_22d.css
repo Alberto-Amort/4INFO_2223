@@ -1,0 +1,29 @@
+
+#box{
+    width: 50%;
+    height: 100px;  
+    
+}
+
+#purple{
+    background-color: purple;
+    color:white;
+    float:left;
+    width: 90px;
+    height: 100px;
+    padding-left: 3%;
+    border-radius: 10px;
+    margin-right: 0.7em;
+    margin-left: 0.6em;
+
+}
+
+#white{
+    margin-left: 120px;
+    
+}
+
+#frase
+{
+    float: none;
+}

@@ -1,0 +1,28 @@
+#contenitore{
+    width: 62%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 20px solid rgb(87, 133, 138);
+
+}
+img{
+    width: 150px;
+    display: block;
+    padding: 10px;    
+}
+.text{
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid;
+    
+}
+.colonne
+{
+    border: 1px solid;
+    margin-left: 5px;
+    display: inline-block;
+
+}

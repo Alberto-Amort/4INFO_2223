@@ -1,0 +1,21 @@
+
+.immagine{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.testo{
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+
+}
+
+p{
+    font-size: 40px;
+    color: white;
+    
+}

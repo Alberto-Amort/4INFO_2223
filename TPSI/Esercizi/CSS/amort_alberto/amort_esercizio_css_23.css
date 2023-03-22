@@ -1,0 +1,25 @@
+p{
+    text-align: center;
+    font-weight: bold;
+    height: 0px;
+    line-height: 10px;
+    margin-top: 2px;
+}
+
+table {
+    border-collapse:collapse;
+    margin-left: 25%;
+    border: 20px solid rgb(87, 133, 138);
+}
+
+img{
+    width: 150px;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+div{
+    width: 150px;
+    margin: 0;
+    border: 1px solid;
+}

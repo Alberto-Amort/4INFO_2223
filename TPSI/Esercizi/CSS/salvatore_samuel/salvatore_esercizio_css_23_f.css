@@ -1,0 +1,33 @@
+#gallery{
+    border: 20px solid cadetblue;
+    margin: auto;
+    width: 835px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#linux{
+    display: flex;
+    justify-content: space-around;
+    border: 20px solid cadetblue;
+    margin: auto;
+    width: 835px;
+}
+
+img{
+    margin-top: 2%;
+    width: 150px;
+    border: 1px solid black;
+    height: 150px;
+    object-fit: contain;
+}
+
+p{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}

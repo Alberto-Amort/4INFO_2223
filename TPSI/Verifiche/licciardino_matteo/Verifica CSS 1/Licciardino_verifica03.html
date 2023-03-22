@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matteo Licciardino">
+    <meta name="description" content="Template HTML">
+    <meta name="keywords" content="altezza">
+
+    <title>Verifica 03</title>
+
+    <link rel="stylesheet" href="Licciardino_verifica03.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div id="blog">
+        <div id="titoloBlog">
+            <img src="avatar.jpg" alt="Immagine">
+            <h1>Il Blog di Mario Rossi</h1>
+        </div>
+        <div id="titoloArt">
+            <div id="title">
+                <h2>I COMANDI MOUNT E UMOUNT</h2>
+                <p class="text">
+                    Nei sistemi che fanno riferimento al mondo linux (o, più correttamente, nei sistemi unix-like) le periferiche di<br>
+                    archiviazione dati vengono rilevate dal sistema operativo non appena collegate al computer, ma i loro<br>
+                    filesystem non vengono "integrati" automaticamente all'interno del "filesystem globale".
+                </p>
+                <p class="text">
+                    Questa operazione di "innesto" avviene mediante il comando mount il quale collega il filesystem della<br>
+                    periferica al filesystem  globale del sistema inserendolo all'interno dell'albero delle directory (in ogni sistema<br>
+                    linux, un drive è rappresentato come se fosse una comune cartella). L'operazione inversa che rilascia un<br>
+                    filesystem montato, si dice smontaggio e si esegue tramite il comando umount.
+                </p>
+                <p class="text">
+                    A titolo di confronto, per quanto riguarda il mondo Windows, l'operazione di mount è celata dal sistema<br>
+                    operativo. Questa operazione, infatti, viene eseguita all'avvio ed, automaticamente, ogni volta in cui viene<br>
+                    collegata una nuova periferica (si pensi ad esempio al caso delle penne USB).
+                </p>
+                <p class="text">
+                    Sui sistemi Linux l'operazione di mount è svolta all'avvio in modo automatico nel caso della directory radice<br>
+                    (/) e, solitamente, anche all'inserimento di una periferica rimovibile. In alcune circostanze, tuttavia, è<br>
+                    certamente utile saper eseguire l'operazione mediante comandi manuali.
+                </p>
+                <p class="text">
+                    Il loop device è un dispositivo virtuale a blocchi che rende visibile al sistema un file come se fosse un<br>
+                    dispositivo di memorizzazione. Alcuni file a struttura regolare come le immagini virtuali (es: ISO) sono<br>
+                    particolarmente adatte ad essere rappresentate con un intero filesystem.
+                </p>
+                <p class="text">
+                    Attraverso il loop mount è possibile eseguire questa operazione. Il loop mount si esegue lanciando il<br>
+                    comando mount col paramentro -o loop, seguito dal nome del file e dalla destinazione che sarà usata come<br>
+                    radice.
+                </p>
+                <p class="text">
+                    In taluni casi è necessario forzare il montaggio di un device poichè questo si trova per un qualche motivo in<br>
+                    stato di lock. Il montaggio forzato si richiama con la sintassi.
+                </p>
+            </div>
+            <div class="articoli">MOUNT & UNMOUNT</div>
+            <div class="articoli">ARTICOLO 2</div>
+            <div class="articoli">ARTICOLO 3</div>
+            <div class="articoli">ARTICOLO 4</div>
+            <div class="articoli">ARTICOLO 5</div>
+            <div class="articoli">ARTICOLO 6</div>
+        </div>
+        <div id="info">
+            <p>&copy; Mario Rossi - 2021-2022</p>
+            <p>
+                <span id="email"><span class="material-symbols-outlined">mail</span> mario.rossi@domain.it</span>
+                <span class="material-symbols-outlined">call</span> 3339832785
+                <span id="riciclo"><span class="material-symbols-outlined">recycling</span> Don't print articles to save paper and link</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.topnav {
+
+    background-color: black;
+    float: left;
+    display: flex;
+}
+
+.topnav span {
+
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+
+}
+
+
+.topnav span:hover {
+    background-color: rgb(10, 226, 10);
+    color: black;
+
+
+}
+
+.div span {
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}

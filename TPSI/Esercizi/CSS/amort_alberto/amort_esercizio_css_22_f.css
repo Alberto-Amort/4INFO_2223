@@ -1,0 +1,24 @@
+.barra
+{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-around;
+
+
+}
+
+.item {
+    background-color: black;
+    padding: 10px;
+    text-align:center;
+
+    color: #fff;
+  }
+
+.item:hover
+{
+    background-color: #455353;
+}

@@ -3,6 +3,7 @@ img{
     height: 250px;
 }
 #div1{
+    display: flex;
     margin-top:-250px;
     margin-left: 15px;
     position: relative;

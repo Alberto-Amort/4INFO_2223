@@ -1,9 +1,24 @@
+
+#contenitore{
+    margin-left: 36em;
+    display: inline-flex;
+}
 .purple{
     background-color: purple;
+    text-align: start;
+    padding: 1em;
     color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 6em;
+    height: 6em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
 }
-
-span{
+p{
+    margin: 7px;
+}
+div{
     display: inline;
     margin: 0px;
     padding: 5px;

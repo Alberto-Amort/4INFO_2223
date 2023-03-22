@@ -1,0 +1,19 @@
+
+
+div 
+{
+    background-image: url("https://www.habitante.it/wp-content/uploads/2021/07/Vacanze-estive-in-montagna-pro-e-contro-shutterstock-foto-di-Gooze-.jpg");
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+p{
+    
+    color: yellow;
+    font-size: 50px !important;
+    
+    
+}

@@ -1,0 +1,20 @@
+img{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    z-index: -1;
+    width: 10%;
+    height: 150px;
+}
+
+p.opaque {
+    position: relative;
+    opacity: 0.9;
+    color: white;
+    width: 8em;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    font-size: large;
+    backdrop-filter: blur(5px);
+}

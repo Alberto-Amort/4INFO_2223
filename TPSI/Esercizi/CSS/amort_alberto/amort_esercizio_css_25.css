@@ -1,0 +1,28 @@
+
+
+#fiore{
+    position: absolute;
+    background-image: url("immagini/Fiore.jpg");
+    width: 500px;
+    height: 500px;
+    left: 5px;
+    top: 10px;
+    
+}
+
+
+
+
+p{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    height: 170px;
+    line-height: 2em;
+    text-align: center;
+    font-size: 5em;
+    backdrop-filter: blur(10px);
+    border: 1px solid;
+    
+}

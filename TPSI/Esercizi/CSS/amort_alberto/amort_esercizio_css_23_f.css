@@ -1,0 +1,23 @@
+.barra{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    padding: 10px;
+    justify-content: space-evenly;
+
+
+}
+
+
+img{
+    width: 150px;
+    object-fit: contain;
+    border: 1px solid black;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    height: 0px;
+    line-height: 10px;
+    margin-top: 2px;
+}

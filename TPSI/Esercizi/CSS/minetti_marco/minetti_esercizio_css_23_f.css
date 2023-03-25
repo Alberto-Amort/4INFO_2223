@@ -1,0 +1,23 @@
+.tutto{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    width: 810px;
+    height: 270px;
+    margin: auto;
+    border: 20px solid cyan;
+}
+.didascalia
+{
+    width: 150px;
+    text-align: center;
+}
+.img{
+    width: 150px;
+    height: 200px;
+}
+.colonna{
+    border: 1px solid black;
+    margin: 5px;
+
+}

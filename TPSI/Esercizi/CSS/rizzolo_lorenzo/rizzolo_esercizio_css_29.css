@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    height: 500px;
+    flex-flow: row wrap;
+}
+.box{
+    background-color: blue;
+    border: 2px solid lightblue;
+    padding: 5px;
+    color: white;
+    font-size: 120%;
+    border-radius: 10px;
+    height: 25px;
+    display: flex;
+    align-content: space-between;
+}

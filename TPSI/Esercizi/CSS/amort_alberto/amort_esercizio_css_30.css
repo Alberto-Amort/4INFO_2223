@@ -1,0 +1,22 @@
+.container
+{
+    border: 2px solid rgb(4, 12, 4);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 15px 18% 18% 18%;
+  text-align: center;
+  border: 2px solid rgb(4, 12, 4);
+
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: 20px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+    margin: 0px;
+}

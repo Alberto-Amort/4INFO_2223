@@ -1,0 +1,43 @@
+.riga
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cella
+{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid black;
+}
+
+
+
+div:nth-child(odd) > div:nth-child(even)
+{
+    background-color: white;
+   
+    
+}
+
+div:nth-child(odd) > div:nth-child(odd)
+{
+    background-color: black;
+    color: white;
+   
+}
+
+div:nth-child(even) > div:nth-child(odd)
+{
+    background-color: white;
+    
+}
+
+div:nth-child(even) > div:nth-child(even)
+{
+    background-color:black;
+    color: white;
+
+}

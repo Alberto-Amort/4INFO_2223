@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.linea{
+    float: left;
+    background-color: aqua;
+}
+
+.linea1{
+    float: left;
+    background-color: purple;
+}
+.col{float: none;}

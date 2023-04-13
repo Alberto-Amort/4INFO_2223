@@ -1,0 +1,28 @@
+#viola{
+    width: 500px;
+    height: 200px;
+    background-color: #7a0097;
+    color:white;
+}
+body{
+    font-size: 18px;
+}
+#text1{
+    margin-left: 15px;
+    margin-top: 28px;
+    position: absolute;
+}
+#azzurro{
+    width:140px;
+    height: 140px;
+    background-color: #c1eddd;
+    margin-top: 28px;
+    margin-right: 35px;
+    float:right;
+    border-radius: 5px;
+}
+#text2{
+    margin-left: 15px;
+    margin-top: 10px;
+    position: absolute;
+}

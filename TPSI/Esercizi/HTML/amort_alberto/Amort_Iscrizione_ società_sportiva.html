@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+<meta charset="UTF-8" >
+    <meta name="author" content="Alberto Amort" >
+    <meta name="description" content="Pagina Dizionario" >
+    <meta name="keywords" content="esercizio, html, lezioni, casa" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="refresh" content="100"><!-- Durante la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+    <style>
+      body {background-color: white;}
+      p{color:white;} 
+
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Esercizio";
+           }
+      
+    </script>
+</head>
+
+<body>
+    <img src="https://i.pinimg.com/736x/a3/0a/42/a30a42910fc4fe1b8bf277ab3cc4bbb4.jpg"  width="110" alt="Toro" >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://i.pinimg.com/736x/a3/0a/42/a30a42910fc4fe1b8bf277ab3cc4bbb4.jpg"  width="110" alt="Toro">
+
+    <div style="text-align:center " ><b>Via Beinasco Tramaglino n° 62, Torino</b></div> <div style="text-align:center">Numero di telefono=<b>333-42-15555</b></div>
+    
+    <h1 style="text-align:center">MODULO DI ISCRIZIONE PER LA SCUOLA DI CALCIO DI TORINO</h1>
+    
+
+  <form style="border:1px solid black; margin-left: auto; margin-right: auto; width:60%;">
+
+    <label for="idnome">Nome dello studente: </label>
+  <input type="text" id="idnome" name="nome" placeholder="Nome">
+  <label for="idcognome">Cognome dello studente: </label>
+  <input type="text" id="idcognome" name="cognome" placeholder="Cognome"><br><br>
+
+  <label for="idindirizzo">Residente in: </label>
+  <input type="text" id="idindirizzo" name="indirizzo">
+  <label for="idvia">Via: </label>
+  <input type="text" id="idvia" name="Via">
+  <label for="idciv">n°: </label>
+  <input type="text" id="idciv" name="Numero civico"><br><br>
+
+
+  <label for="idnascita">Nato/a il: </label>
+  <input type="date" id="idnascita" name ="data di nascita">
+  <label for="idluogo">a </label>
+  <input type="text" id="idluogo" name="Luogo di nascita"><br><br>
+
+  <label for="idtel">Numero di telefono: </label>
+  <input type="text" id="idtel" name="Numero di telefono"><br><br>
+
+  <label for="idtel">Codice Fiscale: </label>
+  <input type="text" id="idcod" name="Codice Fiscale"><br><br>
+
+  <label for="idemail">Email: </label>
+  <input type="email" id="idemail" name="email"><br><br>
+
+  Indicare settimane:<br>
+ 
+  <input type="checkbox" id="id1sett" name="1sett" value="da 11 aprile a 24 maggio">
+  <label for="id2sett">  da 24 settembre a 17 ottobre</label><br>
+  
+  <input type="checkbox" id="id2sett" name="2sett" value="da 24 settembre a 17 ottobre">
+  <label for="id2sett">  da 24 settembre a 17 ottobre</label><br>
+
+  <input type="checkbox" id="id3sett" name="3sett" value="a 24 gennaio a 23 febbraio">
+  <label for="id3sett">  da 24 gennaio a 23 febbraio</label><br>
+
+
+  
+
+
+  
+  </form>
+
+</body>
+
+</html>

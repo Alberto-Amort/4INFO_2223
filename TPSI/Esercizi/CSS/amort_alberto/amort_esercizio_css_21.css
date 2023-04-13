@@ -1,0 +1,15 @@
+  .linea li {
+    display: inline;
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    float: left;
+
+    
+  }
+
+
+.linea :hover{
+    background-color: rgba(26, 23, 23, 0.226);
+}

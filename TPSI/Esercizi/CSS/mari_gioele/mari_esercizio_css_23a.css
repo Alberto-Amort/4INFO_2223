@@ -1,0 +1,81 @@
+.tutto
+{
+    width: 970px;
+    height: 160px;
+    margin: auto;
+
+    margin-top: 5px;
+    margin-left: 510px;
+}
+
+
+.galleria
+{
+    
+    width: 483px;
+    height: 165px;
+    margin: auto;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+    float: left;
+    border: 20px solid rgb(125, 125, 252);
+    
+}
+
+
+
+img
+{
+    width: 90px;
+    height: auto;
+    float: none;
+}
+
+.foto
+{
+    background-size: cover;
+    
+    width: 90px;
+    height: 110px;
+    
+    display: inline;
+    float: left;
+
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border: 1px solid black;
+    
+}
+
+.did
+{
+    width: 90px;
+    height: 50px;
+    
+    display: inline;
+    float: left;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+
+
+    line-height: 50px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border: 1px solid black;
+    
+
+}
+
+.riga
+{
+    height: 114px;
+    
+    
+
+    
+}

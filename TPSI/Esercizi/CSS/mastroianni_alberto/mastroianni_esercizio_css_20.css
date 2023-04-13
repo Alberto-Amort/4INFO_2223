@@ -1,0 +1,13 @@
+
+h1{
+    font-family: 'Tourney', cursive;
+}
+
+ul {
+    list-style-type: none;
+  }
+    
+  li{
+    content: icon;
+    color: blueviolet;
+  }

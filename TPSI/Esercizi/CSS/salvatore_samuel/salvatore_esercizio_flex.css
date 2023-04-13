@@ -1,0 +1,18 @@
+#contenitore {
+    display: flex;
+    background-color: darkcyan;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.item {
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    width: 15%;
+    font-size: xx-large;
+    text-align: center;
+    height: 90%;
+    margin-top: 0.5%;
+}

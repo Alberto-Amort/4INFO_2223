@@ -1,0 +1,28 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.passo1 {
+    background-image: url(https://www.babytrekking.it/wordpress/wp-content/uploads/2019/09/aglsbodenalm.jpg);
+    background-repeat: no-repeat;
+}
+
+.passo2 {
+    background-image: url(https://www.iusinitinere.it/wp/wp-content/uploads/2019/06/gabbibo-768x432.jpg)
+}
+
+.passo3 {
+    background-image: url(https://www.iusinitinere.it/wp/wp-content/uploads/2019/06/gabbibo-768x432.jpg);
+    background-repeat: repeat;
+}
+
+.passo4 {
+    background-image: url(https://live.staticflickr.com/4761/39802007961_1c03578b2a_b.jpg);
+    background-repeat: repeat-x;
+}
+
+.passo5 {
+    background-image: url(https://zon.it/wp-content/uploads/2022/01/morning-g119bdaa69_1280-400x235.jpg);
+    background-repeat: repeat-y;
+}

@@ -1,0 +1,25 @@
+body{
+    width:400px;
+    height: 400px;
+
+}
+ul
+{
+    width:400px;
+    height: 400px;
+}
+
+.scacchiera li {
+    display: inline;
+    
+}
+
+li:nth-child(even)
+{
+    background-color: black;
+    color: white;
+}
+li:nth-child(odd)
+{
+    background-color: white;
+}

@@ -1,0 +1,17 @@
+
+h1 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+}
+
+
+p {
+    text-align: right;
+    text-shadow: 4px 4px 17px blue; 
+}

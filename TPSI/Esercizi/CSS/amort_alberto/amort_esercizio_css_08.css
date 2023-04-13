@@ -1,0 +1,6 @@
+h1, h2, h3{color:red; text-decoration: underline; text-decoration-color:grey; }
+p{color:blue; text-align: right;}
+#tit2{color:green;}
+#par5{color:red; text-align: left;}
+#hr1, #hr3{border-color:black;  border-width: 10px;}
+#hr0, #hr2, #hr4{border-color:red; border-width: 3px;}

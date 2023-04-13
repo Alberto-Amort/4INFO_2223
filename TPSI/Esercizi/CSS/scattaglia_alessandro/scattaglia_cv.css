@@ -1,0 +1,56 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background: rgb(231, 231, 231);
+  float: left;
+  margin: auto;
+
+}
+
+.page {
+  max-width: 21cm;
+  max-height: 29cm;
+  width: 21cm;
+  height: 29cm;
+  background: white;
+  margin: 1cm auto;
+  box-shadow: 5px 5px 7px #0005;
+  display: flex;
+}
+
+.sidebar {
+  background-color: white;
+  border-right: 1px solid black;
+  padding: 10px 0.5cm;
+  text-align: center;
+  flex: 2;
+}
+
+.content {
+  flex: 4;
+  height: auto;
+  width: auto;
+  padding: 1.5cm 1cm;
+}
+
+#profilo {
+  height: 200px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+#cosa {
+  margin-top: -15px;
+}
+
+li {
+  text-align: justify;
+
+}

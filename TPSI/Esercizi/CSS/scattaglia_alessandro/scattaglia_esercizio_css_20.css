@@ -1,0 +1,37 @@
+.blu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verde {
+    font-family: monospace;
+}
+
+.rosso {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    width: 50px;
+
+    zoom: 150%;
+}
+
+
+ul.prova1 {
+    list-style-type: circle;
+}
+
+ol.prova2 {
+    list-style-type: upper-roman;
+
+}
+.ul1 {
+    list-style-type: none;
+  }
+.li1:before {
+    content: 'done_all';
+    font-family: 'Material Icons';
+    color: rgb(29, 255, 22);
+    vertical-align: -10%;
+    padding-right: 10px;
+  }

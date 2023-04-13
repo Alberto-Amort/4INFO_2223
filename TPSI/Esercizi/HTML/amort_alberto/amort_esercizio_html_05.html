@@ -26,7 +26,7 @@
 <p>
     In computer networking, <span style="color:rgb(255, 17, 0)"><b><i><mark>localhost</mark></i></b></span> is a <em>hostname</em> that refers to the current computer used to access it.
     It is used to access <em>the network services</em> that are running on the host via the <a href="https://en.wikipedia.org/wiki/Loopback" target="_blank"><i>loopback</i></a> network interface. 
-    Using the <i>loopback</i> interface bypasses any local <a href="https://en.wikipedia.org/wiki/Network_interface_controller" target="_blank"><strong>network interface hardware</strong></a>.</br></br>
+    Using the <i>loopback</i> interface bypasses any local <a href="https://en.wikipedia.org/wiki/Network_interface_controller" target="_blank"><strong><i>network interface hardware</i></strong></a>.</br></br>
 
 
     <img src="https://kinsta.com/it/wp-content/uploads/sites/2/2019/11/cos-e-localhost-1024x512.png" width="250" alt="localhost"/>
@@ -44,7 +44,7 @@
 <h3> "Name resolution" </h3>
 
 <p>
-    <mark><a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></mark> network standards reserve the entire address block <del>192.0.2.08/9</del> <ins>127.0.0.0/8 </ins>(more than 16 million addresses) for loopback purposes.
+    <mark><a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></mark> network standards reserve the entire address block <del>192.0.2.08/9</del> <ins>127.0.0.0/8 </ins>(more than 16 million addresses) for loopback purposes.[2]
     <small>That means any packet sent to any of those addresses is looped back. </small>
     The address 127.0.0.1 is the <em>standard address</em> for IPv4 loopback traffic;
     <small>the rest are not supported by all operating systems.</small>
@@ -66,7 +66,7 @@
     <small>In addition to the mapping of localhost</small> to the loopback addresses <del>(1787.0.0.5 and ::2)</del> <ins>(127.0.0.1 and ::1)</ins>, localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. 
     The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.<br/><br/>
     
-    <mark>In the Domain Name System</mark>, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion with the hostname used for loopback purposes. 
+    <mark>In the Domain Name System</mark>, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion with the hostname used for loopback purposes.[3] 
     IETF standards prohibit domain name registrars from assigning the name localhost. <br/><br/>
     </p>
 
@@ -75,7 +75,7 @@
 <p>
     <img src="ietf-logo.gif" width="250" alt="localhost"/></br></br>
 
-    <mark>The name localhost</mark>I is reserved for loopback purposes by <span style="color:rgb(255, 51, 0)"><b>RFC 6761</b></span> (Special-Use Domain Names),
+    <mark>The name localhost</mark>I is reserved for loopback purposes by <span style="color:rgb(255, 51, 0)"><b>RFC 6761</b></span> (Special-Use Domain Names),[4] 
     which achieved the Proposed Standard maturity level in <del>January 2013.</del> <ins>February 2013.</ins> 
     The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:<br/><br/>
 
@@ -92,7 +92,7 @@
     
     When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.<br/><br/>
     
-    The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).<sub>[5]</sub>The reservation can be traced back to the November 1986 "Assigned Numbers" standard (<del>RFC 4291</del> <ins>RFC 990</ins>).<br/><br/>
+    The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).<br/><br/>
 
 In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
 
@@ -100,15 +100,15 @@ In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291)
 
 <h3>Packet processing</h3>
 <p>
-The processing of any packet sent to a loopback address is implemented in the link layer of the <del>TCP</del> <ins>TCP/IP</ins> stack. Such packets are never passed to any network interface controller <sub>(NIC)</sub> or hardware device driver and must not appear outside of a computing system or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.<br/><br/>
+The processing of any packet sent to a loopback address is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.<br/><br/>
 
 Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to. 
 Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could 
 route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, 
-or to a single server that returns different web pages. To simplify such testing,
+or to a single server that returns different web pages.To simplify such testing,
 the hosts file may be configured to provide appropriate names for each address.<br/><br/>
 
-Packets received on a non-loopback interface with a loopback source or destination address must be dropped. Such packets are sometimes referred to as Martian packets.<sup>[6]</sup> As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.
+Packets received on a non-loopback interface with a loopback source or destination address must be dropped. Such packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.
 </p>
 
 <h3> Special cases </h3>

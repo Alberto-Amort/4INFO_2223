@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 22b</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 0.07fr);
+        }
+        .block {
+            background-color: violet;
+            width: 256px;
+            height: 256px;
+            border-radius: 8px;
+            margin: 0.5em;
+        }
+        div > p {
+            margin-left: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <p>One</p>
+        </div>
+        <p>The two boxes should float to either side of text</p>
+        <div class="block">
+            <p>Two</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+td{
+    width: 200px;
+    height: 200px;
+}
+
+#td1{
+    background-color: lightblue;
+}
+
+#td2{
+    background-color: violet;
+}
+
+#td3{
+    background-color: #CFBAE1;
+}
+
+#td4{
+    background-color: #B3DFF8;
+}
+
+#td5{
+    background-color: rgb(137, 226, 226);
+}
+
+#td6{
+    background-color: rgb(144, 238, 238);;
+}
+
+#td7{
+    background-color: rgba(137, 226, 226, 0.5);
+}
+
+#td8{
+    background-color: rgba(144, 238, 238, 0.75);
+}
+
+#td9{
+    background-color: hsl(199, 88%, 81%);
+}
+
+#td10{
+    background-color: hsl(232, 49%, 85%);
+}
+
+#td11{
+    background-color: hsla(199, 88%, 81%, 0.5);
+}
+
+#td12{
+    background-color: hsla(232, 49%, 85%, 0.75);
+}
+

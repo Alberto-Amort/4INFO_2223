@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form MGS</title>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        <u>
+            Form iscrizione MGS
+        </u>
+    </h1>
+    <p>
+        Compila questo form per far dell'MGS <small>(movimento giovani smanettoni)</small>
+    </p>
+    <form>
+        <label for = "idnome">Nome: </label>
+        <input type = "text" id = "idnome" name = "nome" placeholder="Nome"><br>
+        <label for = "idcognome">Cognome: </label>
+        <input type = "text" id = "idcognome" name = "cognome" placeholder="Cognome"><br>
+        <label for = "iddate">Data di nascita: </label>
+        <input type = "date" id = "iddate" name = "nascita"><br><br>
+        <label for = "idutilità">Inserisci in cosa eccelli: </label><br>
+        <input type="radio" id="idteoria" name="utilità" value="teoria">
+        <label for="teoria"> Teoria</label><br>
+        <input type="radio" id="idpratica" name="utilità" value="pratica">
+        <label for="teoria"> Pratica</label><br>
+        <input type="radio" id="identrambe" name="utilità" value="tutte e 2">
+        <label for="teoria"> Tutte e 2</label><br>
+        <input type="radio" id="idnessuna" name="utilità" value="nessuna delle 2">
+        <label for="teoria"> Nessuna delle 2</label><br><br>
+        <label for="idbutton">Premi il pulsante per accettare di servire fedelmente il popolo informatico e inviare l'iscrizione: </label>
+        <input type="button" id="idbutton" value="NON MI TIRO INDIETRO!">
+    </form>
+</body>
+</html>

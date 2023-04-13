@@ -1,0 +1,45 @@
+.galleria
+{
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: auto;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    width: 640px;
+    height: 171px;
+
+    border: 20px solid rgb(125, 125, 252);
+}
+
+.foto
+{
+    width: 120px;
+    height: 135px;
+
+
+    border: 1px solid gray;
+}
+img
+{
+    width: 120px;
+    height: 135px;
+}
+
+.dida
+{
+    width: 120px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 35px;
+
+    border: 1px solid gray;
+}

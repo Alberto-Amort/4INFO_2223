@@ -1,0 +1,13 @@
+div{
+    display: inline;
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    float: left;
+
+}
+
+body :hover{
+    background-color: #455;
+}

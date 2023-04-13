@@ -1,0 +1,7 @@
+table {width: 800px; height: 800px;}
+.c1 {background-color: yellow;}
+.c2 {background-color: #0b9fee;}
+.c3 {background-color: rgb(23, 182, 85);}
+.c4 {background-color: rgba(44, 53, 182, 0.7);}
+.c5 {background-color: hsl(0 0% 0%);}
+.c6 {background-color: hsla(43, 100%, 50%, 0.85);}

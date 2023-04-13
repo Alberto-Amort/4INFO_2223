@@ -1,0 +1,33 @@
+#tit1 
+{   font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#tit2
+{
+    font-family: 'Varela Round', sans-serif;
+}
+
+#tit3
+{
+    font-family: 'Tourney', cursive;
+}
+
+ul.cerchio {list-style-type: circle;} 
+ol.romani {list-style-type: upper-roman;} 
+
+.material-symbols-outlined {list-style-type: none;}
+
+
+li.material-symbols-outlined:before
+{
+    content: 'verified';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+    
+}
+

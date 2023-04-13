@@ -1,0 +1,13 @@
+div{
+    background-image: url("immagini/montagne.png");
+    width: 50%;
+    height: 150px;
+}
+
+p{
+    color: yellow;
+    position: relative;
+    font-weight: bold;
+    left: 30px;
+    top: 20px;
+}

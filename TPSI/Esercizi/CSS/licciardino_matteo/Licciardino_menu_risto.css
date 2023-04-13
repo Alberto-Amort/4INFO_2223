@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(245, 175, 114);
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: xx-large;
+}
+
+h2{
+    text-align: left;
+    color: darkred;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.cibo{
+    float: left; 
+    color: darkred;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+hr{
+    visibility: hidden;
+}
+
+small{
+    font-size: small;
+}
+
+.prezzo{
+    float: right;
+    color: darkred;
+    font-size: larger;
+}
+
+#primo{
+    margin-top: 20em;
+}
+
+#secondo{
+    margin-top: 18em;
+}
+
+#contorno{
+    margin-top: 34em;
+}
+
+#prezzo2{
+    text-align: right;
+}

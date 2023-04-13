@@ -1,0 +1,89 @@
+body {
+    background-color: #f1faee;
+}
+
+hr {
+    color: #99582A;
+    height: 3px;
+    background-color: #99582A;
+}
+
+ul.cercho {
+    list-style-type: circle;
+}
+
+h1 {
+    color: #6F1D1B;
+}
+
+h2 {
+    color: #6F1D1B;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.imgnone { 
+    border-radius: 90px;
+    width: 250px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+span {
+    float: left;
+}
+.nome {
+    font-weight: bolder;
+    color: #6F1D1B;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lavoro {
+    color: #6F1D1B;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.margine {
+    padding: 30px;   
+}
+
+table.n {
+    border-style: outset outset none outset;
+    border-width: 10px;
+    border-color: #99582A;
+    border-radius: 0px;
+    text-align: justify;
+    width: 70%;
+    background-color: #FFE6A7;
+    padding-right: 50px;
+    
+}
+
+hr.r {
+    width: 100%;
+    color: white;
+
+}
+
+table.m {
+    border-style: none outset outset outset;
+    border-width: 10px;
+    border-color: #99582A;
+    border-radius: 0px;
+    text-align: justify;
+    width: 70%;
+    background-color: #FFE6A7;
+    padding-right: 50px;
+    
+}

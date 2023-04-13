@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+h1 {
+    color: #1c8000;
+    text-align: center; }
+u{
+  color: #570080;
+}
+h4{
+  background-color: white;
+}
+q {
+  color: #ff6600;
+}
+hr{
+   border: 1px solid #00ffb3; 
+   width: 1000px;
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+pre{
+    font-family: 'century gothic';
+    font-size: 15px;
+}

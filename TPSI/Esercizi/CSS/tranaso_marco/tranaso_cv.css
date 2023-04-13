@@ -1,0 +1,218 @@
+#div1 {
+    width:600px;
+    height: 600px;
+    border: 3px solid;
+    margin: auto;
+}
+
+#div2 {
+    width: 180px;
+    margin-top: -600px;
+    height: 600px;
+    background-color: #193f99;
+    text-align: center;
+}
+
+#div3 {
+    width: 120px;
+    height: 120px;
+    margin-top: -570px;
+    margin-left: 30px;
+}
+
+
+#div4 {
+    margin-left: 180px;
+    width: 420px;
+    height: 600px;
+    background-color: white;
+}
+#div5 {
+    width: 420x;
+    height: 120px;
+   border: 3px solid;
+}
+
+#testo {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 25px;
+}
+
+#testo2 {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 51px;
+
+}
+
+#testo3 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+#testo4 {
+    position: absolute;
+    margin-left: 5px;
+    margin-top:25px;
+}
+#testo5 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+#testo6 {
+    position: absolute;
+    margin-left: 3px;
+    margin-top:25px;
+}
+#testo7 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+#testo8 {
+    width: 470px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+#testo9 {
+    width:375px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+#testo10 {
+    width:375px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+#testo11 {
+    width:375px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: -10px;
+    font-size: 16px;
+    text-align: justify;
+}
+#testo12{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo13{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo14{
+
+    margin-left: -10px;
+    color: white;
+    font-size: 12px;
+}
+#testo15{
+
+    margin-left: -10px;
+    color: white;
+    font-size: 12px;
+}
+#testo16{
+
+    margin-left: -10px;
+    color: white;
+    font-size: 12px;
+}
+#testo17{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 12px;
+}
+#testo18{
+    margin-left: -10px;
+    color: white;
+    font-size: 12px;
+}
+#testo19{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo20{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo21{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo22{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 14px;
+}
+#testo23{
+    width: 200px;
+    margin-left: -10px;
+    color: white;
+    font-size: 11.5px;
+}
+#testo24{
+    width: 200px;
+    margin-left: 45px;
+    color: white;
+    font-size: 11.5px;
+}
+img {
+    width: 120px;
+    margin: auto;
+}
+
+#img1 {
+    position: absolute;
+    margin-top: 10px;
+}
+
+#img2 {
+
+    width: 20px;
+}
+hr{
+    margin-left: -8px;
+    width: 150px;
+}
+#ul1{
+    color: white;
+    margin-left: -41px;
+    font-size: 9.8px;
+}
+progress{
+    margin-top:-10px;
+    margin-left: -10px;
+    width: 100px;
+ 
+}body{
+    zoom: 150%;
+
+}

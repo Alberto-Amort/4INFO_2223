@@ -1,0 +1,10 @@
+img{
+    width: 1000px;
+    height: 250px;
+}
+#div1{
+    margin-top:-250px;
+    margin-left: 15px;
+    position: relative;
+    color: yellow;
+}

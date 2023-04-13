@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    border-bottom: 5px solid blue;
+    border-left: 7px solid black;
+    display: inline;
+}
+
+h3{
+    border-top: 2px dashed green;
+    display: inline;    
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: red
+}
+    
+p{
+    border-bottom: 3px dashed gray;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    text-align: justify;
+}
+
+#grigio{
+    text-align: right;
+}
+
+p:last-of-type{
+    text-shadow: 2px 3px 2px red;
+}

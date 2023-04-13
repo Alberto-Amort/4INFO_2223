@@ -1,0 +1,17 @@
+h1, h3 {
+    color: red; 
+    text-decoration: underline;
+    text-decoration-color: grey;
+} 
+
+p {
+    color: blue;
+    text-align: left;
+}
+
+#verde {color: green;}
+
+#parag7{
+    color: red;
+    text-align: right;
+}

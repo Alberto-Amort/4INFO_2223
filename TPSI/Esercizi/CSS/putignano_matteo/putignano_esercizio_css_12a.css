@@ -1,0 +1,26 @@
+td{
+    width: 90px;
+    height: 90px;
+}
+
+
+tr:nth-child(odd)>td:nth-child(even)
+{
+    background-color: brown;
+}
+
+tr:nth-child(even)>td:nth-child(odd)
+{
+    background-color: brown;
+}
+
+tr:nth-child(odd)>td:nth-child(odd)
+{
+    background-color: burlywood;
+}
+
+tr:nth-child(even)>td:nth-child(even)
+{
+    background-color: burlywood;
+}
+

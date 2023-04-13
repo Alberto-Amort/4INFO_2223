@@ -1,0 +1,9 @@
+.sinistra{width: 25%;height: 1px;float: left;}
+.contenitore{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.elemento{color: white;background-color: blue;width: 190px;border: 2px solid lightseagreen;border-radius: 5px;}

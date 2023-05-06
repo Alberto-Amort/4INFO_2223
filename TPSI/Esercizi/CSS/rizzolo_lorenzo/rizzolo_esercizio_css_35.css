@@ -1,0 +1,39 @@
+.box{
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    font-size: 120%;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
+}
+
+
+.a{
+    grid-column-start: 2;   
+    grid-column-end: 5;
+}
+
+
+.c{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.d{
+    
+    background-color: lightgray;
+    color: black;
+}
+
+
+.e{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

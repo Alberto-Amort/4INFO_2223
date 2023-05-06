@@ -1,0 +1,42 @@
+.box{
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    font-size: 120%;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
+    grid-template-areas: 
+    " header header header header"
+    " left center center right"
+    "foo foo foo foo"
+    ;
+}
+
+
+.a{
+    grid-area: header;
+}
+
+
+.c{
+    
+    grid-area: center;
+}
+
+.d{
+    background-color: lightgray;
+    color: black;
+    grid-area: right;
+}
+
+
+.e{
+    grid-area: foo;
+}

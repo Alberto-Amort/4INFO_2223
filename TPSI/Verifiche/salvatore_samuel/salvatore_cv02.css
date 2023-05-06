@@ -1,0 +1,106 @@
+body {
+    background-color: aqua;
+}
+
+#pagina {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#left {
+    padding: 1%;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 40, 116);
+    padding-bottom: 4%;
+}
+
+.items {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+img {
+    border-radius: 50%;
+    width: 25%;
+    border: 5px solid aqua;
+}
+
+.bianco {
+    color: white;
+    text-align: center;
+}
+
+#azzur {
+    color: aqua;
+}
+
+#info {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    color: white;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: -7%;
+    line-height: 350%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#right {
+    padding: 1%;
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.items2 {
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 4%;
+
+}
+
+p {
+    text-align: justify;
+    padding-left: 2%;
+}
+
+#skill {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 4%;
+    align-items: center;
+}
+
+
+span {
+    text-transform: uppercase;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+}
+

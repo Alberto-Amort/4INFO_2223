@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-rows: repeat(3, 0.1fr);   
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-content: center;
+}
+
+#grid-container2 {
+    display: grid;
+    grid-template-columns: 
+    repeat(6, 0.1fr);
+    justify-content: center;
+}
+  
+.item {
+    background-color: #FF8A23;
+    border: 1px solid black;
+    padding: 0.1em;
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid red;
+    padding: 0.1em;
+    text-align: center;
+}
+.a { 
+    grid-column: 1 / 5;
+}
+
+.b {
+    grid-row: 2 / 5;
+}

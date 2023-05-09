@@ -1,0 +1,32 @@
+
+.container{
+    display: flex;
+    width: 45%;
+    height: 360px;
+    border: 1px solid lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+.item{
+    display: flex;
+    width: 500px;
+    height: 350px;
+    border: 3px solid lightseagreen;
+    background-color: rgba(14, 88, 131, 0.701);
+    border-radius: 10px;
+    color: white;
+    font-size: 23px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}

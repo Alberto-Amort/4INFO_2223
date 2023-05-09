@@ -1,0 +1,29 @@
+#container {
+    display: grid;
+    grid-template-areas: "header" "main main main" "footer";
+    width: 25%;
+    margin: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.items {
+    background-color: darkslategrey;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#a {
+    grid-area: header;
+}
+
+#b, #c, #d {
+    grid-area: main;
+}
+
+#e {
+    grid-area: footer;
+}

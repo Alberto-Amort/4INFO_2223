@@ -1,0 +1,38 @@
+
+.container{
+    display: grid;
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+    row-gap: 15px;
+    column-gap: 15px;
+    font-size: 30px;
+}
+
+.item{
+   
+    align-self: stretch;
+    padding: 40px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 5%;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+
+}
+
+.b{
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 3;
+}
+
+
+

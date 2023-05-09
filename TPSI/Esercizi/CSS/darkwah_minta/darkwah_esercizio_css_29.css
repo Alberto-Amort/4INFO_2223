@@ -1,0 +1,47 @@
+#tutto
+{
+    width: 28.5%;
+    height: 220px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 25px;
+    row-gap: 20px;
+
+
+    padding: 20px;
+
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+
+div div
+{
+    
+    background-color: #476b98;
+    color: white;
+    line-height: 35px;
+    font-size: 20px;
+
+    border-radius: 10px;
+
+    padding: 10px;
+    border: 3px solid lightseagreen;
+
+}
+
+
+.int1
+{
+    flex-grow: 1;
+}
+.int2
+{
+    flex-grow: 1;
+}
+.int3
+{
+    flex-grow: 1;
+}

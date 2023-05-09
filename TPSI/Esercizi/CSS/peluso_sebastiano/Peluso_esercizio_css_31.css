@@ -1,0 +1,20 @@
+
+.container{
+    display: grid;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    align-content: space-between;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.item{
+    width: 45%;
+    padding: 30px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 5%;
+}

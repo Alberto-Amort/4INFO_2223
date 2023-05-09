@@ -1,0 +1,47 @@
+
+.container{
+    display: grid;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    row-gap: 20px;
+    column-gap: 18px;
+    grid-template-areas: "header header header" "slidebar content slidebar2" "footer footer footer";
+}
+
+.item{
+    align-self: stretch;
+    padding: 15px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 8px;
+    color: white;
+    font-size: 150%;
+}
+
+.h{
+    grid-area: header;
+    background-color: rgb(173, 173, 173);
+}
+
+.s{
+    grid-area: slidebar;
+}
+
+.c{
+    grid-area: content;
+}
+
+.s2{
+    grid-area: slidebar2;
+    background-color: rgb(173, 173, 173);
+    color: grey;
+}
+
+.f{
+    grid-area: footer;
+    background-color: rgb(173, 173, 173);
+    
+}
+

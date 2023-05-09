@@ -1,0 +1,13 @@
+body{text-align: center;}
+.contenitore{
+    width: 30%;
+    height: 30  px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: gray 2px solid;
+    border-radius: 5px;
+}
+.elemento{height: 20px;color: white;background-color: blue;border: lightseagreen 2px solid;border-radius: 5px;align-items: center;font-size: 20px !important;}

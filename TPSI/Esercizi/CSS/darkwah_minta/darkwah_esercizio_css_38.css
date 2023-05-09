@@ -1,0 +1,309 @@
+#tutto
+{
+    display: flex;
+}
+
+@media all 
+    and (min-width: 1024px)
+    {
+        #tutto
+        {
+            
+            flex-direction: row;
+        
+            margin: auto;
+        
+            width: 85%;
+            height: 98vh;
+        
+            border-left: 3px solid rgb(182, 182, 182);
+            border-right: 3px solid rgb(182, 182, 182);
+        
+        
+            
+        }
+        #colonnesin
+        {
+            width: 30%;
+            height: 100%;
+        
+            display: flex;
+            flex-direction: column;
+        
+            background-color: #484444;
+        
+        }
+        #soprasx
+        {
+            width: 100%;
+            height: 58%;
+        
+            padding-top: 2%;
+        
+            display: flex;
+            flex-direction: column;
+        
+        }
+        #foto
+        {
+            width: 40%;
+            height: 35%;
+        
+            border-radius: 50%;
+        
+            margin: auto;
+        
+        }
+        img
+        {
+            width: 100%;
+            height: 100%;
+        
+            border-radius: 50%;
+        
+            margin: auto;
+        }
+        #titsx
+        {
+            width: 100%;
+            height: 10%;
+        
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+        
+        
+        }
+        #titolettosp
+        {
+            width: 100%;
+            height: 10%;
+        
+            text-transform: capitalize;
+            text-align: center;
+            color: white;
+        
+            padding-bottom: 10%;
+        
+        }
+        .info
+        {
+            width: 100%;
+            height: 7%;
+        
+            text-transform: capitalize;
+            color: white;
+        
+            padding-bottom: 3%;
+        
+        }
+        #sottosx
+        {
+            width: 100%;
+            height: 42%;
+        
+            
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        }
+        #titolettost
+        {
+            width: 100%;
+            height: 20%;
+        
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+        
+        }
+        #minitesto
+        {
+            width: 97%;
+            height: 80%;
+        
+            color: white;
+        
+            padding-top: 10%;
+            text-align: justify;
+            font-size: 1vw;
+        
+            padding-left: 1%;
+            padding-right: 1%;
+        
+        
+        }
+        
+        
+        #colonnedes
+        {
+            width: 70%;
+            height: 100%;
+        
+            background-color: rgb(251, 249, 247);
+        
+            display: flex;
+            flex-direction: column;
+        
+        }
+        #sopradx
+        {
+            width: 100%;
+            height: 50%;
+        
+            
+            display: flex;
+            flex-direction: column;
+        
+        
+        }
+        #titolonesop
+        {
+            width: 99%;
+            height: 20%;
+        
+            padding-left: 1%;
+        
+            text-transform: uppercase;
+            
+        
+        }
+        .titdx
+        {
+            width: 99%;
+            height: 20%;
+        
+            padding-left: 1%;
+        
+        }
+        .testo
+        {
+            width: 96%;
+            height: 20%;
+        
+            padding-left: 4%;
+        
+        }
+        #sottodx
+        {
+            width: 100%;
+            height: 50%;
+        
+            
+            display: flex;
+            flex-direction: column;
+        
+        
+        }
+        #titolonesot
+        {
+            width: 99%;
+            height: 20%;
+        
+            padding-left: 1%;
+        
+            text-transform: uppercase;
+            
+        
+        }
+        .titdxs
+        {
+            width: 99%;
+            height: 20%;
+        
+        
+            padding-left: 1%;
+        
+        }
+        .testos
+        {
+            width: 96%;
+            height: 20%;
+        
+            padding-left: 4%;
+        
+        
+        }
+    }
+
+@media all 
+and (min-width: 481px) 
+and (max-width: 1023px)
+{
+    
+    #tutto
+    {
+
+        
+        flex-direction: column;
+    
+        margin: auto;
+    
+        width: 85%;
+        height: 98vh;
+    
+        border-left: 3px solid rgb(182, 182, 182);
+        border-right: 3px solid rgb(182, 182, 182);
+        
+    }
+
+    .info
+    {
+        text-align: center;
+    }
+
+    #foto
+    {
+        width: 70%;
+        height: 100%;
+        margin-left: 33%;
+        
+    }
+
+    img
+    {
+        width: 50%;
+        height: 100%;
+    
+        margin-left: 70%;
+
+        border-radius: 50%;
+    
+        margin: auto;
+    }
+
+    
+
+    h2
+    {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    h3
+    {
+        text-align: center;
+    }
+
+    #soprasx
+    {
+        height: 58%;
+        margin-bottom: 10%;
+    
+    
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .testos
+    {
+        margin-bottom: 5%;
+    }
+    
+}
+

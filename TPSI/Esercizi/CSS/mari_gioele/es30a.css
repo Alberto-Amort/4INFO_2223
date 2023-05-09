@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 
+    repeat(6, 1fr);
+  }
+  
+  .grid-item {
+      border: 5px solid red;
+      padding: 10px;
+      text-align: center;
+  }
+  .a {
+      grid-column: 2 / 5; /* 1 */
+  }
+ 
+  .b {
+    grid-row: 2 / 5;  /* 6 */
+    grid-column: 2 / 5;  /* 6 */   
+  }
+  .c{
+     grid-row: 2 / 5;  /* 5 */   
+  }
+
+  .d{
+    grid-column: 5 / 7;
+    grid-row: 5/8;
+  }

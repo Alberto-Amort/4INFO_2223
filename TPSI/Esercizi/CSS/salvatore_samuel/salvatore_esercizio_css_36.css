@@ -1,0 +1,13 @@
+body {
+    background-color: dodgerblue;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+#b {
+    grid-column: 3 / 5;
+}

@@ -1,10 +1,10 @@
 #container {
     display: grid;
-    grid-template-areas: "header header header header" 
-    "sidebar1 main main sidebar2" 
-    "footer footer footer footer";
+    grid-template-areas: ". header header" 
+    "sidebar1 main main" 
+    "footer footer footer";
     grid-template-columns: 
-    150px 150px 150px 150px;
+    150px 150px 150px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -28,10 +28,6 @@
 
 .c {
     grid-area: main;
-}
-
-.d {
-    grid-area: sidebar2;
 }
 
 .e {

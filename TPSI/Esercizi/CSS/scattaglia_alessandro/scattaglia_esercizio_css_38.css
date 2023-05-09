@@ -1,0 +1,119 @@
+body{
+    background-color: aqua;
+}
+
+.container {
+    border: 2px solid black;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 650px;
+    display:flex;
+
+
+}
+
+.sinistra {
+    background-color: rgb(24, 24, 90);
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    height: 650px;
+    
+
+}
+
+.destra {
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    height: 650px;
+
+}
+
+.testo {
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.riga2 {
+    border: 2px solid black;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foto {
+    border-radius: 10000px;
+    width: 120px;
+    height: 120px;
+  
+    margin-left: -15px;
+    margin-top: 10px;
+
+   
+    
+
+}
+
+.foto1 {
+    margin-top: 10px;
+    margin-left: 110px;
+
+}
+
+h4 {
+    font-family: 'Lexend';
+    text-align: center;
+    color: white;
+}
+
+.riga {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2.5px solid white;
+    width: 80%;
+}
+
+.icone {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: aqua;
+}
+
+.web {
+    color: aqua;
+}
+
+h2 {
+    font-family: 'Lexend';
+    
+    text-align: left;
+}
+
+.skill {
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.profilo{
+    text-align: justify;
+    color: white;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+

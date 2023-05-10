@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 70%;
+    border-right: 2px solid black;
+}
+
+.left>h1{
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Hurricane', bold;
+    font-size: 2vw;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Hurricane', bold;
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+
+.left{
+    background-color: black;
+    color:white;
+    
+}
+
+.top{
+    text-align: center;
+}
+
+.right p {
+    margin-left: 5%;
+}
+
+.contatto span {
+    vertical-align: -10%;
+    font-size: 2vw;
+}
+
+.item{
+
+    padding:2%;
+
+}
+
+.contatti{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2vw;
+
+}
+
+
+img{
+    width: 70%;
+    border-radius: 100%;
+    border: 10px solid blue;
+}

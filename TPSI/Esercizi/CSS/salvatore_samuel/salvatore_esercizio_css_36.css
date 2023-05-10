@@ -5,9 +5,37 @@ body {
 #container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 65%;
+    margin: auto;
+    background-color: white;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
 
+#a {
+    grid-row: 1 / 4;
+    grid-column: 1 / 3;
 }
 
 #b {
     grid-column: 3 / 5;
+    grid-row-start: 1;
+}
+
+#c {
+    grid-row: 1 / 4;
+    grid-column: 5 / 7;
+}
+
+#d {
+    grid-column-start: 3;
+    grid-row: 2 / 4;
+}
+
+#e {
+    grid-column-start: 4;
+    grid-row: 2 / 4;
 }

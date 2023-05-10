@@ -1,0 +1,20 @@
+.cont{
+    border: 1px solid lightgrey;
+    width: 630px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-top: 300px;
+}
+.item{
+    width: 210px;
+    height: 200px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: darkblue;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    color: white;
+    padding-top: 12px;
+}

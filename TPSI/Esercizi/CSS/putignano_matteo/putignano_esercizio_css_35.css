@@ -1,0 +1,31 @@
+.grid-container{
+    width: 15rem;
+    display: grid;
+    margin: auto;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+.grid-item{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+}
+
+.a{
+    grid-column: 2 / 4;
+}
+
+.c{
+    grid-column: 2 / 4;
+}
+
+.e{
+    grid-column: 1 / 4;
+}
+
+.HF{
+    background-color: rgb(153, 153, 153);
+}

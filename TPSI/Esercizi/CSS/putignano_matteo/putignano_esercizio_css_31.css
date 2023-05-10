@@ -1,0 +1,15 @@
+.grid-container{
+    width: 17rem;
+    display: grid;
+    margin: auto;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.6rem;
+    grid-row-gap: 0.6rem;
+}
+.grid-item{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+}

@@ -1,0 +1,40 @@
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: darkgrey;
+    padding: 10px;
+    color: white;
+  }
+  
+  @media all and (min-width: 1000px) and (max-width: 1920px) { 
+    .heighterone {
+      grid-row: 1/30;
+    }
+    
+    .widdone {
+      grid-column: 2/4;
+      grid-row: 1/10;
+    }
+    
+    .last_two {
+      grid-row: 10/30;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns:
+        repeat(4, 1fr);
+      gap: 1em;
+    }  
+  }
+  
+  @media all and (min-width: 200px) and (max-width: 500px) { /*Telefoni*/
+    .grid-container {
+      display: grid;
+      grid-template-rows:
+        repeat(5, 1fr);
+      gap: 1em;
+    }  
+  }

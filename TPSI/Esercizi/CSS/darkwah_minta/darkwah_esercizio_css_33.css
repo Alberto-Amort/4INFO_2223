@@ -1,0 +1,53 @@
+body
+{
+    margin-top: 10%;
+}
+#tutto
+{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+    grid-column-gap: 1.9%;
+    grid-row-gap: 0.5rem;
+
+    grid-template-areas: 
+    "sopra_sx sopra_sx sopra_dx sopra_dx"
+    "mezzo_sx mezzo_dx mezzo_dx mezzo_dx"
+    "sotto sotto sotto sotto";
+
+    margin: auto;
+
+}
+.it
+{
+    border-radius: 0.4rem;
+    text-align: left;
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgb(94, 94, 94);
+    padding: 1.5rem;
+}
+
+.a
+{
+    grid-area: sopra_sx;
+}
+.b
+{
+    grid-area: sopra_dx;
+}
+.c
+{
+    grid-area: mezzo_sx;
+}
+.d
+{
+    grid-area: mezzo_dx;
+}
+.e
+{
+    grid-area: sotto;
+}

@@ -1,0 +1,23 @@
+#container {
+    height: 100px;
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.items {
+    border: 2px solid mediumaquamarine;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 15%;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 70px;
+}

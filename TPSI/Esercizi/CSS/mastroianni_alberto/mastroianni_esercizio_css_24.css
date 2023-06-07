@@ -1,0 +1,12 @@
+img{
+    position: absolute;
+    top: 0px;
+}
+
+.testo img{
+    position: relative;
+    color: yellow;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 15px;
+}

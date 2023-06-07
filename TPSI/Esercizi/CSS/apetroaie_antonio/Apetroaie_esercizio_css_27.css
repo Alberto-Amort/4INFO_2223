@@ -1,0 +1,19 @@
+#Contenitore {
+    border: 1px solid rgb(140, 140, 140);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25em;
+}
+
+.Oggetti {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 80, 190);
+    color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: 1px solid aqua;
+}

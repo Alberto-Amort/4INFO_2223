@@ -1,0 +1,38 @@
+.barra{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 48%;
+    height:40%;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    border: 20px solid rgb(87, 133, 138);
+    border-collapse: collapse;
+    
+
+
+}
+
+.item
+{
+    border: 1px solid gray;
+    margin:0px
+
+}
+
+img{
+    width: 150px;
+    object-fit: contain;
+    margin:8px
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+
+.text
+{
+    border-top: 1px solid gray;
+}

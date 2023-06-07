@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  grid-template-columns:
+    repeat(3, 0.01fr);
+  gap: 1em;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: grey;
+  padding: 10px;
+  color: white;
+}
+
+.a {
+  grid-column: 1/3;
+}
+
+.b {
+  /*Non va*/
+  /* grid-row: 1/3; */
+}

@@ -1,0 +1,26 @@
+.box{
+    color: white;
+    background-color: rgb(55, 55, 55);
+    font-size: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content:left ;
+    text-align: left;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.b{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
